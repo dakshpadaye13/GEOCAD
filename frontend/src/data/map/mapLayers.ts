@@ -55,25 +55,7 @@ export const LOCAL_MAP_LAYERS: LayerSpecification[] = [
     }
   },
 
-  // Water — vibrant blue as requested
-  {
-    id: 'water-layer',
-    type: 'fill',
-    source: 'water',
-    paint: {
-      'fill-color': '#2563eb', // blue-600
-      'fill-opacity': 0.8
-    }
-  },
-  {
-    id: 'water-outline',
-    type: 'line',
-    source: 'water',
-    paint: {
-      'line-color': '#1d4ed8', // blue-700
-      'line-width': 1
-    }
-  },
+
 
   // Boundaries (Admin)
   {
