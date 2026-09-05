@@ -114,21 +114,24 @@ export function BuildingDetailCard({
             }}
           />
 
-          {/* ── SLIDE-IN SIDE PANEL ── */}
+          {/* ── SLIDE-IN FLOATING CURVED SIDE PANEL ── */}
           <motion.div
             key={`panel-${id}`}
             ref={panelRef}
-            // Slide in from right edge — no full-screen takeover
-            initial={{ x: "100%", opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: "100%", opacity: 0 }}
+            // Slide in from right edge — floating curvy card
+            initial={{ x: "110%", opacity: 0, scale: 0.96 }}
+            animate={{ x: 0, opacity: 1, scale: 1 }}
+            exit={{ x: "110%", opacity: 0, scale: 0.96 }}
             transition={SPRING}
-            className="fixed top-0 right-0 h-full z-30 pointer-events-auto flex flex-col
-                       bg-white border-l border-gray-200/80
-                       shadow-[-12px_0_40px_rgba(0,0,0,0.14)]
-                       overflow-y-auto [scrollbar-width:none]"
-            style={{ width: "min(380px, 90vw)" }}
+            className="fixed top-4 right-4 bottom-4 z-30 pointer-events-auto flex flex-col
+                       bg-white/95 backdrop-blur-xl
+                       rounded-[28px] border border-gray-200/90
+                       shadow-[-20px_20px_50px_rgba(0,0,0,0.18),_0_0_0_1px_rgba(0,0,0,0.04),_inset_0_1px_0_rgba(255,255,255,0.9)]
+                       overflow-hidden"
+            style={{ width: "min(380px, calc(100vw - 32px))" }}
           >
+            {/* Scrollable interior wrapper */}
+            <div className="flex-1 flex flex-col overflow-y-auto [scrollbar-width:none]">
             {/* ── Hero image ─────────────────────────────────────────────── */}
             {src && (
               <div className="relative shrink-0 h-52 overflow-hidden">
@@ -223,7 +226,8 @@ export function BuildingDetailCard({
                 <p className="text-xs font-mono text-zinc-500">{selectedBuildingId}</p>
               </div>
             </div>
-          </motion.div>
+          </div>
+        </motion.div>
         </>
       )}
     </AnimatePresence>
