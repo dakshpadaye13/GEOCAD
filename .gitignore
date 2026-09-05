@@ -1,0 +1,64 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Production & Build Outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# Environment Variables & Secrets (Keep .env.example tracked)
+.env
+**/.env
+!.env.example
+!**/.env.example
+.env.local
+.env.*.local
+
+# Blender Backup & Temp Files
+*.blend1
+*.blend2
+*.blend@
+*.blend?
+*.bphys
+*.crash
+
+# Python Cache & Bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary & Test Files
+.temp/
+tmp/
+*.tmp

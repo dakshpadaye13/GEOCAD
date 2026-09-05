@@ -1,0 +1,130 @@
+// GEOCAD Database Schema - PostgreSQL & Prisma ORM
+// Source of truth for 3D City Digital Twin & BIMS
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+/// Permanent Building Entity - Retains stable identity across reconstructions
+model Building {
+  id               String            @id @default(uuid())
+  buildingId       String            @unique
+  buildingName     String
+  assetType        String            @default("building")
+  status           String            @default("EXISTING")
+  currentVersionId String?           @unique
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+
+  versions         BuildingVersion[] @relation("BuildingToVersions")
+  currentVersion   BuildingVersion?  @relation("BuildingCurrentVersion", fields: [currentVersionId], references: [id])
+
+  @@index([buildingId])
+  @@index([status])
+}
+
+/// Historical Version of Building Metadata & Structural Parameters
+model BuildingVersion {
+  id             String     @id @default(uuid())
+  buildingId     String
+  versionNumber  Int        @default(1)
+  status         String     @default("EXISTING")
+  totalFloors    Int?
+  totalBasements Int?
+  description    String?
+  effectiveFrom  DateTime   @default(now())
+  effectiveTo    DateTime?
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+
+  building       Building   @relation("BuildingToVersions", fields: [buildingId], references: [buildingId], onDelete: Cascade)
+  currentFor     Building?  @relation("BuildingCurrentVersion")
+  floors         Floor[]
+  parking        Parking[]
+  basements      Basement[]
+
+  @@unique([buildingId, versionNumber])
+  @@index([buildingId])
+  @@index([status])
+}
+
+/// Floor Level Entity
+model Floor {
+  id                String          @id @default(uuid())
+  floorId           String          @unique
+  buildingVersionId String
+  floorNumber       Int
+  floorName         String
+  elevationMinM     Float?
+  elevationMaxM     Float?
+  status            String          @default("EXISTING")
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+
+  buildingVersion   BuildingVersion @relation(fields: [buildingVersionId], references: [id], onDelete: Cascade)
+  units             Unit[]
+
+  @@unique([buildingVersionId, floorNumber])
+  @@index([floorId])
+  @@index([buildingVersionId])
+}
+
+/// Individual Unit / Space Entity
+model Unit {
+  id         String   @id @default(uuid())
+  unitId     String   @unique
+  floorId    String
+  unitNumber String
+  unitType   String?
+  bhk        Float?
+  areaSqFt   Float?
+  status     String   @default("EXISTING")
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  floor      Floor    @relation(fields: [floorId], references: [id], onDelete: Cascade)
+
+  @@index([unitId])
+  @@index([floorId])
+}
+
+/// Parking Space Entity
+model Parking {
+  id                String          @id @default(uuid())
+  parkingId         String          @unique
+  buildingVersionId String
+  parkingNumber     String
+  parkingType       String?
+  floorNumber       Int?
+  areaSqFt          Float?
+  status            String          @default("EXISTING")
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+
+  buildingVersion   BuildingVersion @relation(fields: [buildingVersionId], references: [id], onDelete: Cascade)
+
+  @@index([parkingId])
+  @@index([buildingVersionId])
+}
+
+/// Basement Level Entity
+model Basement {
+  id                String          @id @default(uuid())
+  basementId        String          @unique
+  buildingVersionId String
+  basementNumber    Int
+  basementName      String
+  status            String          @default("EXISTING")
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+
+  buildingVersion   BuildingVersion @relation(fields: [buildingVersionId], references: [id], onDelete: Cascade)
+
+  @@index([basementId])
+  @@index([buildingVersionId])
+}
