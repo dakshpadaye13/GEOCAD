@@ -6,52 +6,84 @@ const BUILDINGS = [
   {
     buildingId: 'BLDG-LODHA-WORLD-ONE',
     buildingName: 'Lodha World One',
-    assetType: 'building',
+    assetType: 'Supertall Residential',
     status: 'EXISTING',
+    totalFloors: 117,
+    totalBasements: 4,
+    description: 'Iconic 117-storey supertall residential skyscraper in the World Towers complex, Worli, Mumbai.',
   },
   {
     buildingId: 'BLDG-LODHA-TRUMP',
     buildingName: 'Lodha Trump Tower',
-    assetType: 'building',
+    assetType: 'Ultra-Luxury High-Rise',
     status: 'EXISTING',
+    totalFloors: 78,
+    totalBasements: 4,
+    description: 'Ultra-luxury 78-storey golden reflective curtain-wall skyscraper with private jet access and concierge.',
   },
   {
     buildingId: 'BLDG-LODHA-MARQUISE',
     buildingName: 'Lodha Marquise',
-    assetType: 'building',
+    assetType: 'Luxury Residential',
     status: 'EXISTING',
+    totalFloors: 78,
+    totalBasements: 4,
+    description: 'Exclusive 78-storey residential tower overlooking the 7-acre private urban park.',
   },
   {
     buildingId: 'BLDG-LODHA-KIARA',
     buildingName: 'Lodha Kiara',
-    assetType: 'building',
+    assetType: 'Premium High-Rise',
     status: 'EXISTING',
+    totalFloors: 78,
+    totalBasements: 4,
+    description: 'Modern 78-storey tower featuring intelligent spatial planning and panoramic sundecks.',
   },
   {
     buildingId: 'BLDG-LODHA-ADRINA',
     buildingName: 'Lodha Adrina',
-    assetType: 'building',
+    assetType: 'Luxury Residential',
     status: 'EXISTING',
+    totalFloors: 78,
+    totalBasements: 4,
+    description: 'Sophisticated 78-storey residential tower with premium sea-facing apartments.',
   },
   {
     buildingId: 'BLDG-LODHA-PARKSIDE',
     buildingName: 'Lodha Parkside',
-    assetType: 'building',
+    assetType: 'Residential',
     status: 'EXISTING',
+    totalFloors: 78,
+    totalBasements: 4,
+    description: 'Contemporary 78-storey tower adjacent to lush central parklands in The Park.',
   },
   {
     buildingId: 'BLDG-LODHA-ALLURA',
     buildingName: 'Lodha Allura',
-    assetType: 'building',
+    assetType: 'Residential',
     status: 'EXISTING',
+    totalFloors: 78,
+    totalBasements: 4,
+    description: 'Premium 78-storey residential tower offering elevated views and world-class amenities.',
   },
 ];
 
+function generateFloorId(buildingId: string, floorNumber: number): string {
+  const prefix = buildingId.startsWith('BLDG-')
+    ? buildingId.replace('BLDG-', 'FLR-')
+    : `FLR-${buildingId}`;
+
+  const paddedStr = floorNumber.toString().padStart(2, '0');
+  return `${prefix}-L${paddedStr}`;
+}
+
 async function main() {
-  console.log('Seeding initial GEOCAD 7 Lodha building records...');
+  console.log('--- Starting GEOCAD End-to-End Database Seeding ---');
 
   for (const bdata of BUILDINGS) {
-    // 1. Create or upsert Building record
+    console.log(`\nSeeding building: ${bdata.buildingName} (${bdata.buildingId})...`);
+
+    // 1. Create or upsert Building
     const building = await prisma.building.upsert({
       where: { buildingId: bdata.buildingId },
       update: {
@@ -67,32 +99,31 @@ async function main() {
       },
     });
 
-    // 2. Create version 1 record if it doesn't already exist
-    const existingVersion = await prisma.buildingVersion.findUnique({
+    // 2. Upsert Version 1
+    const version = await prisma.buildingVersion.upsert({
       where: {
         buildingId_versionNumber: {
           buildingId: building.buildingId,
           versionNumber: 1,
         },
       },
+      update: {
+        totalFloors: bdata.totalFloors,
+        totalBasements: bdata.totalBasements,
+        description: bdata.description,
+        status: 'EXISTING',
+      },
+      create: {
+        buildingId: building.buildingId,
+        versionNumber: 1,
+        status: 'EXISTING',
+        totalFloors: bdata.totalFloors,
+        totalBasements: bdata.totalBasements,
+        description: bdata.description,
+      },
     });
 
-    let version = existingVersion;
-
-    if (!version) {
-      version = await prisma.buildingVersion.create({
-        data: {
-          buildingId: building.buildingId,
-          versionNumber: 1,
-          status: 'EXISTING',
-          totalFloors: null, // Floor count not invented
-          totalBasements: null, // Basement count not invented
-          description: 'Initial structural baseline version 1',
-        },
-      });
-    }
-
-    // 3. Set currentVersionId on building
+    // 3. Link currentVersionId on building
     await prisma.building.update({
       where: { buildingId: building.buildingId },
       data: {
@@ -100,10 +131,97 @@ async function main() {
       },
     });
 
-    console.log(`[SEED] Processed: ${building.buildingId} (${building.buildingName}) -> Version ${version.versionNumber}`);
+    console.log(`  -> Version linked (ID: ${version.id}, Floors: ${bdata.totalFloors})`);
+
+    // 4. Seed Floors & Units for this building version
+    const FLOOR_HEIGHT_M = 3.5;
+    let totalUnitsCount = 0;
+
+    for (let floorNum = 1; floorNum <= bdata.totalFloors; floorNum++) {
+      const floorId = generateFloorId(building.buildingId, floorNum);
+      const floorName = `Floor ${floorNum}`;
+      const elevationMinM = (floorNum - 1) * FLOOR_HEIGHT_M;
+      const elevationMaxM = floorNum * FLOOR_HEIGHT_M;
+
+      const floor = await prisma.floor.upsert({
+        where: {
+          buildingVersionId_floorNumber: {
+            buildingVersionId: version.id,
+            floorNumber: floorNum,
+          },
+        },
+        update: {
+          floorName,
+          elevationMinM,
+          elevationMaxM,
+          status: 'EXISTING',
+        },
+        create: {
+          floorId,
+          buildingVersionId: version.id,
+          floorNumber: floorNum,
+          floorName,
+          elevationMinM,
+          elevationMaxM,
+          status: 'EXISTING',
+        },
+      });
+
+      // 4-6 units per floor (4 units standard residential layout)
+      const unitsPerFloor = 4;
+      for (let uIdx = 1; uIdx <= unitsPerFloor; uIdx++) {
+        const paddedFloor = floorNum.toString().padStart(2, '0');
+        const paddedUnit = uIdx.toString().padStart(2, '0');
+        const unitNumber = `${floorNum}${paddedUnit}`;
+        const unitId = `UNIT-${building.buildingId.replace('BLDG-', '')}-L${paddedFloor}-${paddedUnit}`;
+
+        // Status distribution: ~70% occupied, ~15% vacant, ~15% maintenance
+        let unitStatus = 'OCCUPIED';
+        if ((floorNum + uIdx) % 7 === 0) {
+          unitStatus = 'MAINTENANCE';
+        } else if ((floorNum + uIdx) % 4 === 0) {
+          unitStatus = 'VACANT';
+        }
+
+        // Unit specifications
+        const isPenthouse = floorNum >= bdata.totalFloors - 2;
+        const isGrandSuite = floorNum >= Math.floor(bdata.totalFloors * 0.6);
+
+        const unitType = isPenthouse
+          ? 'Penthouse Sky Residence'
+          : isGrandSuite
+          ? '4 BHK Grand Suite'
+          : '3 BHK Luxury Residence';
+        const bhk = isPenthouse ? 5 : isGrandSuite ? 4 : 3;
+        const areaSqFt = isPenthouse ? 5200 : isGrandSuite ? 3450 : 2350;
+
+        await prisma.unit.upsert({
+          where: { unitId },
+          update: {
+            unitNumber,
+            unitType,
+            bhk,
+            areaSqFt,
+            status: unitStatus,
+          },
+          create: {
+            unitId,
+            floorId: floor.id,
+            unitNumber,
+            unitType,
+            bhk,
+            areaSqFt,
+            status: unitStatus,
+          },
+        });
+        totalUnitsCount++;
+      }
+    }
+
+    console.log(`  -> Successfully seeded ${bdata.totalFloors} floors and ${totalUnitsCount} units.`);
   }
 
-  console.log('GEOCAD database seeding completed successfully.');
+  console.log('\n=== GEOCAD Database Seed Completed Successfully ===');
 }
 
 main()
