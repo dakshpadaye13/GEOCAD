@@ -7,7 +7,7 @@ import { Box, Map, Compass } from 'lucide-react';
 
 export function App() {
   const [selectedBuildingId, setSelectedBuildingId] = useState<string | null>(null);
-  const [viewMode, setViewMode] = useState<'3d' | 'map'>('3d');
+  const [viewMode, setViewMode] = useState<'3d' | 'map'>('map');
   const [hasStarted, setHasStarted] = useState<boolean>(false);
 
   // Handle Escape key to close selection panel
