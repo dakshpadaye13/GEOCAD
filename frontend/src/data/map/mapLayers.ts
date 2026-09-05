@@ -9,10 +9,6 @@ export const LOCAL_MAP_SOURCES: Record<string, SourceSpecification> = {
     type: 'geojson',
     data: '/map-data/water.geojson'
   },
-  'parks': {
-    type: 'geojson',
-    data: '/map-data/parks.geojson'
-  },
   'railways': {
     type: 'geojson',
     data: '/map-data/railways.geojson'
@@ -36,7 +32,7 @@ export const LOCAL_MAP_LAYERS: LayerSpecification[] = [
       'background-color': '#f8fafc' // slate-50 / pure light
     }
   },
-  
+
   // Water — pale clear azure
   {
     id: 'water-layer',
@@ -94,7 +90,7 @@ export const LOCAL_MAP_LAYERS: LayerSpecification[] = [
       'line-width': 1.5
     }
   },
-  
+
   // Roads - primary
   {
     id: 'roads-primary',

@@ -383,7 +383,7 @@ export class MapLibreThreeLayer implements maplibregl.CustomLayerInterface {
         const camMerc = new THREE.Vector3(freeCam.position.x, freeCam.position.y, freeCam.position.z);
         return camMerc.applyMatrix4(invModel);
       }
-    } catch (_) {}
+    } catch (_) { }
     return null;
   }
 
@@ -483,7 +483,7 @@ export class MapLibreThreeLayer implements maplibregl.CustomLayerInterface {
         if (closestId) {
           foundBuildingId = closestId;
         }
-      } catch (_) {}
+      } catch (_) { }
     }
 
     this.onSelectBuilding(foundBuildingId);
