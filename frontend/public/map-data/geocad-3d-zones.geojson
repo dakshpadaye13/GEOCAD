@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId": "3D-ZONE-LODHA-PARK",
+        "asset": "lodha_final.glb",
+        "assetType": "blender-3d",
+        "status": "ACTIVE",
+        "anchorLon": 72.8283932976144,
+        "anchorLat": 19.00405125107094
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [72.822557, 19.000911],
+            [72.834229, 19.000911],
+            [72.834229, 19.006711],
+            [72.822557, 19.006711],
+            [72.822557, 19.000911]
+          ]
+        ]
+      }
+    }
+  ]
+}
