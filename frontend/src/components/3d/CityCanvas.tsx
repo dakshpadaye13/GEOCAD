@@ -1,6 +1,6 @@
 import React, { Suspense, Component, ReactNode, useState, useEffect, useMemo } from 'react';
 import { Canvas, ThreeEvent } from '@react-three/fiber';
-import { OrbitControls, useGLTF, useProgress, Html, PerspectiveCamera, Environment } from '@react-three/drei';
+import { OrbitControls, useGLTF, useProgress, Html, PerspectiveCamera, Environment, Sky } from '@react-three/drei';
 import * as THREE from 'three';
 import { VALID_BUILDING_IDS } from '../../data/buildings';
 
@@ -95,6 +95,23 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
   const { scene } = useGLTF('/models/lodha_final.glb');
   const [hoveredBuildingId, setHoveredBuildingId] = useState<string | null>(null);
 
+  // Load high-fidelity textures
+  const textureLoader = useMemo(() => new THREE.TextureLoader(), []);
+
+  const lightBlueFacadeTexture = useMemo(() => {
+    const tex = textureLoader.load('/textures/lodha_facade_light_blue.png');
+    tex.wrapS = THREE.RepeatWrapping;
+    tex.wrapT = THREE.RepeatWrapping;
+    tex.colorSpace = THREE.SRGBColorSpace;
+    return tex;
+  }, [textureLoader]);
+
+  const satelliteTexture = useMemo(() => {
+    const tex = textureLoader.load('/textures/mumbai_regional_satellite.jpg');
+    tex.colorSpace = THREE.SRGBColorSpace;
+    return tex;
+  }, [textureLoader]);
+
   // Store enhanced baseline material clones per mesh to allow clean reversible highlighting
   const originalMaterialsMap = useMemo(() => {
     const map = new Map<string, THREE.Material | THREE.Material[]>();
@@ -111,16 +128,19 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
             const isBuilding = VALID_BUILDING_IDS.has(bId);
 
             if (isBuilding || m.name === 'Mat_Buildings') {
-              // Ensure repeating texture wrapping for architectural facade
-              if (m.map) {
-                m.map.wrapS = THREE.RepeatWrapping;
-                m.map.wrapT = THREE.RepeatWrapping;
-                m.map.needsUpdate = true;
-              }
-              // Enhanced architectural curtain-wall & metal reflection response
-              m.roughness = 0.22;
-              m.metalness = 0.38;
-              m.envMapIntensity = 1.3;
+              // Luminous light white + pale sky-blue architectural facade
+              m.map = lightBlueFacadeTexture;
+              m.color = new THREE.Color('#ffffff');
+              m.roughness = 0.15;
+              m.metalness = 0.10;
+              m.envMapIntensity = 1.25;
+            } else if (mesh.name === 'Expanded_Base_Map' || m.name === 'Mat_Expanded_Base_Map') {
+              // Real 2D Mumbai satellite regional context map for the surrounding base
+              m.map = satelliteTexture;
+              m.color = new THREE.Color('#ffffff');
+              m.roughness = 0.95;
+              m.metalness = 0.02;
+              m.envMapIntensity = 0.15;
             } else if (m.name === 'Mat_Landuse') {
               // Rich park lawns, sports grounds, and leisure gardens
               m.color = new THREE.Color('#225828');
@@ -138,7 +158,7 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
               m.color = new THREE.Color('#432e1f');
               m.roughness = 0.85;
               m.metalness = 0.0;
-            } else if (m.name === 'Mat_Road_Yellow') {
+            } else if (m.name === 'Mat_Road_Yellow' || mesh.name === 'Road_Network_Ribbons') {
               // High-visibility road network
               m.color = new THREE.Color('#f59e0b');
               m.roughness = 0.55;
@@ -150,13 +170,13 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
               m.roughness = 0.65;
               m.metalness = 0.35;
             } else if (m.name === 'Mat_Roof') {
-              // Architectural roof deck
-              m.color = new THREE.Color('#cbd5e1');
+              // Clean bright architectural roof deck
+              m.color = new THREE.Color('#e2e8f0');
               m.roughness = 0.82;
               m.metalness = 0.08;
               m.envMapIntensity = 0.4;
-            } else if (m.name === 'Mat_Expanded_Base_Map' || m.name === 'rastMat') {
-              // Keep ground raster plane matte and non-reflective
+            } else if (m.name === 'rastMat' || mesh.name === 'EXPORT_OSM_MAPNIK_WM') {
+              // Immediate 3D project site ground map (street level OSM Mapnik)
               m.roughness = 0.94;
               m.metalness = 0.04;
               m.envMapIntensity = 0.25;
@@ -286,7 +306,7 @@ export default function CityCanvas({ selectedBuildingId, onSelectBuilding }: Cit
   };
 
   return (
-    <div className="w-full h-full relative bg-[#070b14]" onPointerDown={handlePointerDown}>
+    <div className="w-full h-full relative bg-[#b8d8f2]" onPointerDown={handlePointerDown}>
       <Canvas
         shadows={{ type: THREE.PCFSoftShadowMap }}
         gl={{
@@ -297,59 +317,71 @@ export default function CityCanvas({ selectedBuildingId, onSelectBuilding }: Cit
           toneMappingExposure: 1.15,
         }}
       >
-        <color attach="background" args={['#070b14']} />
-        <fog attach="fog" args={['#070b14', 600, 3500]} />
+        <color attach="background" args={['#b8d8f2']} />
+        
+        {/* Realistic Daytime Sky */}
+        <Sky
+          distance={450000}
+          sunPosition={[220, 380, 180]}
+          inclination={0.5}
+          azimuth={0.25}
+          mieCoefficient={0.005}
+          mieDirectionalG={0.8}
+          rayleigh={0.6}
+          turbidity={4}
+        />
+        <fog attach="fog" args={['#c8def2', 2500, 9500]} />
 
         <PerspectiveCamera
           makeDefault
-          position={[240, 220, 320]}
-          fov={42}
+          position={[360, 320, 420]}
+          fov={38}
           near={0.5}
-          far={5000}
+          far={12000}
         />
         <OrbitControls
           enableDamping
           dampingFactor={0.05}
           maxPolarAngle={Math.PI / 2 - 0.02}
           minDistance={10}
-          maxDistance={2500}
-          target={[30, 15, 0]}
+          maxDistance={4000}
+          target={[40, 50, -20]}
         />
 
         {/* Environment Lighting for realistic glass & metal reflections */}
-        <Environment preset="city" environmentIntensity={0.8} />
+        <Environment preset="city" environmentIntensity={0.65} />
 
-        {/* Calibrated Sun Key Light with crisp soft shadows */}
+        {/* Calibrated Daytime Sun Key Light with crisp soft shadows */}
         <directionalLight
-          position={[190, 320, 140]}
-          intensity={2.5}
-          color="#fff7ec"
+          position={[220, 380, 180]}
+          intensity={2.8}
+          color="#fffbf0"
           castShadow
           shadow-mapSize-width={2048}
           shadow-mapSize-height={2048}
           shadow-camera-near={10}
-          shadow-camera-far={1100}
-          shadow-camera-left={-380}
-          shadow-camera-right={380}
-          shadow-camera-top={380}
-          shadow-camera-bottom={-380}
+          shadow-camera-far={1200}
+          shadow-camera-left={-450}
+          shadow-camera-right={450}
+          shadow-camera-top={450}
+          shadow-camera-bottom={-450}
           shadow-bias={-0.0001}
           shadow-normalBias={0.02}
         />
 
-        {/* Secondary Cool Sky Fill Light (opposite sun) */}
+        {/* Secondary Cool Sky Fill Light (illuminates building shadow faces) */}
         <directionalLight
-          position={[-150, 180, -120]}
-          intensity={0.45}
-          color="#7dd3fc"
+          position={[-180, 220, -150]}
+          intensity={0.9}
+          color="#a5d4f5"
         />
 
-        {/* Balanced Ambient & Hemisphere lighting (prevents shadow blowout) */}
-        <ambientLight intensity={0.25} color="#e2e8f0" />
+        {/* Balanced Daytime Ambient & Sky Hemisphere lighting */}
+        <ambientLight intensity={0.55} color="#e2f0fc" />
         <hemisphereLight
-          intensity={0.22}
-          groundColor="#070b14"
-          color="#bae6fd"
+          intensity={0.6}
+          groundColor="#cad9e8"
+          color="#8ec5f5"
         />
 
         {/* 3D Model Container with Suspense and Error Boundary */}

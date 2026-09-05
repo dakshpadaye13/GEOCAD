@@ -17,7 +17,7 @@ export function App() {
   }, []);
 
   return (
-    <div className="w-screen h-screen bg-[#060911] text-slate-100 relative overflow-hidden font-sans select-none">
+    <div className="w-screen h-screen bg-[#b2d4f2] text-slate-100 relative overflow-hidden font-sans select-none">
       {/* 3D Scene Container */}
       <div className="absolute inset-0 z-0">
         <CityCanvas
