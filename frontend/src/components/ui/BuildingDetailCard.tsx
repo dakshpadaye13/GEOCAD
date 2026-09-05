@@ -14,12 +14,12 @@ import { BUILDINGS_DATA } from "../../data/buildings";
 // ── Per-building images from /public/textures/ ────────────────────────────────
 const BUILDING_IMAGES: Record<string, string> = {
   "BLDG-LODHA-WORLD-ONE": "/textures/lodha_worldone.jpg",
-  "BLDG-LODHA-TRUMP":     "/textures/lodha_trumptower.jpg",
-  "BLDG-LODHA-MARQUISE":  "/textures/lodha_marquise.jpg",
-  "BLDG-LODHA-KIARA":     "/textures/lodha_kiara.jpg",
-  "BLDG-LODHA-ADRINA":    "/textures/lodha_adrina.jpg",
-  "BLDG-LODHA-PARKSIDE":  "/textures/lodha_parkside.jpg",
-  "BLDG-LODHA-ALLURA":    "/textures/Lodha_allura.jpg",
+  "BLDG-LODHA-TRUMP": "/textures/lodha_trumptower.jpg",
+  "BLDG-LODHA-MARQUISE": "/textures/lodha_marquise.jpg",
+  "BLDG-LODHA-KIARA": "/textures/lodha_kiara.jpg",
+  "BLDG-LODHA-ADRINA": "/textures/lodha_adrina.jpg",
+  "BLDG-LODHA-PARKSIDE": "/textures/lodha_parkside.jpg",
+  "BLDG-LODHA-ALLURA": "/textures/Lodha_allura.jpg",
 };
 
 const SPRING = { type: "spring" as const, stiffness: 300, damping: 30 };
@@ -157,24 +157,24 @@ function BuildingInfoScreen({
   onClose,
   onDrillFloors,
 }: BuildingInfoScreenProps) {
-  const localMeta   = BUILDINGS_DATA[selectedBuildingId];
-  const name        = buildingData?.buildingName || localMeta?.buildingName || selectedBuildingId;
+  const localMeta = BUILDINGS_DATA[selectedBuildingId];
+  const name = buildingData?.buildingName || localMeta?.buildingName || selectedBuildingId;
   const description = buildingData?.currentVersion?.description || localMeta?.description || "";
-  const status      = buildingData?.status || localMeta?.status || "Existing";
-  const assetType   = localMeta?.assetType || buildingData?.assetType || "Residential Tower";
-  const floors      = buildingData?.currentVersion?.totalFloors ?? localMeta?.floors;
-  const basements   = buildingData?.currentVersion?.totalBasements ?? localMeta?.basements;
-  const heightStr   = localMeta?.heightStr || (floors ? `${Number(floors) * 3.5} m` : "268 m");
-  const parking     = localMeta?.parking || "Multi-Level Basement";
-  const src         = BUILDING_IMAGES[selectedBuildingId];
+  const status = buildingData?.status || localMeta?.status || "Existing";
+  const assetType = localMeta?.assetType || buildingData?.assetType || "Residential Tower";
+  const floors = buildingData?.currentVersion?.totalFloors ?? localMeta?.floors;
+  const basements = buildingData?.currentVersion?.totalBasements ?? localMeta?.basements;
+  const heightStr = localMeta?.heightStr || (floors ? `${Number(floors) * 3.5} m` : "268 m");
+  const parking = localMeta?.parking || "Multi-Level Basement";
+  const src = BUILDING_IMAGES[selectedBuildingId];
 
   const chips = [
-    { icon: Building2,   label: "Type",      value: assetType,                                                tappable: false },
-    { icon: ShieldCheck, label: "Status",    value: status,                                                   tappable: false },
-    { icon: Hash,        label: "Floors",    value: floors != null ? `${floors} Storeys` : "N/A",             tappable: true, onTap: onDrillFloors },
-    { icon: Layers,      label: "Basements", value: basements != null ? `${basements} Levels` : "N/A",       tappable: false },
-    { icon: Ruler,       label: "Height",    value: heightStr,                                                tappable: false },
-    { icon: MapPin,      label: "Location",  value: "Worli, Mumbai",                                         tappable: false },
+    { icon: Building2, label: "Type", value: assetType, tappable: false },
+    { icon: ShieldCheck, label: "Status", value: status, tappable: false },
+    { icon: Hash, label: "Floors", value: floors != null ? `${floors} Storeys` : "N/A", tappable: true, onTap: onDrillFloors },
+    { icon: Layers, label: "Basements", value: basements != null ? `${basements} Levels` : "N/A", tappable: false },
+    { icon: Ruler, label: "Height", value: heightStr, tappable: false },
+    { icon: MapPin, label: "Location", value: "Worli, Mumbai", tappable: false },
   ];
 
   return (
@@ -513,12 +513,12 @@ function RoomDetailScreen({ buildingName, floorNumber, floorName, unitId, onBack
   const areaStr = unit?.areaSqFt ? `${unit.areaSqFt.toLocaleString()} sq.ft` : "N/A";
 
   const chips = [
-    { icon: Tag,        label: "Type",       value: unitType },
-    { icon: ShieldCheck,label: "Status",     value: unitStatus },
-    { icon: Maximize2,  label: "Area",       value: areaStr },
-    { icon: Hash,       label: "Floor",      value: `Floor ${floorNumber}` },
-    { icon: Home,       label: "Unit ID",    value: unit?.unitId || unitId },
-    { icon: Building2,  label: "Building",   value: buildingName },
+    { icon: Tag, label: "Type", value: unitType },
+    { icon: ShieldCheck, label: "Status", value: unitStatus },
+    { icon: Maximize2, label: "Area", value: areaStr },
+    { icon: Hash, label: "Floor", value: `Floor ${floorNumber}` },
+    { icon: Home, label: "Unit ID", value: unit?.unitId || unitId },
+    { icon: Building2, label: "Building", value: buildingName },
   ];
 
   return (
@@ -672,7 +672,7 @@ export function BuildingDetailCard({
   }, [isOpen, onClose]);
 
   // ── Derived values ────────────────────────────────────────────────────────
-  const localMeta   = selectedBuildingId ? BUILDINGS_DATA[selectedBuildingId] : undefined;
+  const localMeta = selectedBuildingId ? BUILDINGS_DATA[selectedBuildingId] : undefined;
   const buildingName = buildingData?.buildingName || localMeta?.buildingName || selectedBuildingId || "";
 
   // ── Transition variants ───────────────────────────────────────────────────

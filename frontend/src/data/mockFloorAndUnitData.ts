@@ -72,8 +72,8 @@ function buildBuildingData(buildingId: string): BuildingFloorData {
       const unitType = isPenthouse
         ? 'Penthouse Sky Residence'
         : isGrandSuite
-        ? '4 BHK Grand Suite'
-        : '3 BHK Luxury Residence';
+          ? '4 BHK Grand Suite'
+          : '3 BHK Luxury Residence';
       const bhk = isPenthouse ? 5 : isGrandSuite ? 4 : 3;
       const areaSqFt = isPenthouse ? 5200 : isGrandSuite ? 3450 : 2350;
 

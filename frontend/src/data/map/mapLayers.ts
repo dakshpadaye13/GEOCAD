@@ -199,7 +199,30 @@ export const LOCAL_MAP_LAYERS: LayerSpecification[] = [
       'text-offset': [0, 0.5]
     },
     paint: {
-      'text-color': '#1e293b', // slate-800
+      'text-color': [
+        'case',
+        // Health
+        ['in', ['get', 'amenity'], ['literal', ['hospital', 'clinic', 'pharmacy']]], '#dc2626', // red-600
+        // Education
+        ['in', ['get', 'amenity'], ['literal', ['school', 'college', 'university']]], '#7c3aed', // violet-600
+        // Food & Drink
+        ['in', ['get', 'amenity'], ['literal', ['restaurant', 'food_court', 'cafe', 'fast_food', 'bar']]], '#ea580c', // orange-600
+        // Civic Services
+        ['in', ['get', 'amenity'], ['literal', ['police', 'fire_station', 'post_office', 'bank']]], '#2563eb', // blue-600
+        // Places of Worship
+        ['==', ['get', 'amenity'], 'place_of_worship'], '#c026d3', // fuchsia-600
+        // Leisure
+        ['in', ['get', 'leisure'], ['literal', ['park', 'garden', 'playground']]], '#16a34a', // green-600
+        // Tourism
+        ['in', ['get', 'tourism'], ['literal', ['hotel', 'museum', 'gallery']]], '#4f46e5', // indigo-600
+        // Transit
+        ['has', 'public_transport'], '#0284c7', // sky-600
+        ['has', 'railway'], '#0284c7', // sky-600
+        // Commercial
+        ['has', 'shop'], '#0d9488', // teal-600
+        // Default
+        '#1e293b' // slate-800
+      ],
       'text-halo-color': '#ffffff',
       'text-halo-width': 2
     }
