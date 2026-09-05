@@ -1,6 +1,14 @@
 import { LayerSpecification, SourceSpecification } from 'maplibre-gl';
 
 export const LOCAL_MAP_SOURCES: Record<string, SourceSpecification> = {
+  'osm-basemap': {
+    type: 'raster',
+    tiles: [
+      'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}'
+    ],
+    tileSize: 256,
+    attribution: '&copy; Esri, HERE, Garmin, FAO, NOAA, USGS, EPA'
+  },
   'roads': {
     type: 'geojson',
     data: '/map-data/roads.geojson'
@@ -34,6 +42,16 @@ export const LOCAL_MAP_LAYERS: LayerSpecification[] = [
     type: 'background',
     paint: {
       'background-color': '#f8fafc' // slate-50 / pure light
+    }
+  },
+
+  // Global basemap context (CartoDB Light)
+  {
+    id: 'basemap-raster',
+    type: 'raster',
+    source: 'osm-basemap',
+    paint: {
+      'raster-opacity': 0.6 // Slightly faded so our local data pops
     }
   },
 
