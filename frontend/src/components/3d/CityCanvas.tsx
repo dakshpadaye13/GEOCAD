@@ -111,20 +111,55 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
             const isBuilding = VALID_BUILDING_IDS.has(bId);
 
             if (isBuilding || m.name === 'Mat_Buildings') {
+              // Ensure repeating texture wrapping for architectural facade
+              if (m.map) {
+                m.map.wrapS = THREE.RepeatWrapping;
+                m.map.wrapT = THREE.RepeatWrapping;
+                m.map.needsUpdate = true;
+              }
               // Enhanced architectural curtain-wall & metal reflection response
               m.roughness = 0.22;
-              m.metalness = 0.42;
-              m.envMapIntensity = 1.35;
-            } else if (m.name === 'Mat_Expanded_Base_Map' || m.name === 'Mat_Landuse' || m.name === 'rastMat') {
-              // Keep ground and satellite plane matte and non-reflective
+              m.metalness = 0.38;
+              m.envMapIntensity = 1.3;
+            } else if (m.name === 'Mat_Landuse') {
+              // Rich park lawns, sports grounds, and leisure gardens
+              m.color = new THREE.Color('#225828');
+              m.roughness = 0.94;
+              m.metalness = 0.02;
+              m.envMapIntensity = 0.2;
+            } else if (m.name === 'Mat_Canopy') {
+              // Vibrant organic tree crowns
+              m.color = new THREE.Color('#1c4f21');
+              m.roughness = 0.88;
+              m.metalness = 0.0;
+              m.envMapIntensity = 0.3;
+            } else if (m.name === 'Mat_Trunk') {
+              // Natural tree trunk bark
+              m.color = new THREE.Color('#432e1f');
+              m.roughness = 0.85;
+              m.metalness = 0.0;
+            } else if (m.name === 'Mat_Road_Yellow') {
+              // High-visibility road network
+              m.color = new THREE.Color('#f59e0b');
+              m.roughness = 0.55;
+              m.metalness = 0.05;
+              m.envMapIntensity = 0.35;
+            } else if (m.name === 'Mat_Railways') {
+              // Dark railway track ballast
+              m.color = new THREE.Color('#38312b');
+              m.roughness = 0.65;
+              m.metalness = 0.35;
+            } else if (m.name === 'Mat_Roof') {
+              // Architectural roof deck
+              m.color = new THREE.Color('#cbd5e1');
+              m.roughness = 0.82;
+              m.metalness = 0.08;
+              m.envMapIntensity = 0.4;
+            } else if (m.name === 'Mat_Expanded_Base_Map' || m.name === 'rastMat') {
+              // Keep ground raster plane matte and non-reflective
               m.roughness = 0.94;
               m.metalness = 0.04;
               m.envMapIntensity = 0.25;
-            } else if (m.name === 'Mat_Canopy' || m.name === 'Mat_Trunk') {
-              // Natural organic trees
-              m.roughness = 0.88;
-              m.metalness = 0.0;
-              m.envMapIntensity = 0.35;
             } else {
               m.envMapIntensity = 1.0;
             }
@@ -158,9 +193,11 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
         if (isBuilding) {
           const isSelected = bId === selectedBuildingId;
           const isHovered = bId === hoveredBuildingId && !isSelected;
+          const orig = originalMaterialsMap.get(mesh.uuid);
+          const origMat = (Array.isArray(orig) ? orig[0] : orig) as THREE.MeshStandardMaterial | undefined;
 
           if (isSelected) {
-            // High-contrast cyan emissive glow for selected building
+            // High-contrast cyan emissive glow preserving facade texture pattern
             const highlightMat = new THREE.MeshStandardMaterial({
               color: new THREE.Color('#06b6d4'),
               emissive: new THREE.Color('#0891b2'),
@@ -168,10 +205,11 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
               roughness: 0.18,
               metalness: 0.45,
               envMapIntensity: 1.4,
+              map: origMat?.map || null,
             });
             mesh.material = highlightMat;
           } else if (isHovered) {
-            // Subtle sky-blue emissive hover glow
+            // Subtle sky-blue emissive hover glow preserving facade texture pattern
             const hoverMat = new THREE.MeshStandardMaterial({
               color: new THREE.Color('#38bdf8'),
               emissive: new THREE.Color('#0284c7'),
@@ -179,17 +217,17 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
               roughness: 0.24,
               metalness: 0.35,
               envMapIntensity: 1.2,
+              map: origMat?.map || null,
             });
             mesh.material = hoverMat;
           } else {
             // Restore enhanced original material
-            const orig = originalMaterialsMap.get(mesh.uuid);
             if (orig) mesh.material = orig;
           }
         }
       }
     });
-  }, [scene, selectedBuildingId, hoveredBuildingId, originalMaterialsMap]);
+  }, [selectedBuildingId, hoveredBuildingId, scene, originalMaterialsMap]);
 
   // Pointer Interaction Handlers
   const handlePointerOver = (e: ThreeEvent<PointerEvent>) => {
