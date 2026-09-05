@@ -4,10 +4,10 @@ export const LOCAL_MAP_SOURCES: Record<string, SourceSpecification> = {
   'osm-basemap': {
     type: 'raster',
     tiles: [
-      'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}'
+      'https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}'
     ],
     tileSize: 256,
-    attribution: '&copy; Esri, HERE, Garmin, FAO, NOAA, USGS, EPA'
+    attribution: '&copy; Esri, GEBCO, NOAA, National Geographic, DeLorme, HERE, Geonames.org'
   },
   'roads': {
     type: 'geojson',
