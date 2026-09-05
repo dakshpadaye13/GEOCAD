@@ -16,6 +16,14 @@ export const LOCAL_MAP_SOURCES: Record<string, SourceSpecification> = {
   'boundaries': {
     type: 'geojson',
     data: '/map-data/boundaries.geojson'
+  },
+  'buildings': {
+    type: 'geojson',
+    data: '/map-data/buildings.geojson'
+  },
+  'pois': {
+    type: 'geojson',
+    data: '/map-data/pois.geojson'
   }
 };
 
@@ -29,14 +37,23 @@ export const LOCAL_MAP_LAYERS: LayerSpecification[] = [
     }
   },
 
-  // Water — pale clear azure
+  // Water — vibrant blue as requested
   {
     id: 'water-layer',
     type: 'fill',
     source: 'water',
     paint: {
-      'fill-color': '#bae6fd', // sky-200
-      'fill-opacity': 0.85
+      'fill-color': '#2563eb', // blue-600
+      'fill-opacity': 0.8
+    }
+  },
+  {
+    id: 'water-outline',
+    type: 'line',
+    source: 'water',
+    paint: {
+      'line-color': '#1d4ed8', // blue-700
+      'line-width': 1
     }
   },
 
@@ -97,6 +114,94 @@ export const LOCAL_MAP_LAYERS: LayerSpecification[] = [
     paint: {
       'line-color': '#94a3b8', // slate-400
       'line-width': 3.5
+    }
+  },
+
+  // Building Footprints (2D Box Structure)
+  {
+    id: 'buildings-layer',
+    type: 'fill-extrusion',
+    source: 'buildings',
+    paint: {
+      'fill-extrusion-color': '#e2e8f0', // slate-200
+      'fill-extrusion-height': [
+        'interpolate', ['linear'], ['zoom'],
+        14, 0,
+        15.5, ['*', 3, ['to-number', ['get', 'building:levels'], 3]]
+      ],
+      'fill-extrusion-base': 0,
+      'fill-extrusion-opacity': 0.8
+    }
+  },
+
+  // Road Names Annotation
+  {
+    id: 'road-labels',
+    type: 'symbol',
+    source: 'roads',
+    filter: ['has', 'name'],
+    layout: {
+      'text-field': ['get', 'name'],
+      'text-font': ['Open Sans Regular'],
+      'text-size': 11,
+      'symbol-placement': 'line',
+      'text-max-angle': 30
+    },
+    paint: {
+      'text-color': '#475569',
+      'text-halo-color': '#ffffff',
+      'text-halo-width': 1.5
+    }
+  },
+
+  // POIs Annotation (Comprehensive)
+  {
+    id: 'pois-labels',
+    type: 'symbol',
+    source: 'pois',
+    filter: ['has', 'name'],
+    layout: {
+      'text-field': [
+        'concat',
+        [
+          'case',
+          ['in', ['get', 'amenity'], ['literal', ['hospital', 'clinic']]], '🏥 ',
+          ['in', ['get', 'amenity'], ['literal', ['school', 'college', 'university']]], '🎓 ',
+          ['in', ['get', 'amenity'], ['literal', ['restaurant', 'food_court']]], '🍽️ ',
+          ['==', ['get', 'amenity'], 'cafe'], '☕ ',
+          ['==', ['get', 'amenity'], 'fast_food'], '🍔 ',
+          ['==', ['get', 'amenity'], 'bar'], '🍺 ',
+          ['==', ['get', 'amenity'], 'police'], '🚓 ',
+          ['==', ['get', 'amenity'], 'fire_station'], '🚒 ',
+          ['==', ['get', 'amenity'], 'bank'], '🏦 ',
+          ['==', ['get', 'amenity'], 'post_office'], '📮 ',
+          ['==', ['get', 'amenity'], 'pharmacy'], '💊 ',
+          ['has', 'shop'], '🛒 ',
+          ['==', ['get', 'amenity'], 'place_of_worship'], '🛕 ',
+          ['in', ['get', 'leisure'], ['literal', ['park', 'garden']]], '🌳 ',
+          ['==', ['get', 'leisure'], 'playground'], '🛝 ',
+          ['==', ['get', 'tourism'], 'hotel'], '🏨 ',
+          ['in', ['get', 'tourism'], ['literal', ['museum', 'gallery']]], '🏛️ ',
+          ['has', 'public_transport'], '🚌 ',
+          ['has', 'railway'], '🚇 ',
+          '📍 ' // fallback
+        ],
+        ['get', 'name']
+      ],
+      'text-font': ['Open Sans Bold'],
+      'text-size': [
+        'interpolate', ['linear'], ['zoom'],
+        14, 0,
+        15, 11,
+        16, 13
+      ],
+      'text-anchor': 'top',
+      'text-offset': [0, 0.5]
+    },
+    paint: {
+      'text-color': '#1e293b', // slate-800
+      'text-halo-color': '#ffffff',
+      'text-halo-width': 2
     }
   }
 ];

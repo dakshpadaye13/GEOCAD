@@ -4,8 +4,10 @@ import fs from 'fs';
 import path from 'path';
 
 // Mumbai, Navi Mumbai, Palghar region bounding box
-// Format: south, west, north, east
 const BBOX = '18.85,72.70,19.85,73.15';
+
+// Smaller bounding box around South/Central Mumbai for dense features (buildings, POIs)
+const BBOX_LOCAL = '18.95,72.78,19.05,72.85';
 
 // Map-data directory in frontend/public
 const OUT_DIR = path.resolve('public', 'map-data');
@@ -60,6 +62,32 @@ const QUERIES = {
     out body;
     >;
     out skel qt;
+  `,
+  buildings: `
+    [out:json][timeout:90];
+    (
+      way["building"](${BBOX_LOCAL});
+      relation["building"](${BBOX_LOCAL});
+    );
+    out body;
+    >;
+    out skel qt;
+  `,
+  pois: `
+    [out:json][timeout:90];
+    (
+      node["amenity"](${BBOX_LOCAL});
+      way["amenity"](${BBOX_LOCAL});
+      node["shop"](${BBOX_LOCAL});
+      way["shop"](${BBOX_LOCAL});
+      node["tourism"](${BBOX_LOCAL});
+      way["tourism"](${BBOX_LOCAL});
+      node["leisure"](${BBOX_LOCAL});
+      way["leisure"](${BBOX_LOCAL});
+      node["public_transport"](${BBOX_LOCAL});
+      node["railway"~"station|subway_entrance"](${BBOX_LOCAL});
+    );
+    out center;
   `
 };
 
@@ -98,6 +126,7 @@ async function main() {
 
   // To respect rate limits, we execute sequentially
   for (const [key, query] of Object.entries(QUERIES)) {
+    if (!['pois'].includes(key)) continue;
     await fetchAndConvert(key, query);
     // Wait 2 seconds between requests
     await new Promise(resolve => setTimeout(resolve, 2000));

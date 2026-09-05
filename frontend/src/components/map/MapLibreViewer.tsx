@@ -12,11 +12,11 @@ interface MapLibreViewerProps {
 
 import { LOCAL_MAP_SOURCES, LOCAL_MAP_LAYERS } from '../../data/map/mapLayers';
 
-// Define the local style structure
 const LOCAL_STYLE: maplibregl.StyleSpecification = {
   version: 8,
   sources: LOCAL_MAP_SOURCES,
   layers: LOCAL_MAP_LAYERS,
+  glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
 };
 
 export default function MapLibreViewer({
