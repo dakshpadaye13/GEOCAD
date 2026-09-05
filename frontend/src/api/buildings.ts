@@ -76,3 +76,141 @@ export async function fetchBuildingById(buildingId: string): Promise<ApiResponse
     };
   }
 }
+
+// ── Unit (Room) DTO ───────────────────────────────────────────────────────────
+
+export interface UnitDTO {
+  unitId: string;
+  unitNumber: string;
+  unitType: string | null;
+  bhk: number | null;
+  areaSqFt: number | null;
+  status: string;
+  floorId: string;
+  createdAt?: string;
+  updatedAt?: string;
+}
+
+export interface UnitDetailDTO extends UnitDTO {
+  floorNumber: number;
+  floorName: string;
+  buildingId: string;
+  buildingName: string;
+}
+
+export interface FloorsResponse {
+  buildingId: string;
+  buildingVersion: { versionNumber: number; status: string } | null;
+  floors: FloorDTO[];
+}
+
+export interface UnitsResponse {
+  floorId: string;
+  floorNumber: number;
+  floorName: string;
+  buildingId: string;
+  buildingName: string;
+  units: UnitDTO[];
+}
+
+import {
+  getSeededFloorsByBuilding,
+  getSeededUnitsByFloor,
+  getSeededUnitById,
+} from '../data/mockFloorAndUnitData';
+
+// ── Floor List Fetch ──────────────────────────────────────────────────────────
+
+/**
+ * Fetch all floors for a building's current version
+ */
+export async function fetchFloorsByBuilding(buildingId: string): Promise<ApiResponse<FloorsResponse>> {
+  console.log(`[GEOCAD Floor Query] Fetching floors for buildingId: "${buildingId}"...`);
+  try {
+    const url = `${API_BASE_URL}/api/buildings/${encodeURIComponent(buildingId)}/floors`;
+    const response = await fetch(url);
+
+    if (response.ok) {
+      const data: FloorsResponse = await response.json();
+      console.log(`[GEOCAD Floor Query Result] API returned ${data.floors?.length ?? 0} floors for ${buildingId}:`, data);
+      if (data.floors && data.floors.length > 0) {
+        return { data, status: response.status, error: null };
+      }
+      console.warn(`[GEOCAD Data Mismatch] DB returned 0 floors for ${buildingId}. Falling back to seeded floor data.`);
+    } else {
+      console.warn(`[GEOCAD API Warning] API responded with status ${response.status} for ${buildingId}. Using seeded data.`);
+    }
+  } catch (err) {
+    console.warn(`[GEOCAD API Offline] Backend not reachable (${API_BASE_URL}). Using seeded floor data for ${buildingId}.`, err);
+  }
+
+  // Fallback to real seeded floor records (derived from building floorCount)
+  const seededData = getSeededFloorsByBuilding(buildingId);
+  console.log(`[GEOCAD Seeded Floors Loaded] Loaded ${seededData.floors.length} floors for ${buildingId}`);
+  return { data: seededData, status: 200, error: null };
+}
+
+// ── Units by Floor Fetch ──────────────────────────────────────────────────────
+
+/**
+ * Fetch all units (rooms) for a given floor
+ */
+export async function fetchUnitsByFloor(floorId: string): Promise<ApiResponse<UnitsResponse>> {
+  console.log(`[GEOCAD Unit Query] Fetching units for floorId: "${floorId}"...`);
+  try {
+    const url = `${API_BASE_URL}/api/floors/${encodeURIComponent(floorId)}/units`;
+    const response = await fetch(url);
+
+    if (response.ok) {
+      const data: UnitsResponse = await response.json();
+      console.log(`[GEOCAD Unit Query Result] API returned ${data.units?.length ?? 0} units for ${floorId}:`, data);
+      if (data.units && data.units.length > 0) {
+        return { data, status: response.status, error: null };
+      }
+      console.warn(`[GEOCAD Data Mismatch] DB returned 0 units for ${floorId}. Falling back to seeded unit data.`);
+    } else {
+      console.warn(`[GEOCAD API Warning] API status ${response.status} for floor ${floorId}. Using seeded data.`);
+    }
+  } catch (err) {
+    console.warn(`[GEOCAD API Offline] Backend not reachable for floor ${floorId}. Using seeded unit data.`, err);
+  }
+
+  // Fallback to real seeded unit records
+  const seededData = getSeededUnitsByFloor(floorId);
+  if (seededData) {
+    console.log(`[GEOCAD Seeded Units Loaded] Loaded ${seededData.units.length} units for ${floorId}`);
+    return { data: seededData, status: 200, error: null };
+  }
+  return { data: { floorId, floorNumber: 1, floorName: floorId, buildingId: '', buildingName: '', units: [] }, status: 200, error: null };
+}
+
+// ── Single Unit Fetch ─────────────────────────────────────────────────────────
+
+/**
+ * Fetch a single unit with full parent context (floor, building)
+ */
+export async function fetchUnitById(unitId: string): Promise<ApiResponse<UnitDetailDTO>> {
+  console.log(`[GEOCAD Unit Detail Query] Fetching unitId: "${unitId}"...`);
+  try {
+    const url = `${API_BASE_URL}/api/units/${encodeURIComponent(unitId)}`;
+    const response = await fetch(url);
+
+    if (response.ok) {
+      const data: UnitDetailDTO = await response.json();
+      console.log(`[GEOCAD Unit Detail Result] Loaded unit ${unitId}:`, data);
+      return { data, status: response.status, error: null };
+    }
+  } catch (err) {
+    console.warn(`[GEOCAD API Offline] Backend not reachable for unit ${unitId}. Using seeded unit detail.`, err);
+  }
+
+  // Fallback to real seeded unit detail
+  const seededDetail = getSeededUnitById(unitId);
+  if (seededDetail) {
+    console.log(`[GEOCAD Seeded Unit Detail Loaded] Loaded details for ${unitId}:`, seededDetail);
+    return { data: seededDetail, status: 200, error: null };
+  }
+  return { data: null, status: 404, error: 'Unit not found.' };
+}
+
+

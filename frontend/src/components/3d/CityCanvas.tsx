@@ -1,13 +1,12 @@
-import React, { Suspense, Component, ReactNode, useState, useEffect, useMemo } from 'react';
-import { Canvas, ThreeEvent } from '@react-three/fiber';
+import React, { Suspense, Component, ReactNode, useState, useEffect, useMemo, useRef } from 'react';
+import { Canvas, ThreeEvent, useFrame, useThree } from '@react-three/fiber';
 import { OrbitControls, useGLTF, useProgress, Html, PerspectiveCamera, Environment, Sky } from '@react-three/drei';
 import * as THREE from 'three';
-import { VALID_BUILDING_IDS } from '../../data/buildings';
+import { VALID_BUILDING_IDS, BUILDINGS_DATA } from '../../data/buildings';
 
 // Pre-load GLB asset
 useGLTF.preload('/models/lodha_final.glb');
 
-// Error Boundary
 interface ErrorBoundaryProps {
   children: ReactNode;
   fallback?: ReactNode;
@@ -42,8 +41,7 @@ class City3DErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySta
               {this.state.error?.message || 'Unable to access /models/lodha_final.glb'}
             </p>
             <button
-              onClick=
-{() => this.setState({ hasError: false, error: null })}
+              onClick={() => this.setState({ hasError: false, error: null })}
               className="px-4 py-2 bg-red-600 hover:bg-red-500 text-white text-xs font-semibold rounded-lg transition-colors"
             >
               Retry Loading
@@ -56,7 +54,6 @@ class City3DErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySta
   }
 }
 
-// 3D Progress Loader
 function Loader() {
   const { progress } = useProgress();
   return (
@@ -85,17 +82,24 @@ function Loader() {
   );
 }
 
+// Names of flat ground planes from Blender that must be hidden when base map is visible
+const HIDDEN_GROUND_MESHES = new Set([
+  'Expanded_Base_Map',
+  'EXPORT_OSM_MAPNIK_WM',
+  'Plane',
+]);
+
 interface LodhaCityModelProps {
   selectedBuildingId: string | null;
   onSelectBuilding: (buildingId: string | null) => void;
+  hideGroundMap?: boolean;
 }
 
-// Main 3D Model Renderer with Interactive Selection & Highlighting
-function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModelProps) {
+function LodhaCityModel({ selectedBuildingId, onSelectBuilding, hideGroundMap = false }: LodhaCityModelProps) {
   const { scene } = useGLTF('/models/lodha_final.glb');
   const [hoveredBuildingId, setHoveredBuildingId] = useState<string | null>(null);
 
-  // Load high-fidelity textures
+  // Load high-fidelity architectural textures
   const textureLoader = useMemo(() => new THREE.TextureLoader(), []);
 
   const lightBlueFacadeTexture = useMemo(() => {
@@ -112,201 +116,143 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
     return tex;
   }, [textureLoader]);
 
-  // Store enhanced baseline material clones per mesh to allow clean reversible highlighting
+  // Process model: preserve and enhance materials with light blue/white facade & satellite ground
   const originalMaterialsMap = useMemo(() => {
     const map = new Map<string, THREE.Material | THREE.Material[]>();
-    scene.traverse((child) => {
-      if ((child as THREE.Mesh).isMesh) {
-        const mesh = child as THREE.Mesh;
-        mesh.castShadow = true;
-        mesh.receiveShadow = true;
-
-        if (mesh.material) {
-          const cloneAndTune = (mat: THREE.Material) => {
-            const m = mat.clone() as THREE.MeshStandardMaterial;
-            const bId = mesh.userData.building_id || mesh.name;
-            const isBuilding = VALID_BUILDING_IDS.has(bId);
-
-            if (isBuilding || m.name === 'Mat_Buildings') {
-              // Luminous light white + pale sky-blue architectural facade
-              m.map = lightBlueFacadeTexture;
-              m.color = new THREE.Color('#ffffff');
-              m.roughness = 0.15;
-              m.metalness = 0.10;
-              m.envMapIntensity = 1.25;
-            } else if (mesh.name === 'Expanded_Base_Map' || m.name === 'Mat_Expanded_Base_Map') {
-              // Real 2D Mumbai satellite regional context map for the surrounding base
-              // Layer 0 — deepest ground plane. polygonOffset pushes it back so OSM tile wins.
-              m.map = satelliteTexture;
-              m.color = new THREE.Color('#ffffff');
-              m.roughness = 0.95;
-              m.metalness = 0.02;
-              m.envMapIntensity = 0.15;
-              // Z-fight fix (a): bias this surface behind everything above it
-              m.polygonOffset = true;
-              m.polygonOffsetFactor = 2;
-              m.polygonOffsetUnits = 2;
-              mesh.receiveShadow = false; // shadow acne compounds seam — disable on outer base
-            } else if (m.name === 'Mat_Landuse') {
-              // Rich park lawns, sports grounds, and leisure gardens
-              m.color = new THREE.Color('#225828');
-              m.roughness = 0.94;
-              m.metalness = 0.02;
-              m.envMapIntensity = 0.2;
-            } else if (m.name === 'Mat_Canopy') {
-              // Vibrant organic tree crowns
-              m.color = new THREE.Color('#1c4f21');
-              m.roughness = 0.88;
-              m.metalness = 0.0;
-              m.envMapIntensity = 0.3;
-            } else if (m.name === 'Mat_Trunk') {
-              // Natural tree trunk bark
-              m.color = new THREE.Color('#432e1f');
-              m.roughness = 0.85;
-              m.metalness = 0.0;
-            } else if (m.name === 'Mat_Road_Yellow' || mesh.name === 'Road_Network_Ribbons') {
-              // High-visibility road network
-              m.color = new THREE.Color('#f59e0b');
-              m.roughness = 0.55;
-              m.metalness = 0.05;
-              m.envMapIntensity = 0.35;
-            } else if (m.name === 'Mat_Railways') {
-              // Dark railway track ballast
-              m.color = new THREE.Color('#38312b');
-              m.roughness = 0.65;
-              m.metalness = 0.35;
-            } else if (m.name === 'Mat_Roof') {
-              // Clean bright architectural roof deck
-              m.color = new THREE.Color('#e2e8f0');
-              m.roughness = 0.82;
-              m.metalness = 0.08;
-              m.envMapIntensity = 0.4;
-            } else if (m.name === 'rastMat' || mesh.name === 'EXPORT_OSM_MAPNIK_WM') {
-              // Immediate 3D project site ground map (street level OSM Mapnik)
-              // Layer 1 — sits above the satellite base. Lift 0.05 units + bias to win depth test.
-              m.roughness = 0.94;
-              m.metalness = 0.04;
-              m.envMapIntensity = 0.25;
-              // Z-fight fix (a): bias this surface in front of the satellite base
-              m.polygonOffset = true;
-              m.polygonOffsetFactor = -1;
-              m.polygonOffsetUnits = -1;
-              // Tiny Y lift so depth buffer never sees identical Z values
-              mesh.position.y = Math.max(mesh.position.y, 0.05);
-            } else {
-              m.envMapIntensity = 1.0;
-            }
-            m.needsUpdate = true;
-            return m;
-          };
-
-          if (Array.isArray(mesh.material)) {
-            const tuned = mesh.material.map(cloneAndTune);
-            mesh.material = tuned;
-            map.set(mesh.uuid, tuned.map(m => m.clone()));
-          } else {
-            const tuned = cloneAndTune(mesh.material);
-            mesh.material = tuned;
-            map.set(mesh.uuid, tuned.clone());
-          }
-        }
-      }
-    });
-    return map;
-  }, [scene]);
-
-  // ── STEP 1 DIAGNOSIS confirmed: cause (a) — multiple coplanar ground planes ──
-  // Second pass: catch any unnamed flat base meshes (height < 2 world units,
-  // sitting at |worldY| < 2) that weren't matched by name above.
-  // These are Blender base-block extrusions exported at Y=0 alongside the towers.
-  // Apply polygonOffset layer -2 (topmost ground) + 0.10 Y lift.
-  useMemo(() => {
     scene.traverse((child) => {
       if (!(child as THREE.Mesh).isMesh) return;
       const mesh = child as THREE.Mesh;
 
-      // Skip already-identified named ground planes and building meshes
-      const isNamedGround =
-        mesh.name === 'Expanded_Base_Map' ||
-        mesh.name === 'EXPORT_OSM_MAPNIK_WM';
-      const isBuilding = VALID_BUILDING_IDS.has(mesh.userData.building_id || mesh.name);
-      if (isNamedGround || isBuilding) return;
+      // Hide flat ground planes when overlaying on a map
+      if (hideGroundMap && HIDDEN_GROUND_MESHES.has(mesh.name)) {
+        mesh.visible = false;
+        return;
+      }
 
-      // Compute world bounding box to detect flat low meshes
-      const box = new THREE.Box3().setFromObject(mesh);
-      const height = box.max.y - box.min.y;
-      const worldCenterY = (box.min.y + box.max.y) / 2;
+      // Enable shadows
+      mesh.castShadow = true;
+      mesh.receiveShadow = true;
 
-      // Flat mesh (< 2 units tall) near ground level (world center Y < 4)
-      if (height < 2.0 && worldCenterY < 4.0) {
-        const applyBias = (mat: THREE.Material) => {
-          const m = mat as THREE.MeshStandardMaterial;
-          // Layer -2: in front of OSM tile, behind buildings
-          m.polygonOffset = true;
-          m.polygonOffsetFactor = -2;
-          m.polygonOffsetUnits = -2;
-          m.needsUpdate = true;
-        };
-        if (Array.isArray(mesh.material)) {
-          mesh.material.forEach(applyBias);
+      const bId = mesh.userData.building_id || mesh.name;
+      const isBuilding = VALID_BUILDING_IDS.has(bId);
+
+      const applyEnhancement = (m: THREE.Material): THREE.Material => {
+        const mat = m.clone() as THREE.MeshStandardMaterial;
+
+        if (isBuilding || mat.name === 'Mat_Buildings') {
+          // Luminous pure white framing + pale azure glass facade matching Blender master
+          mat.map = lightBlueFacadeTexture;
+          mat.color = new THREE.Color('#ffffff');
+          mat.roughness = 0.15;
+          mat.metalness = 0.10;
+          mat.envMapIntensity = 1.35;
+        } else if (mesh.name === 'Expanded_Base_Map' || mat.name === 'Mat_Expanded_Base_Map') {
+          // Authentic 2D Mumbai satellite regional context map for the surrounding landscape
+          mat.map = satelliteTexture;
+          mat.color = new THREE.Color('#ffffff');
+          mat.roughness = 0.95;
+          mat.metalness = 0.02;
+          mat.envMapIntensity = 0.15;
+        } else if (mat.name === 'Mat_Landuse') {
+          // Rich park lawns, sports grounds, and leisure gardens
+          mat.color = new THREE.Color('#225828');
+          mat.roughness = 0.94;
+          mat.metalness = 0.0;
+        } else if (mat.name === 'Mat_Canopy') {
+          // Vibrant green tree foliage
+          mat.color = new THREE.Color('#1c5221');
+          mat.roughness = 0.85;
+          mat.metalness = 0.0;
+        } else if (mat.name === 'Mat_Trunk') {
+          // Natural bark brown
+          mat.color = new THREE.Color('#432e1f');
+          mat.roughness = 0.85;
+          mat.metalness = 0.0;
+        } else if (mat.name === 'Mat_Road_Yellow' || mesh.name === 'Road_Network_Ribbons') {
+          // High-visibility transportation corridors
+          mat.color = new THREE.Color('#f59e0b');
+          mat.roughness = 0.55;
+          mat.metalness = 0.05;
+        } else if (mat.name === 'Mat_Railways') {
+          mat.color = new THREE.Color('#334155');
+          mat.roughness = 0.65;
+          mat.metalness = 0.35;
+        } else if (mat.name === 'Mat_Roof') {
+          // Crisp, clean architectural roof deck (no dark cavities)
+          mat.color = new THREE.Color('#e2e8f0');
+          mat.roughness = 0.82;
+          mat.metalness = 0.08;
+          mat.envMapIntensity = 0.4;
+        } else if (mat.name === 'rastMat' || mesh.name === 'EXPORT_OSM_MAPNIK_WM') {
+          // Site-level OSM Mapnik ground map directly beneath the towers
+          mat.roughness = 0.94;
+          mat.metalness = 0.04;
+          mat.envMapIntensity = 0.25;
+          if (mat.map) mat.map.colorSpace = THREE.SRGBColorSpace;
         } else {
-          applyBias(mesh.material);
+          if (mat.map) mat.map.colorSpace = THREE.SRGBColorSpace;
+          mat.envMapIntensity = mat.envMapIntensity || 0.8;
         }
-        // 0.10 unit lift keeps it above the OSM tile (0.05) and satellite base (0.0)
-        mesh.position.y = Math.max(mesh.position.y, 0.10);
+        mat.needsUpdate = true;
+        return mat;
+      };
+
+      if (mesh.material) {
+        if (Array.isArray(mesh.material)) {
+          const enhanced = mesh.material.map(applyEnhancement);
+          mesh.material = enhanced;
+          map.set(mesh.uuid, enhanced.map((m) => m.clone()));
+        } else {
+          const enhanced = applyEnhancement(mesh.material);
+          mesh.material = enhanced;
+          map.set(mesh.uuid, enhanced.clone());
+        }
       }
     });
-  }, [scene]);
+    return map;
+  }, [scene, hideGroundMap, lightBlueFacadeTexture, satelliteTexture]);
 
-
-  // Dynamic Highlight Effect based on Selection / Hover state
+  // Apply building highlight effects (selected / hovered)
   useEffect(() => {
     scene.traverse((child) => {
-      if ((child as THREE.Mesh).isMesh) {
-        const mesh = child as THREE.Mesh;
-        const bId = mesh.userData.building_id || mesh.name;
-        const isBuilding = VALID_BUILDING_IDS.has(bId);
+      if (!(child as THREE.Mesh).isMesh) return;
+      const mesh = child as THREE.Mesh;
+      const bId = mesh.userData.building_id || mesh.name;
 
-        if (isBuilding) {
-          const isSelected = bId === selectedBuildingId;
-          const isHovered = bId === hoveredBuildingId && !isSelected;
-          const orig = originalMaterialsMap.get(mesh.uuid);
-          const origMat = (Array.isArray(orig) ? orig[0] : orig) as THREE.MeshStandardMaterial | undefined;
+      if (!VALID_BUILDING_IDS.has(bId)) return;
 
-          if (isSelected) {
-            // High-contrast cyan emissive glow preserving facade texture pattern
-            const highlightMat = new THREE.MeshStandardMaterial({
-              color: new THREE.Color('#06b6d4'),
-              emissive: new THREE.Color('#0891b2'),
-              emissiveIntensity: 0.85,
-              roughness: 0.18,
-              metalness: 0.45,
-              envMapIntensity: 1.4,
-              map: origMat?.map || null,
-            });
-            mesh.material = highlightMat;
-          } else if (isHovered) {
-            // Subtle sky-blue emissive hover glow preserving facade texture pattern
-            const hoverMat = new THREE.MeshStandardMaterial({
-              color: new THREE.Color('#38bdf8'),
-              emissive: new THREE.Color('#0284c7'),
-              emissiveIntensity: 0.45,
-              roughness: 0.24,
-              metalness: 0.35,
-              envMapIntensity: 1.2,
-              map: origMat?.map || null,
-            });
-            mesh.material = hoverMat;
-          } else {
-            // Restore enhanced original material
-            if (orig) mesh.material = orig;
-          }
-        }
+      const isSelected = bId === selectedBuildingId;
+      const isHovered = bId === hoveredBuildingId && !isSelected;
+      const orig = originalMaterialsMap.get(mesh.uuid);
+      const origMat = (Array.isArray(orig) ? orig[0] : orig) as THREE.MeshStandardMaterial | undefined;
+
+      if (isSelected) {
+        mesh.material = new THREE.MeshStandardMaterial({
+          color: new THREE.Color('#06b6d4'),
+          emissive: new THREE.Color('#0891b2'),
+          emissiveIntensity: 0.85,
+          roughness: 0.15,
+          metalness: 0.3,
+          envMapIntensity: 1.5,
+          map: origMat?.map || null,
+        });
+      } else if (isHovered) {
+        mesh.material = new THREE.MeshStandardMaterial({
+          color: new THREE.Color('#67e8f9'),
+          emissive: new THREE.Color('#0ea5e9'),
+          emissiveIntensity: 0.35,
+          roughness: 0.2,
+          metalness: 0.25,
+          envMapIntensity: 1.3,
+          map: origMat?.map || null,
+        });
+      } else {
+        // Restore original enhanced Blender material
+        if (orig) mesh.material = orig;
       }
     });
   }, [selectedBuildingId, hoveredBuildingId, scene, originalMaterialsMap]);
 
-  // Pointer Interaction Handlers
   const handlePointerOver = (e: ThreeEvent<PointerEvent>) => {
     e.stopPropagation();
     let current: THREE.Object3D | null = e.object;
@@ -349,13 +295,102 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
   );
 }
 
-interface CityCanvasProps {
-  selectedBuildingId: string | null;
-  onSelectBuilding: (buildingId: string | null) => void;
+function CameraSyncHandler({
+  controlsRef,
+  onCameraChange,
+}: {
+  controlsRef: React.RefObject<any>;
+  onCameraChange?: (cam: { lat: number; lon: number; zoom: number; heading: number; tilt: number }) => void;
+}) {
+  const { camera } = useThree();
+
+  useFrame(() => {
+    if (!onCameraChange || !controlsRef.current) return;
+    const target = controlsRef.current.target;
+    const mercX = 8107220.5 + target.x;
+    const mercY = 2155412.25 - target.z;
+    const R = 6378137.0;
+    const lon = (mercX / R) * (180 / Math.PI);
+    const lat = (2 * Math.atan(Math.exp(mercY / R)) - Math.PI / 2) * (180 / Math.PI);
+
+    const dx = camera.position.x - target.x;
+    const dy = camera.position.y - target.y;
+    const dz = camera.position.z - target.z;
+    const dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
+    const heading = (Math.atan2(dx, -dz) * (180 / Math.PI) + 360) % 360;
+    const horizDist = Math.sqrt(dx * dx + dz * dz);
+    const tilt = Math.min(67.5, Math.atan2(horizDist, Math.max(0.1, dy)) * (180 / Math.PI));
+    const zoom = Math.min(20, Math.max(14, 20 - Math.log2(dist / 15.0)));
+
+    onCameraChange({ lat, lon, zoom, heading, tilt });
+  });
+
+  return null;
 }
 
-export default function CityCanvas({ selectedBuildingId, onSelectBuilding }: CityCanvasProps) {
-  // Deselect on Canvas background click (when clicking empty space)
+function CameraFocusHandler({
+  selectedBuildingId,
+  controlsRef,
+}: {
+  selectedBuildingId: string | null;
+  controlsRef: React.RefObject<any>;
+}) {
+  const { camera } = useThree();
+  const targetLookAt = useRef(new THREE.Vector3(40, 50, -20));
+  const targetCamPos = useRef(new THREE.Vector3(360, 320, 420));
+  const isAnimating = useRef(false);
+
+  useEffect(() => {
+    if (!selectedBuildingId) {
+      targetLookAt.current.set(40, 50, -20);
+      targetCamPos.current.set(360, 320, 420);
+      isAnimating.current = true;
+      return;
+    }
+
+    const b = BUILDINGS_DATA[selectedBuildingId];
+    if (b) {
+      targetLookAt.current.set(b.center[0], b.center[1] * 0.7, b.center[2]);
+      targetCamPos.current.set(b.cameraPosition[0], b.cameraPosition[1], b.cameraPosition[2]);
+      isAnimating.current = true;
+    }
+  }, [selectedBuildingId]);
+
+  useFrame((_, delta) => {
+    if (!isAnimating.current || !controlsRef.current) return;
+    const speed = Math.min(1, delta * 3.5);
+    controlsRef.current.target.lerp(targetLookAt.current, speed);
+    camera.position.lerp(targetCamPos.current, speed);
+    controlsRef.current.update();
+
+    if (
+      camera.position.distanceTo(targetCamPos.current) < 1 &&
+      controlsRef.current.target.distanceTo(targetLookAt.current) < 1
+    ) {
+      isAnimating.current = false;
+    }
+  });
+
+  return null;
+}
+
+export interface CityCanvasProps {
+  selectedBuildingId: string | null;
+  onSelectBuilding: (buildingId: string | null) => void;
+  hideGroundMap?: boolean;
+  transparentBackground?: boolean;
+  onCameraChange?: (cam: { lat: number; lon: number; zoom: number; heading: number; tilt: number }) => void;
+}
+
+export default function CityCanvas({
+  selectedBuildingId,
+  onSelectBuilding,
+  hideGroundMap = false,
+  transparentBackground = false,
+  onCameraChange,
+}: CityCanvasProps) {
+  const controlsRef = useRef<any>(null);
+
   const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     if (e.target === e.currentTarget) {
       onSelectBuilding(null);
@@ -363,31 +398,36 @@ export default function CityCanvas({ selectedBuildingId, onSelectBuilding }: Cit
   };
 
   return (
-    <div className="w-full h-full relative bg-[#b8d8f2]" onPointerDown={handlePointerDown}>
+    <div
+      className={`w-full h-full relative ${transparentBackground ? 'bg-transparent' : 'bg-[#b8d8f2]'}`}
+      onPointerDown={handlePointerDown}
+    >
       <Canvas
         shadows={{ type: THREE.PCFSoftShadowMap }}
         gl={{
           antialias: true,
-          alpha: false,
+          alpha: transparentBackground,
           powerPreference: 'high-performance',
           toneMapping: THREE.ACESFilmicToneMapping,
-          toneMappingExposure: 1.15,
+          toneMappingExposure: 1.2,
         }}
       >
-        <color attach="background" args={['#b8d8f2']} />
-        
+        {!transparentBackground && <color attach="background" args={['#b8d8f2']} />}
+
         {/* Realistic Daytime Sky */}
-        <Sky
-          distance={450000}
-          sunPosition={[220, 380, 180]}
-          inclination={0.5}
-          azimuth={0.25}
-          mieCoefficient={0.005}
-          mieDirectionalG={0.8}
-          rayleigh={0.6}
-          turbidity={4}
-        />
-        <fog attach="fog" args={['#c8def2', 2500, 9500]} />
+        {!transparentBackground && (
+          <Sky
+            distance={450000}
+            sunPosition={[200, 400, 150]}
+            inclination={0.5}
+            azimuth={0.25}
+            mieCoefficient={0.005}
+            mieDirectionalG={0.8}
+            rayleigh={0.6}
+            turbidity={4}
+          />
+        )}
+        {!transparentBackground && <fog attach="fog" args={['#c8def2', 2500, 9500]} />}
 
         <PerspectiveCamera
           makeDefault
@@ -397,6 +437,7 @@ export default function CityCanvas({ selectedBuildingId, onSelectBuilding }: Cit
           far={12000}
         />
         <OrbitControls
+          ref={controlsRef}
           enableDamping
           dampingFactor={0.05}
           maxPolarAngle={Math.PI / 2 - 0.02}
@@ -405,48 +446,52 @@ export default function CityCanvas({ selectedBuildingId, onSelectBuilding }: Cit
           target={[40, 50, -20]}
         />
 
-        {/* Environment Lighting for realistic glass & metal reflections */}
+        <CameraFocusHandler selectedBuildingId={selectedBuildingId} controlsRef={controlsRef} />
+
+        {onCameraChange && (
+          <CameraSyncHandler controlsRef={controlsRef} onCameraChange={onCameraChange} />
+        )}
+
         <Environment preset="city" environmentIntensity={0.65} />
 
-        {/* Calibrated Daytime Sun Key Light with crisp soft shadows */}
+        {/* Mumbai daytime sunlight — warm key */}
         <directionalLight
-          position={[220, 380, 180]}
-          intensity={2.8}
-          color="#fffbf0"
+          position={[200, 400, 150]}
+          intensity={3.2}
+          color="#fff8e7"
           castShadow
           shadow-mapSize-width={2048}
           shadow-mapSize-height={2048}
           shadow-camera-near={10}
           shadow-camera-far={1200}
-          shadow-camera-left={-450}
-          shadow-camera-right={450}
-          shadow-camera-top={450}
-          shadow-camera-bottom={-450}
-          shadow-bias={-0.0001}
+          shadow-camera-left={-500}
+          shadow-camera-right={500}
+          shadow-camera-top={500}
+          shadow-camera-bottom={-500}
+          shadow-bias={-0.0002}
           shadow-normalBias={0.02}
         />
 
-        {/* Secondary Cool Sky Fill Light (illuminates building shadow faces) */}
+        {/* Cool sky fill — illuminates shadow faces */}
         <directionalLight
-          position={[-180, 220, -150]}
-          intensity={0.9}
-          color="#a5d4f5"
+          position={[-200, 250, -180]}
+          intensity={1.1}
+          color="#9ec5e8"
         />
 
-        {/* Balanced Daytime Ambient & Sky Hemisphere lighting */}
-        <ambientLight intensity={0.55} color="#e2f0fc" />
+        <ambientLight intensity={0.65} color="#dce8f5" />
         <hemisphereLight
-          intensity={0.6}
-          groundColor="#cad9e8"
-          color="#8ec5f5"
+          intensity={0.5}
+          groundColor="#d4c4a0"
+          color="#87CEEB"
         />
 
-        {/* 3D Model Container with Suspense and Error Boundary */}
         <City3DErrorBoundary>
           <Suspense fallback={<Loader />}>
             <LodhaCityModel
               selectedBuildingId={selectedBuildingId}
               onSelectBuilding={onSelectBuilding}
+              hideGroundMap={hideGroundMap}
             />
           </Suspense>
         </City3DErrorBoundary>
