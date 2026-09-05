@@ -4,10 +4,10 @@ export const LOCAL_MAP_SOURCES: Record<string, SourceSpecification> = {
   'osm-basemap': {
     type: 'raster',
     tiles: [
-      'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}'
+      'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
     ],
     tileSize: 256,
-    attribution: '&copy; Esri, HERE, Garmin, Intermap, increment P Corp., GEBCO, USGS, FAO, NPS, NRCAN, GeoBase, IGN, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), (c) OpenStreetMap contributors, and the GIS User Community'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   },
   'roads': {
     type: 'geojson',
@@ -45,13 +45,15 @@ export const LOCAL_MAP_LAYERS: LayerSpecification[] = [
     }
   },
 
-  // Global basemap context (CartoDB Light)
+  // Global basemap context (OSM)
   {
     id: 'basemap-raster',
     type: 'raster',
     source: 'osm-basemap',
     paint: {
-      'raster-opacity': 0.6 // Slightly faded so our local data pops
+      'raster-opacity': 0.7,
+      'raster-saturation': -0.6, // Desaturate OSM's vibrant colors
+      'raster-brightness-min': 0.2 // Lighten the dark areas
     }
   },
 
