@@ -96,7 +96,8 @@ interface LodhaCityModelProps {
 }
 
 function LodhaCityModel({ selectedBuildingId, onSelectBuilding, hideGroundMap = false }: LodhaCityModelProps) {
-  const { scene } = useGLTF('/models/lodha_final.glb');
+  const { scene: originalScene } = useGLTF('/models/lodha_final.glb');
+  const scene = useMemo(() => originalScene.clone(true), [originalScene]);
   const [hoveredBuildingId, setHoveredBuildingId] = useState<string | null>(null);
 
   // Load high-fidelity architectural textures

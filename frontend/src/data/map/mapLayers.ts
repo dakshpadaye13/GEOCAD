@@ -16,10 +16,6 @@ export const LOCAL_MAP_SOURCES: Record<string, SourceSpecification> = {
   'boundaries': {
     type: 'geojson',
     data: '/map-data/boundaries.geojson'
-  },
-  'geocad-3d-zones': {
-    type: 'geojson',
-    data: '/map-data/geocad-3d-zones.geojson'
   }
 };
 
@@ -41,17 +37,6 @@ export const LOCAL_MAP_LAYERS: LayerSpecification[] = [
     paint: {
       'fill-color': '#bae6fd', // sky-200
       'fill-opacity': 0.85
-    }
-  },
-
-  // Parks — fresh green lawns
-  {
-    id: 'parks-layer',
-    type: 'fill',
-    source: 'parks',
-    paint: {
-      'fill-color': '#dcfce7', // emerald-100
-      'fill-opacity': 0.7
     }
   },
 
@@ -112,41 +97,6 @@ export const LOCAL_MAP_LAYERS: LayerSpecification[] = [
     paint: {
       'line-color': '#94a3b8', // slate-400
       'line-width': 3.5
-    }
-  },
-
-  // 3D Zone Highlights (shows the bounding box of Lodha Park area)
-  {
-    id: 'geocad-3d-zones-layer',
-    type: 'line',
-    source: 'geocad-3d-zones',
-    paint: {
-      'line-color': '#06b6d4', // cyan-500
-      'line-width': 2,
-      'line-opacity': [
-        'interpolate',
-        ['linear'],
-        ['zoom'],
-        14, 0.8,
-        15, 0.4,
-        16, 0.0 // Fade out when zoomed into the 3D model
-      ]
-    }
-  },
-  {
-    id: 'geocad-3d-zones-fill',
-    type: 'fill',
-    source: 'geocad-3d-zones',
-    paint: {
-      'fill-color': '#06b6d4',
-      'fill-opacity': [
-        'interpolate',
-        ['linear'],
-        ['zoom'],
-        14, 0.1,
-        15, 0.05,
-        16, 0.0
-      ]
     }
   }
 ];
