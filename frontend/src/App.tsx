@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CityCanvas from './components/3d/CityCanvas';
-import TopHudPanel from './components/ui/TopHudPanel';
-import ControlBar from './components/ui/ControlBar';
+import SearchBar from './components/ui/SearchBar';
+import BuildingDetailCard from './components/ui/BuildingDetailCard';
 
 export function App() {
   const [selectedBuildingId, setSelectedBuildingId] = useState<string | null>(null);
@@ -16,20 +16,17 @@ export function App() {
         />
       </div>
 
-      {/*
-        Top-left HUD panel.
-        Compact by default; expands horizontally when a building is selected.
-        TopHudPanel owns its own Escape / click-outside listeners.
-      */}
-      <TopHudPanel
+      {/* Top-left: circular glossy search bar — expands to building search */}
+      <SearchBar
+        onSelectBuilding={setSelectedBuildingId}
+        selectedBuildingId={selectedBuildingId}
+      />
+
+      {/* Right side: building detail card (ExpandableCard mechanics) */}
+      <BuildingDetailCard
         selectedBuildingId={selectedBuildingId}
         onClose={() => setSelectedBuildingId(null)}
       />
-
-      {/*
-        Centered floating control-bar pill, fixed bottom-6.
-      */}
-      <ControlBar />
     </div>
   );
 }
