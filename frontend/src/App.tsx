@@ -8,6 +8,7 @@ import { Box, Map, Compass } from 'lucide-react';
 export function App() {
   const [selectedBuildingId, setSelectedBuildingId] = useState<string | null>(null);
   const [viewMode, setViewMode] = useState<'3d' | 'map'>('3d');
+  const [hasStarted, setHasStarted] = useState<boolean>(false);
 
   // Handle Escape key to close selection panel
   useEffect(() => {
@@ -19,6 +20,44 @@ export function App() {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
+
+  if (!hasStarted) {
+    return (
+      <div className="w-screen h-screen relative overflow-hidden bg-black flex items-center justify-center font-sans select-none">
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline 
+          className="absolute inset-0 w-full h-full object-cover opacity-70"
+        >
+          <source src="/landing_page.mp4" type="video/mp4" />
+        </video>
+        
+        <div className="relative z-10 flex flex-col items-center justify-center gap-10">
+          <div className="text-center flex flex-col items-center gap-3">
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white drop-shadow-2xl">
+              GEOCAD DIGITAL TWIN
+            </h1>
+            <div className="px-3 py-1 rounded-full bg-black/40 border border-white/20 backdrop-blur-md">
+              <p className="text-cyan-400 font-mono tracking-[0.2em] uppercase text-xs md:text-sm shadow-black drop-shadow-md">
+                Lodha Park · Worli, Mumbai
+              </p>
+            </div>
+          </div>
+          
+          <button 
+            onClick={() => setHasStarted(true)}
+            className="group relative px-10 py-4 bg-cyan-600/80 hover:bg-cyan-500 text-white font-bold tracking-[0.2em] uppercase text-sm rounded-full overflow-hidden transition-all duration-500 shadow-[0_0_40px_rgba(6,182,212,0.3)] hover:shadow-[0_0_60px_rgba(6,182,212,0.5)] hover:scale-105 border border-cyan-400/50 backdrop-blur-md"
+          >
+            {/* The animated shine overlay */}
+            <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/50 to-transparent w-1/2 animate-shine" />
+            <span className="relative z-10">ENTER PLATFORM</span>
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="w-screen h-screen relative overflow-hidden select-none font-sans bg-[#b8d8f2] text-zinc-900">
