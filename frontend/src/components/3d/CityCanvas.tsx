@@ -136,11 +136,17 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
               m.envMapIntensity = 1.25;
             } else if (mesh.name === 'Expanded_Base_Map' || m.name === 'Mat_Expanded_Base_Map') {
               // Real 2D Mumbai satellite regional context map for the surrounding base
+              // Layer 0 — deepest ground plane. polygonOffset pushes it back so OSM tile wins.
               m.map = satelliteTexture;
               m.color = new THREE.Color('#ffffff');
               m.roughness = 0.95;
               m.metalness = 0.02;
               m.envMapIntensity = 0.15;
+              // Z-fight fix (a): bias this surface behind everything above it
+              m.polygonOffset = true;
+              m.polygonOffsetFactor = 2;
+              m.polygonOffsetUnits = 2;
+              mesh.receiveShadow = false; // shadow acne compounds seam — disable on outer base
             } else if (m.name === 'Mat_Landuse') {
               // Rich park lawns, sports grounds, and leisure gardens
               m.color = new THREE.Color('#225828');
@@ -177,9 +183,16 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
               m.envMapIntensity = 0.4;
             } else if (m.name === 'rastMat' || mesh.name === 'EXPORT_OSM_MAPNIK_WM') {
               // Immediate 3D project site ground map (street level OSM Mapnik)
+              // Layer 1 — sits above the satellite base. Lift 0.05 units + bias to win depth test.
               m.roughness = 0.94;
               m.metalness = 0.04;
               m.envMapIntensity = 0.25;
+              // Z-fight fix (a): bias this surface in front of the satellite base
+              m.polygonOffset = true;
+              m.polygonOffsetFactor = -1;
+              m.polygonOffsetUnits = -1;
+              // Tiny Y lift so depth buffer never sees identical Z values
+              mesh.position.y = Math.max(mesh.position.y, 0.05);
             } else {
               m.envMapIntensity = 1.0;
             }
@@ -201,6 +214,50 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
     });
     return map;
   }, [scene]);
+
+  // ── STEP 1 DIAGNOSIS confirmed: cause (a) — multiple coplanar ground planes ──
+  // Second pass: catch any unnamed flat base meshes (height < 2 world units,
+  // sitting at |worldY| < 2) that weren't matched by name above.
+  // These are Blender base-block extrusions exported at Y=0 alongside the towers.
+  // Apply polygonOffset layer -2 (topmost ground) + 0.10 Y lift.
+  useMemo(() => {
+    scene.traverse((child) => {
+      if (!(child as THREE.Mesh).isMesh) return;
+      const mesh = child as THREE.Mesh;
+
+      // Skip already-identified named ground planes and building meshes
+      const isNamedGround =
+        mesh.name === 'Expanded_Base_Map' ||
+        mesh.name === 'EXPORT_OSM_MAPNIK_WM';
+      const isBuilding = VALID_BUILDING_IDS.has(mesh.userData.building_id || mesh.name);
+      if (isNamedGround || isBuilding) return;
+
+      // Compute world bounding box to detect flat low meshes
+      const box = new THREE.Box3().setFromObject(mesh);
+      const height = box.max.y - box.min.y;
+      const worldCenterY = (box.min.y + box.max.y) / 2;
+
+      // Flat mesh (< 2 units tall) near ground level (world center Y < 4)
+      if (height < 2.0 && worldCenterY < 4.0) {
+        const applyBias = (mat: THREE.Material) => {
+          const m = mat as THREE.MeshStandardMaterial;
+          // Layer -2: in front of OSM tile, behind buildings
+          m.polygonOffset = true;
+          m.polygonOffsetFactor = -2;
+          m.polygonOffsetUnits = -2;
+          m.needsUpdate = true;
+        };
+        if (Array.isArray(mesh.material)) {
+          mesh.material.forEach(applyBias);
+        } else {
+          applyBias(mesh.material);
+        }
+        // 0.10 unit lift keeps it above the OSM tile (0.05) and satellite base (0.0)
+        mesh.position.y = Math.max(mesh.position.y, 0.10);
+      }
+    });
+  }, [scene]);
+
 
   // Dynamic Highlight Effect based on Selection / Hover state
   useEffect(() => {
