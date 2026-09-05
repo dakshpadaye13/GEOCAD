@@ -1,6 +1,6 @@
-import React, { Suspense, Component, ReactNode, useState, useEffect, useMemo } from 'react';
+import React, { Suspense, Component, ReactNode, useState, useEffect } from 'react';
 import { Canvas, ThreeEvent } from '@react-three/fiber';
-import { OrbitControls, useGLTF, useProgress, Html, PerspectiveCamera, Environment } from '@react-three/drei';
+import { OrbitControls, useGLTF, useProgress, Html, PerspectiveCamera } from '@react-three/drei';
 import * as THREE from 'three';
 import { VALID_BUILDING_IDS } from '../../data/buildings';
 
@@ -42,8 +42,7 @@ class City3DErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySta
               {this.state.error?.message || 'Unable to access /models/lodha_final.glb'}
             </p>
             <button
-              onClick=
-{() => this.setState({ hasError: false, error: null })}
+              onClick={() => this.setState({ hasError: false, error: null })}
               className="px-4 py-2 bg-red-600 hover:bg-red-500 text-white text-xs font-semibold rounded-lg transition-colors"
             >
               Retry Loading
@@ -95,52 +94,16 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
   const { scene } = useGLTF('/models/lodha_final.glb');
   const [hoveredBuildingId, setHoveredBuildingId] = useState<string | null>(null);
 
-  // Store enhanced baseline material clones per mesh to allow clean reversible highlighting
-  const originalMaterialsMap = useMemo(() => {
+  // Store original material clones per mesh to allow clean reversible highlighting
+  const originalMaterialsMap = React.useMemo(() => {
     const map = new Map<string, THREE.Material | THREE.Material[]>();
     scene.traverse((child) => {
       if ((child as THREE.Mesh).isMesh) {
         const mesh = child as THREE.Mesh;
         mesh.castShadow = true;
         mesh.receiveShadow = true;
-
         if (mesh.material) {
-          const cloneAndTune = (mat: THREE.Material) => {
-            const m = mat.clone() as THREE.MeshStandardMaterial;
-            const bId = mesh.userData.building_id || mesh.name;
-            const isBuilding = VALID_BUILDING_IDS.has(bId);
-
-            if (isBuilding || m.name === 'Mat_Buildings') {
-              // Enhanced architectural curtain-wall & metal reflection response
-              m.roughness = 0.22;
-              m.metalness = 0.42;
-              m.envMapIntensity = 1.35;
-            } else if (m.name === 'Mat_Expanded_Base_Map' || m.name === 'Mat_Landuse' || m.name === 'rastMat') {
-              // Keep ground and satellite plane matte and non-reflective
-              m.roughness = 0.94;
-              m.metalness = 0.04;
-              m.envMapIntensity = 0.25;
-            } else if (m.name === 'Mat_Canopy' || m.name === 'Mat_Trunk') {
-              // Natural organic trees
-              m.roughness = 0.88;
-              m.metalness = 0.0;
-              m.envMapIntensity = 0.35;
-            } else {
-              m.envMapIntensity = 1.0;
-            }
-            m.needsUpdate = true;
-            return m;
-          };
-
-          if (Array.isArray(mesh.material)) {
-            const tuned = mesh.material.map(cloneAndTune);
-            mesh.material = tuned;
-            map.set(mesh.uuid, tuned.map(m => m.clone()));
-          } else {
-            const tuned = cloneAndTune(mesh.material);
-            mesh.material = tuned;
-            map.set(mesh.uuid, tuned.clone());
-          }
+          map.set(mesh.uuid, Array.isArray(mesh.material) ? mesh.material.map(m => m.clone()) : mesh.material.clone());
         }
       }
     });
@@ -164,10 +127,9 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
             const highlightMat = new THREE.MeshStandardMaterial({
               color: new THREE.Color('#06b6d4'),
               emissive: new THREE.Color('#0891b2'),
-              emissiveIntensity: 0.85,
-              roughness: 0.18,
-              metalness: 0.45,
-              envMapIntensity: 1.4,
+              emissiveIntensity: 0.8,
+              roughness: 0.2,
+              metalness: 0.5,
             });
             mesh.material = highlightMat;
           } else if (isHovered) {
@@ -175,14 +137,12 @@ function LodhaCityModel({ selectedBuildingId, onSelectBuilding }: LodhaCityModel
             const hoverMat = new THREE.MeshStandardMaterial({
               color: new THREE.Color('#38bdf8'),
               emissive: new THREE.Color('#0284c7'),
-              emissiveIntensity: 0.45,
-              roughness: 0.24,
-              metalness: 0.35,
-              envMapIntensity: 1.2,
+              emissiveIntensity: 0.4,
+              roughness: 0.3,
             });
             mesh.material = hoverMat;
           } else {
-            // Restore enhanced original material
+            // Restore original material
             const orig = originalMaterialsMap.get(mesh.uuid);
             if (orig) mesh.material = orig;
           }
@@ -248,25 +208,16 @@ export default function CityCanvas({ selectedBuildingId, onSelectBuilding }: Cit
   };
 
   return (
-    <div className="w-full h-full relative bg-[#070b14]" onPointerDown={handlePointerDown}>
+    <div className="w-full h-full relative bg-[#060911]" onPointerDown={handlePointerDown}>
       <Canvas
-        shadows={{ type: THREE.PCFSoftShadowMap }}
-        gl={{
-          antialias: true,
-          alpha: false,
-          powerPreference: 'high-performance',
-          toneMapping: THREE.ACESFilmicToneMapping,
-          toneMappingExposure: 1.15,
-        }}
+        shadows
+        gl={{ antialias: true, alpha: false, powerPreference: 'high-performance' }}
       >
-        <color attach="background" args={['#070b14']} />
-        <fog attach="fog" args={['#070b14', 600, 3500]} />
-
         <PerspectiveCamera
           makeDefault
-          position={[240, 220, 320]}
-          fov={42}
-          near={0.5}
+          position={[250, 250, 350]}
+          fov={45}
+          near={0.1}
           far={5000}
         />
         <OrbitControls
@@ -275,44 +226,25 @@ export default function CityCanvas({ selectedBuildingId, onSelectBuilding }: Cit
           maxPolarAngle={Math.PI / 2 - 0.02}
           minDistance={10}
           maxDistance={2500}
-          target={[30, 15, 0]}
+          target={[30, 10, 0]}
         />
-
-        {/* Environment Lighting for realistic glass & metal reflections */}
-        <Environment preset="city" environmentIntensity={0.8} />
-
-        {/* Calibrated Sun Key Light with crisp soft shadows */}
+        
+        {/* Lighting Setup */}
+        <ambientLight intensity={1.2} />
+        <hemisphereLight intensity={0.6} groundColor="#060911" color="#bae6fd" />
         <directionalLight
-          position={[190, 320, 140]}
-          intensity={2.5}
-          color="#fff7ec"
+          position={[200, 350, 150]}
+          intensity={1.8}
           castShadow
           shadow-mapSize-width={2048}
           shadow-mapSize-height={2048}
-          shadow-camera-near={10}
-          shadow-camera-far={1100}
-          shadow-camera-left={-380}
-          shadow-camera-right={380}
-          shadow-camera-top={380}
-          shadow-camera-bottom={-380}
-          shadow-bias={-0.0001}
-          shadow-normalBias={0.02}
+          shadow-camera-far={1200}
+          shadow-camera-left={-400}
+          shadow-camera-right={400}
+          shadow-camera-top={400}
+          shadow-camera-bottom={-400}
         />
-
-        {/* Secondary Cool Sky Fill Light (opposite sun) */}
-        <directionalLight
-          position={[-150, 180, -120]}
-          intensity={0.45}
-          color="#7dd3fc"
-        />
-
-        {/* Balanced Ambient & Hemisphere lighting (prevents shadow blowout) */}
-        <ambientLight intensity={0.25} color="#e2e8f0" />
-        <hemisphereLight
-          intensity={0.22}
-          groundColor="#070b14"
-          color="#bae6fd"
-        />
+        <directionalLight position={[-150, 200, -150]} intensity={0.5} color="#38bdf8" />
 
         {/* 3D Model Container with Suspense and Error Boundary */}
         <City3DErrorBoundary>
