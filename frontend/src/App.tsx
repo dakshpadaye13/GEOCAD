@@ -34,18 +34,7 @@ export function App() {
           <source src="/landing_page.mp4" type="video/mp4" />
         </video>
         
-        <div className="relative z-10 flex flex-col items-center justify-center gap-10">
-          <div className="text-center flex flex-col items-center gap-3">
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white drop-shadow-2xl">
-              GEOCAD DIGITAL TWIN
-            </h1>
-            <div className="px-3 py-1 rounded-full bg-black/40 border border-white/20 backdrop-blur-md">
-              <p className="text-cyan-400 font-mono tracking-[0.2em] uppercase text-xs md:text-sm shadow-black drop-shadow-md">
-                Lodha Park · Worli, Mumbai
-              </p>
-            </div>
-          </div>
-          
+        <div className="absolute bottom-24 left-1/2 -translate-x-1/2 z-10">
           <button 
             onClick={() => setHasStarted(true)}
             className="group relative px-10 py-4 bg-cyan-600/80 hover:bg-cyan-500 text-white font-bold tracking-[0.2em] uppercase text-sm rounded-full overflow-hidden transition-all duration-500 shadow-[0_0_40px_rgba(6,182,212,0.3)] hover:shadow-[0_0_60px_rgba(6,182,212,0.5)] hover:scale-105 border border-cyan-400/50 backdrop-blur-md"
