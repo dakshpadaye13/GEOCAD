@@ -37,25 +37,7 @@ export function App() {
         )}
       </div>
 
-      {/* Top Header Pill — Architectural Brand HUD */}
-      <header className="fixed top-6 left-24 z-20 pointer-events-none hidden sm:flex items-center gap-3">
-        <div className="bg-white/90 backdrop-blur-xl border border-white/70 px-4 py-2.5 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.08)] flex items-center gap-3">
-          <span className="w-2.5 h-2.5 rounded-full bg-cyan-500 animate-pulse" />
-          <div className="flex flex-col">
-            <div className="flex items-center gap-2">
-              <span className="text-[11px] font-semibold tracking-wider uppercase text-zinc-900 font-mono">
-                GEOCAD DIGITAL TWIN
-              </span>
-              <span className="px-1.5 py-0.5 rounded-full bg-cyan-50 border border-cyan-200/80 text-cyan-700 text-[9px] font-semibold">
-                LODHA PARK
-              </span>
-            </div>
-            <span className="text-[10px] text-zinc-500 font-medium">
-              Worli, Mumbai · 7 Architectural Towers Synced
-            </span>
-          </div>
-        </div>
-      </header>
+
 
       {/* Top Right: View Mode Toggle Pill (3D Digital Twin vs GIS Map) */}
       <div className="fixed top-6 right-6 z-20 pointer-events-auto">
@@ -97,19 +79,7 @@ export function App() {
         onClose={() => setSelectedBuildingId(null)}
       />
 
-      {/* Bottom Floating Navigation Guidance Overlay */}
-      <footer className="fixed bottom-6 left-6 z-10 pointer-events-none hidden md:block">
-        <div className="bg-white/85 backdrop-blur-xl border border-white/80 px-4 py-2 rounded-full shadow-[0_4px_20px_rgba(0,0,0,0.06)] text-[11px] text-zinc-600 flex items-center gap-3">
-          <Compass size={13} className="text-cyan-600 shrink-0" />
-          <span><strong className="text-zinc-900 font-semibold">Select:</strong> Left Click Tower</span>
-          <span className="text-zinc-300">•</span>
-          <span><strong className="text-zinc-900 font-semibold">Rotate:</strong> Left Drag</span>
-          <span className="text-zinc-300">•</span>
-          <span><strong className="text-zinc-900 font-semibold">Pan:</strong> Right Drag</span>
-          <span className="text-zinc-300">•</span>
-          <span><strong className="text-zinc-900 font-semibold">Zoom:</strong> Scroll</span>
-        </div>
-      </footer>
+
     </div>
   );
 }
