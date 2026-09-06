@@ -1,0 +1,1418 @@
+[
+  {
+    "schema_version": "1.1",
+    "extracted_by": "Multi-Source Statutory Ingestion Engine + CAD Layout Intelligent OCR Model",
+    "extracted_on": "2026-09-06",
+    "project": {
+      "name": "Imperial Edge",
+      "rera_number": "P51900000723",
+      "survey_number": "725(pt), 1/725(pt), 3/725(pt)",
+      "survey_number_type": "CS",
+      "division": "Malabar Hill Division",
+      "ward": "D",
+      "planning_authority": "Slum Rehabilitation Authority (SRA)",
+      "land_area_sqm": null,
+      "latitude": null,
+      "longitude": null,
+      "boundaries": {
+        "north": "Existing Rehab-7 (Gr+7 fls), Rehab-11 (Gr+7 fls), Sub Station",
+        "south": "7.50 M wide internal road, Plot Boundary",
+        "east": "12.20 M. W. existing D.P. Road",
+        "west": "Existing Wing-A (Gr+16 fls & 17 to 19(pt) fls), R.G. No-5, 6.00 M internal pathway"
+      },
+      "source": {
+        "document": "Block Plan.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "alias_name": "Imperial_Wing_B",
+      "planning_authority_acronym": "MCGM",
+      "layout_ocr_source": {
+        "document": "typical FLoor plan_page_1",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      },
+      "audit_notes": "Statutory title 'Imperial Edge' under SRA Scheme (P51900000723) on C.S. Nos. 725(pt), 1/725(pt), 3/725(pt) of Malabar Hill Division (D-Ward). Layout OCR extracted name 'Imperial_Wing_B', survey '- 725', and planning authority acronym 'MCGM' from sheet typical FLoor plan_page_1."
+    },
+    "buildings": [
+      {
+        "name": "Imperial Edge",
+        "wing": "B",
+        "basements": 2,
+        "plinths": 1,
+        "podiums": 18,
+        "stilts": 0,
+        "slabs_of_super_structure": 49,
+        "service_floors": 2,
+        "fire_check_floors": 1,
+        "total_sanctioned_floors": 49,
+        "composition_verbatim": "development work of Sale Wing B' of Composite Building no.1 comprising of Gr.+ 49 floors (i.e.Gr.+18parking floors +3 Amenity floors+1service floor+13 Resi.Floors+1 service floor+1 fire checkfloor+12Resi.floors) [Layout CAD OCR Verbatim: 'PODIUM \\n OPP']",
+        "source": {
+          "document": "imperial edge oc.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "alias_name": "Imperial_Wing_B",
+        "statutory_composition_verbatim": "development work of Sale Wing B' of Composite Building no.1 comprising of Gr.+ 49 floors (i.e.Gr.+18parking floors +3 Amenity floors+1service floor+13 Resi.Floors+1 service floor+1 fire checkfloor+12Resi.floors)",
+        "layout_ocr_composition_verbatim": "PODIUM \n OPP",
+        "layout_ocr_wing_reading": "A",
+        "layout_ocr_source": {
+          "document": "Block Plan_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        },
+        "audit_notes": "Statutory Full OCC certifies Sale Wing B as Gr + 49 upper floors comprising 18 parking floors, 3 amenity floors, 2 service floors, 1 fire check floor, and 25 residential floors. CAD Layout OCR sheet Block Plan_page_1 captures 'PODIUM \\n OPP' and cites Wing reference."
+      }
+    ],
+    "elevation_anchors": [
+      {
+        "endorsed_on": "2016-02-04",
+        "level_description": "Rehab Wing A full height to top of LMR and OHT",
+        "metres": 59.9,
+        "datum_stated": "upto 59.90 mtrs. height i.e. upto full height + LMR + OHT",
+        "storey_reference": "Rehab Wing A full height",
+        "source": {
+          "document": "revised cc.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2018-02-17",
+        "level_description": "Proposed Composite Building No. 1 Wing-B total sanctioned height Ground + 49 Floors",
+        "metres": 183.55,
+        "datum_stated": "(GROUND + 49 FLOORS) (HT = 183.55m)",
+        "storey_reference": "Wing-B Ground + 49 Floors",
+        "source": {
+          "document": "Block Plan.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2012-10-25",
+        "level_description": "Plinth CC to top of two level basement for Sale Wing B",
+        "metres": null,
+        "datum_stated": "sale wing 'B' (i.e. top of two level basement)",
+        "storey_reference": "Top of Basement 2 / Plinth",
+        "source": {
+          "document": "revised cc.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2016-09-23",
+        "level_description": "CC extension up to 20th parking floor + 21st refuge floor deck",
+        "metres": null,
+        "datum_stated": "upto 20th parking floor + 21st refuge floor (Deck)",
+        "storey_reference": "20th parking floor + 21st refuge floor deck",
+        "source": {
+          "document": "revised cc.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2018-02-17",
+        "level_description": "CC extension up to 49th upper floors + LMR + OHT full height",
+        "metres": null,
+        "datum_stated": "upto 49th upper floors + LMR + OHT i.e. upto full height",
+        "storey_reference": "49th upper floors + LMR + OHT",
+        "source": {
+          "document": "revised cc.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "height_cascade": {
+      "rung_reached": 1,
+      "elevation_source": "certificate-metres",
+      "assumed_floor_to_floor_m": null,
+      "note": "Total sanctioned height of 183.55 m for Ground + 49 upper floors is explicitly dimensioned on the approved Layout Plan. Adjacent Rehab Wing A full height is certified at 59.90 m on CC endorsement dated 04/02/2016.",
+      "layout_ocr_rung": "Rung 3 (Nominal Fallback)",
+      "layout_ocr_nominal_floor_to_floor_m": 3.15,
+      "layout_ocr_note": "Calculated using standard MCGM residential norm (3.15m per slab)"
+    },
+    "vertical_tie": {
+      "datum_name": null,
+      "plot_ground_level_min_m": null,
+      "plot_ground_level_max_m": null,
+      "status": "not-obtained",
+      "source": {
+        "document": null,
+        "page": null,
+        "retrieved": null
+      },
+      "layout_ocr_retrieved": "2026-09-06"
+    },
+    "unit_schedule": [
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "23rd",
+        "unit_number": "2301",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "23rd",
+        "unit_number": "2302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "24th",
+        "unit_number": "2401",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "24th",
+        "unit_number": "2402",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "25th",
+        "unit_number": "2501",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "25th",
+        "unit_number": "2502",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "26th",
+        "unit_number": "2601",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "27th",
+        "unit_number": "2701",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "27th",
+        "unit_number": "2702",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "28th",
+        "unit_number": "2801",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "28th",
+        "unit_number": "2802",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "29th",
+        "unit_number": "2901",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "29th",
+        "unit_number": "2902",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "30th",
+        "unit_number": "3001",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "30th",
+        "unit_number": "3002",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "31st",
+        "unit_number": "3101",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "31st",
+        "unit_number": "3102",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "32nd",
+        "unit_number": "3201",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "33rd",
+        "unit_number": "3301",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "33rd",
+        "unit_number": "3302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "34th",
+        "unit_number": "3401",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "34th",
+        "unit_number": "3402",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "35th",
+        "unit_number": "3501",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "35th",
+        "unit_number": "3502",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "38th",
+        "unit_number": "3801",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "39th",
+        "unit_number": "3901",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "39th",
+        "unit_number": "3902",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "40th",
+        "unit_number": "4001",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "40th",
+        "unit_number": "4002",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "41st",
+        "unit_number": "4101",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "41st",
+        "unit_number": "4102",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "42nd",
+        "unit_number": "4201",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "42nd",
+        "unit_number": "4202",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "43rd",
+        "unit_number": "4301",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "43rd",
+        "unit_number": "4302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "44th",
+        "unit_number": "4401",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "45th",
+        "unit_number": "4501",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "45th",
+        "unit_number": "4502",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "46th",
+        "unit_number": "4601",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "46th",
+        "unit_number": "4602",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "47th",
+        "unit_number": "4701",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "47th",
+        "unit_number": "4702",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "48th",
+        "unit_number": "4801",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "48th",
+        "unit_number": "4802",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "49th",
+        "unit_number": "4901",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Imperial Edge",
+        "wing": "B",
+        "floor": "49th",
+        "unit_number": "4902",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.13,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "imperial edge inventory dec 2021.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "parking": {
+      "covered_total": 234,
+      "open_total": 0,
+      "by_level": [
+        {
+          "level_label": "1st to 18th Parking Floors (13 cars per floor)",
+          "count": 234
+        }
+      ],
+      "source": {
+        "document": "Typical Floor plan t4.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_source": {
+        "document": "Block Plan_page_1",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      },
+      "audit_notes": "Statutory drawings confirm 234 covered car parking bays across 18 podium parking floors (13 cars per floor) serving 46 residential apartments (~5.08 bays per flat). Layout OCR scanned Block Plan_page_1."
+    },
+    "plate_schedule": [
+      {
+        "plate_name": "Basement Plate (2 Levels)",
+        "storeys_named": [
+          "Basement 1",
+          "Basement 2"
+        ],
+        "floor_count": 2,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "revised cc.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Ground & Stilt Entry Plate",
+        "storeys_named": [
+          "Ground Floor"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "imperial edge oc.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Podium Parking Plate (18 Floors)",
+        "storeys_named": [
+          "1st",
+          "2nd",
+          "3rd",
+          "4th",
+          "5th",
+          "6th",
+          "7th",
+          "8th",
+          "9th",
+          "10th",
+          "11th",
+          "12th",
+          "13th",
+          "14th",
+          "15th",
+          "16th",
+          "17th",
+          "18th"
+        ],
+        "floor_count": 18,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Typical Floor plan t4.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "layout_ocr_identified": true,
+        "layout_ocr_label": "Podium 1",
+        "layout_ocr_source": {
+          "document": "Block Plan_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Amenity & Fitness Level Plate",
+        "storeys_named": [
+          "19th",
+          "20th",
+          "21st"
+        ],
+        "floor_count": 3,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "imperial edge oc.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "layout_ocr_identified": true,
+        "layout_ocr_label": "Podium 1",
+        "layout_ocr_source": {
+          "document": "Block Plan_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Service Floor 1 Plate",
+        "storeys_named": [
+          "22nd"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "imperial edge oc.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Habitable Residential Typical 2-Unit Plate",
+        "storeys_named": [
+          "23rd",
+          "24th",
+          "25th",
+          "27th",
+          "28th",
+          "29th",
+          "30th",
+          "31st",
+          "33rd",
+          "34th",
+          "35th",
+          "39th",
+          "40th",
+          "41st",
+          "42nd",
+          "43rd",
+          "45th",
+          "46th",
+          "47th",
+          "48th",
+          "49th"
+        ],
+        "floor_count": 21,
+        "built_up_area_sqm": 724.174,
+        "source": {
+          "document": "Typical Floor plan t4.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "layout_ocr_identified": true,
+        "layout_ocr_label": "Podium 1",
+        "layout_ocr_source": {
+          "document": "Block Plan_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Habitable Residential Refuge 1-Unit Plate",
+        "storeys_named": [
+          "26th",
+          "32nd",
+          "38th",
+          "44th"
+        ],
+        "floor_count": 4,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Typical Floor plan t4.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Service Floor 2 & Fire Check Plate",
+        "storeys_named": [
+          "36th",
+          "37th"
+        ],
+        "floor_count": 2,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "imperial edge oc.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Terrace & Overhead Water Tank / Lift Machine Room Plate",
+        "storeys_named": [
+          "Terrace",
+          "LMR",
+          "OHT"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "revised cc.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "utilities": [],
+    "ownership_structure": {
+      "type": "Co-operative Housing Society",
+      "evidence": "SRA Slum Rehabilitation Scheme on C.S. Nos. 725(pt), 1/725(pt), 3/725(pt) for Nav Maharashtra Nagar SRA CHS Ltd., New Jaiphalwadi SRA CHS Ltd., and Janta Hill SRA CHS Ltd., executed by developer M/s. S.D. Corporation Pvt. Ltd. (CIN U70109MH1998PTC116091). Full OCC condition 1 explicitly sanctions 01 no. of Society Office.",
+      "source": {
+        "document": "imperial edge oc.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_type": "Co-operative Housing Society (CHS)",
+      "layout_ocr_evidence": "Ownership documented as Co-operative Housing Society (CHS).",
+      "layout_ocr_source": {
+        "document": "Block Plan_page_1",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      }
+    },
+    "sufficiency": {
+      "SC1": {
+        "verdict": "MET",
+        "evidence": "Full OCC (imperial edge oc.pdf p.1) provides exact floor composition: Gr. + 18 parking floors + 3 amenity floors + 1 service floor + 13 resi floors + 1 service floor + 1 fire check floor + 12 resi floors. Sanctioned Layout Plan (Block Plan.pdf p.1) states total building height of 183.55 m for Ground + 49 floors. CC endorsement (revised cc.pdf p.2) certifies adjacent Rehab Wing A full height at 59.90 m.",
+        "source_page": "imperial edge oc.pdf:L1, Block Plan.pdf:L1",
+        "layout_ocr_audit": {
+          "verdict": "PARTIAL",
+          "evidence": "Floor composition statement present: 'PODIUM \n OPP', but per-storey physical elevations in metres are missing.",
+          "source_page": "1"
+        }
+      },
+      "SC2": {
+        "verdict": "MET",
+        "evidence": "Distinct vertical plates are explicitly categorized and differentiated: 2 Basements, Ground, 18 Parking Podiums, 3 Amenity Floors, Service Floors (22nd and 36th/37th), Typical 2-Unit Habitable Floors (724.174 sqm BUA), and Refuge Habitable Floors (26th, 32nd, 38th, 44th) with 1 unit plus common refuge deck.",
+        "source_page": "imperial edge oc.pdf:L1, Typical Floor plan t4.pdf:L1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Demarcation identified for Podium tiers, Refuge levels, and Typical residential plates.",
+          "source_page": "1"
+        }
+      },
+      "SC3": {
+        "verdict": "MET",
+        "evidence": "Architectural CAD Floor Plan sheets (Floor PLan.pdf p.1 and typical FLoor plan.pdf p.1) provide fully dimensioned 1:100 layout drawings showing closed internal dividing walls for Flat 1 and Flat 2 with individual room dimensions (Living 5.38x3.41, Dining 4.32x3.35, Bed Rooms 5.17x3.97, 3.75x4.27, 3.85x3.65, Kitchen 3.25x4.08, and attached toilets).",
+        "source_page": "Floor PLan.pdf:L1, typical FLoor plan.pdf:L1",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "Macro layout only; internal unit dividing walls not resolved.",
+          "source_page": null
+        }
+      },
+      "SC4": {
+        "verdict": "MET",
+        "evidence": "Typology and unit schedules declare carpet area per individual unit: Architect drawing (Typical Floor plan t4.pdf p.1) details 123.31 sqm room carpet area per flat, and MahaRERA quarterly disclosures (imperial edge inventory dec 2021.pdf p.1-2) itemize all 46 individual flats by unit number with 143.13 sqm RERA carpet area.",
+        "source_page": "Typical Floor plan t4.pdf:L1, imperial edge inventory dec 2021.pdf:L1-2",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "Only aggregate built-up areas declared. Unit-level carpet areas missing.",
+          "source_page": null
+        }
+      },
+      "SC5": {
+        "verdict": "MET",
+        "evidence": "Independent second area derivation exists: Architect sanctioned DCR floor calculation (Typical Floor plan t4.pdf) computes 123.31 sqm carpet area (plus 14.2 sqm enclosed balcony/terrace), cross-validated against independent developer MahaRERA quarterly sales register (imperial edge inventory dec 2021.pdf) declaring 143.13 sqm RERA carpet area for all 46 flats.",
+        "source_page": "Typical Floor plan t4.pdf:L1, imperial edge inventory dec 2021.pdf:L1-2",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "No independent second area verification source identified.",
+          "source_page": null
+        }
+      },
+      "SC6": {
+        "verdict": "MET",
+        "evidence": "Cadastral Survey Numbers C.S. Nos. 725(pt), 1/725(pt) & 3/725(pt) of Malabar Hill Division, D-Ward. Dimensioned site layout plan (Block Plan.pdf p.1) at 1:500 scale with oriented North arrow, surrounding road boundaries (12.20 M D.P. Road, 7.50 M internal road, 6.00 M pathway), and MahaRERA registration P51900000723.",
+        "source_page": "Block Plan.pdf:L1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Cadastral reference present: None No. - 725, Ward None.",
+          "source_page": "1"
+        }
+      },
+      "SC7": {
+        "verdict": "MET",
+        "evidence": "Ownership structure documented as Co-operative Housing Societies: Nav Maharashtra Nagar SRA CHS Ltd., New Jaiphalwadi SRA CHS Ltd., and Janta Hill SRA CHS Ltd. Full OCC condition 1 explicitly grants occupation for 01 no. of Society Office.",
+        "source_page": "imperial edge oc.pdf:L1-2",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Ownership documented as Co-operative Housing Society (CHS).",
+          "source_page": "1"
+        }
+      },
+      "SC8": {
+        "verdict": "MET",
+        "evidence": "Common and non-saleable spaces explicitly designated and segregated from residential tenements: Full OCC details 18 parking floors, 3 amenity floors (Society Office, Fitness Center, Club House), 2 service floors, 1 fire check floor, and 4 refuge decks. Architect plan details common passage (123.032 sqm), staircase/lift lobby (170.176 sqm), and service lobby (132.648 sqm).",
+        "source_page": "imperial edge oc.pdf:L1-2, Typical Floor plan t4.pdf:L1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Explicit designation of non-saleable areas including Refuge levels, podium parking tiers, and utility corridors.",
+          "source_page": "1"
+        }
+      },
+      "score_of_8": 8,
+      "operational_block": "Cannot construct accurate 3D vertical envelope without physical storey elevation benchmarks.",
+      "documentary_block": "Approved architectural section drawing and sanction floor composition schedule.",
+      "comprehensive_portfolio_score": "8 of 8 MET",
+      "cad_layout_only_score": 4
+    },
+    "documents_reviewed": [
+      {
+        "name": "Block Plan.pdf",
+        "type": "Architectural Layout & Location Plan",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Scale 1:500 layout plan & 1:2500 location plan showing building footprint, north arrow, boundaries, and overall height HT=183.55m."
+      },
+      {
+        "name": "CC.pdf",
+        "type": "Commencement Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Original CC dated 12/12/2007 under No. SRA/ENG/1589/D/STGL/AP with early endorsements up to 23/09/2016."
+      },
+      {
+        "name": "revised cc.pdf",
+        "type": "Commencement Certificate (Updated)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Contains all endorsements through 17/02/2018 extending CC up to full height 49th upper floors + LMR + OHT for Sale Wing B."
+      },
+      {
+        "name": "imperial edge oc.pdf",
+        "type": "Full Occupation Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Full OCC dated 20 OCT 2020 granting occupation for Sale Wing B comprising Gr + 49 floors (46 residential tenements, 1 society office, 1 fitness center, 1 clubhouse)."
+      },
+      {
+        "name": "IOA.pdf",
+        "type": "Intimation of Approval",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Amended IOA approval letter dated 21 MAR 2011 for Rehab Wing A and Sale Wing B."
+      },
+      {
+        "name": "Further IOA.pdf",
+        "type": "IOA Application & Compliance Checklist",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architect compliance submission dated 10 JAN 2017 reciting full composition including 2 basements, parking floors, and refuge decks."
+      },
+      {
+        "name": "Revised IOA - T4.pdf",
+        "type": "Revised IOA Sanction Letter",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "SRA amended plan approval letter dated 17 FEB 2018 endorsing amended plans for Rehab Wing A and Sale Wing B."
+      },
+      {
+        "name": "Floor PLan.pdf",
+        "type": "Architectural Typical Floor Plan (Detailed)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "1:100 scale architectural drawing of Typical Floor Plan Wing-B showing complete interior wall partitions and room dimensions for Flat 1 and Flat 2."
+      },
+      {
+        "name": "Typical Floor plan t4.pdf",
+        "type": "Sanctioned Typical Floor Plan & Calculations",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "SRA sanctioned sheet dated 17 FEB 2018 containing BUA calculations, tenement statement (46 flats), parking schedule (234 bays), and carpet calculations."
+      },
+      {
+        "name": "typical FLoor plan.pdf",
+        "type": "Sanctioned Typical Floor Plan (2011 approval)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Earlier SRA approved blueprint dated 21 MAR 2011 showing typical floor layout and BUA calculations."
+      },
+      {
+        "name": "disclosure of inventory.pdf",
+        "type": "MahaRERA Inventory Disclosure",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Filing as on 31st March 2021 declaring sold/booked/unsold status and 143.13 sqm carpet area for all 46 flats."
+      },
+      {
+        "name": "disclosure of inventory 2.pdf",
+        "type": "MahaRERA Inventory Disclosure (Duplicate)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Duplicate copy of 31st March 2021 filing."
+      },
+      {
+        "name": "imperial edge inventory sept 2021.pdf",
+        "type": "MahaRERA Inventory Disclosure",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Quarterly update as on 30th September 2021 confirming unit inventory and registration dates."
+      },
+      {
+        "name": "imperial edge inventory dec 2021.pdf",
+        "type": "MahaRERA Inventory Disclosure",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Quarterly update as on 31st December 2021 dated 4th January 2022 confirming 46 total units (40 sold, 3 booked, 3 unsold)."
+      },
+      {
+        "name": "typical FLoor plan_page_1",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Floor PLan_page_1",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Typical Floor plan t4_page_1",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Block Plan_page_1",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      }
+    ],
+    "not_found": [
+      {
+        "item": "vertical_datum_statement",
+        "searched_in": [
+          "Block Plan.pdf",
+          "CC.pdf",
+          "revised cc.pdf",
+          "imperial edge oc.pdf"
+        ],
+        "affects_criterion": null,
+        "consequence": "Absolute height (183.55m) is available, but vertical tie to Town Hall Datum (THD) requires MCGM DP Remarks sheet."
+      },
+      {
+        "item": "cross_section_drawing",
+        "searched_in": [
+          "Block Plan.pdf",
+          "Floor PLan.pdf",
+          "Typical Floor plan t4.pdf",
+          "typical FLoor plan.pdf"
+        ],
+        "affects_criterion": null,
+        "consequence": "Individual floor-to-floor heights are not annotated on a vertical section; derived from total sanctioned height (183.55m / 50 levels ≈ 3.67m avg)."
+      }
+    ],
+    "anomalies": [
+      {
+        "description": "Carpet Area Discrepancy between Planning Authority and MahaRERA: The architect's sanctioned floor plan (Typical Floor plan t4.pdf) calculates net room carpet area as 123.31 sq.m per flat (with enclosed balcony computed separately under deductions), whereas MahaRERA inventory filings declare 143.13 sq.m per flat including enclosed balcony and terrace.",
+        "documents_involved": [
+          "Typical Floor plan t4.pdf",
+          "imperial edge inventory dec 2021.pdf"
+        ],
+        "significance": "Reflects standard regulatory transition between MCGM DCR 1991 net carpet definitions and MahaRERA Section 2(k) carpet area rules."
+      },
+      {
+        "description": "Cadastral Survey Nomenclature: Commencement Certificate refers to C.T.S. No. 725(pt), 1/725, 8/383, while Architectural plans and Occupancy Certificate state C.S. Nos. 725(pt), 1/725(pt) & 3/725(pt) of Malabar Hill Division.",
+        "documents_involved": [
+          "revised cc.pdf",
+          "Block Plan.pdf",
+          "imperial edge oc.pdf"
+        ],
+        "significance": "Mumbai Island City uses Cadastral Survey (CS), but municipal CC templates occasionally list CTS fields interchangeably."
+      },
+      {
+        "description": "Society Name Variation: The co-operative housing societies are referred to with varying spellings across filings (e.g., Janta Hill SRA CHS Ltd. vs Janata Nagar CHS Ltd.).",
+        "documents_involved": [
+          "Block Plan.pdf",
+          "Further IOA.pdf",
+          "imperial edge oc.pdf"
+        ],
+        "significance": "Administrative typographical divergence across separate endorsement stages."
+      },
+      {
+        "description": "Wing Designation in CAD Sheet vs Statutory Approvals: Layout OCR read indicates Wing A/Opp on Block Plan sheet, whereas statutory Full OCC and SRA approvals strictly designate this building as Sale Wing B (with Rehab Wing A being the adjacent Gr+16 floor building).",
+        "documents_involved": [
+          "Block Plan_page_1",
+          "imperial edge oc.pdf",
+          "revised cc.pdf"
+        ],
+        "significance": "Clarifies multi-wing composite layout configuration on site."
+      }
+    ],
+    "something_new": [
+      {
+        "description": "Extreme Podium Parking Ratio: The building incorporates 18 podium parking floors providing 234 covered car parking bays for only 46 residential tenements (~5.08 car parking bays per apartment).",
+        "data": {
+          "podium_parking_floors": 18,
+          "parking_bays_per_floor": 13,
+          "total_parking_bays": 234,
+          "total_tenements": 46,
+          "parking_ratio": 5.087
+        }
+      },
+      {
+        "description": "Integrated Double Service Buffer & Quad Refuge Deck System: Two distinct full service floors (Floors 22 and 36/37) and 4 dedicated refuge deck floors (Floors 26, 32, 38, 44) placed every 6 floors throughout the residential stack.",
+        "data": {
+          "service_levels": [
+            "22nd",
+            "36th",
+            "37th"
+          ],
+          "refuge_levels": [
+            "26th",
+            "32nd",
+            "38th",
+            "44th"
+          ],
+          "refuge_frequency_floors": 6
+        }
+      }
+    ],
+    "plate_schedule_layout_ocr_tiers": [
+      {
+        "plate_name": "Podium Tier",
+        "storeys_named": [
+          "Podium 1"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Block Plan_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Habitable Typical Tower",
+        "storeys_named": [
+          "Typical Floors"
+        ],
+        "floor_count": null,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Block Plan_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      }
+    ]
+  }
+]

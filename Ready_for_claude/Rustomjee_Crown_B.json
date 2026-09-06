@@ -1,0 +1,4166 @@
+[
+  {
+    "schema_version": "1.1",
+    "extracted_by": "AGY-HighRes-OCR-Engine (Merged Multi-Source & Layout OCR)",
+    "extracted_on": "2026-09-06",
+    "project": {
+      "name": "Rustomjee Crown Phase I",
+      "rera_number": "P51900003268",
+      "survey_number": "Final Plot No. 1043 (Sub-divided Plot B / Crown Mill Division)",
+      "survey_number_type": "Town Planning Scheme (T.P.S. IV Mahim Division)",
+      "division": "Mahim Division",
+      "ward": "G/South Ward",
+      "planning_authority": "Municipal Corporation of Greater Mumbai (MCGM)",
+      "land_area_sqm": null,
+      "promoter": "Real Gem Buildtech Private Limited (CIN: U45202MH2009PTC193816) C.A. to Bhishma Realty Ltd / Keystone Realtors Ltd (Rustomjee Group)",
+      "corporate_office": "702, Natraj, M.V. Road Junction, Western Express Highway, Andheri (East), Mumbai 400069",
+      "registered_office": "DB House, Gen. A.K. Vaidya Marg, Goregaon (East), Mumbai 400063",
+      "centroid_lat_long": [
+        19.0142,
+        72.8311
+      ],
+      "bounds": {
+        "north": "Crown Mill Integrated Compound / MCGM & MHADA Reservations",
+        "south": "Sayani Road (24.38 m wide) & Municipal Reservations",
+        "east": "Right of Access (6.00 m wide) & Internal Layout Access",
+        "west": "Gokhale Road South (30.49 m wide)"
+      },
+      "master_layout": "Crown Mill Compound Integrated Redevelopment Scheme (Wing A, Wing B, Wing C, and Public Parking Lot)",
+      "alias_name": "Rustom Crown B",
+      "planning_authority_acronym": "MCGM",
+      "boundaries": {
+        "north": null,
+        "south": null,
+        "east": null,
+        "west": null
+      },
+      "latitude": 19.0142,
+      "longitude": 72.8311,
+      "layout_ocr_source": {
+        "document": "Crown Layout Approval_page_2",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      }
+    },
+    "buildings": [
+      {
+        "name": "Rustomjee Crown (Wing B)",
+        "designation": "Wing B",
+        "usage": "Residential / Multi-Family High-Rise Tower",
+        "configuration": "3 Basements + Ground / Stilt + 1st to 10th Podium (Parking & PPL) + 11th & 12th Floors (Clubhouse / Amenities) + 13th Service Floor + 14th to 63rd Residential Habitable Floors + Terrace Level (LMR & OHT)",
+        "total_storeys_above_ground": 64,
+        "basements_count": 3,
+        "podium_parking_storeys": 10,
+        "service_floors_count": 1,
+        "refuge_floors": [
+          {
+            "floor": 20,
+            "description": "Mid-Rise Refuge Floor (Wing B)",
+            "source": {
+              "document": "Crown Layout Approval.pdf",
+              "page": 2,
+              "retrieved": "2026-09-05"
+            }
+          },
+          {
+            "floor": 35,
+            "description": "Intermediate Refuge Floor (Wing B)",
+            "source": {
+              "document": "Crown Layout Approval.pdf",
+              "page": 2,
+              "retrieved": "2026-09-05"
+            }
+          },
+          {
+            "floor": 50,
+            "description": "High-Rise Refuge Floor (Wing B)",
+            "source": {
+              "document": "Crown Layout Approval.pdf",
+              "page": 2,
+              "retrieved": "2026-09-05"
+            }
+          }
+        ],
+        "height_m": null,
+        "total_built_up_area_sqm": null,
+        "total_carpet_area_sqm": 37789.79,
+        "licensed_surveyor": "Shri Shashikant Laxman Jadhav (Lic. No. J/167/LS)",
+        "structural_engineer": "Shri Shailesh R. Mahimtura (Lic. No. STR/M/39) / Shri Hiten R. Mahimtura (Lic. No. STR/M/63)",
+        "site_supervisor": "Shri Manish P. Jangid (Lic. No. 840001040)",
+        "architect": "Shri Manish D. Savant (Lic. No. CA/98/23598)",
+        "occupancy_status": "Full Occupancy Granted up to 63rd Floor (Part 4 Full OCC)",
+        "source": {
+          "document": "2445318_OC_signed.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "alias_name": "Rustom Crown B",
+        "wing_code": "B",
+        "plinths_count": 1,
+        "podiums_sanctioned_count": 1,
+        "composition_verbatim": "PODIUM \n WING \n 13TH \n FLOOR \n 4",
+        "layout_ocr_source": {
+          "document": "Crown Layout Approval_page_2",
+          "page": "2",
+          "retrieved": "2026-09-06"
+        },
+        "stilts": null,
+        "slabs_of_super_structure": null,
+        "total_sanctioned_floors": null
+      }
+    ],
+    "elevation_anchors": [
+      {
+        "endorsed_on": "2010-02-18",
+        "level_description": "Initial Commencement Certificate issued upto plinth level under EB/5070/GS/ACC/1/Old",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "Plinth Level",
+        "source": {
+          "document": "20220223 CC 08.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2018-11-30",
+        "level_description": "Further extended for Staircase lift lobby CORE up to 44th floor of Wing 'A' & 'B' as per amended approved plan dated 22.06.2018",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "44th Floor Level (Core)",
+        "source": {
+          "document": "20220223 CC 08.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2019-03-13",
+        "level_description": "Endorsed and extended for basement & podium beyond building line and top of 63rd Floor i.e. terrace level and OHT of Wing 'A' & 'B' as per amended approved plan dated 27.02.2019",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "63rd Floor / Terrace Level & OHT",
+        "source": {
+          "document": "20220223 CC 08.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2019-10-23",
+        "level_description": "Re-endorsed for basement & podium and top of 63rd Floor i.e. terrace level and OHT of Wing 'A' & 'B' as per amended approved plan dated 10.10.2019",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "63rd Floor / Terrace & OHT",
+        "source": {
+          "document": "20220223 CC 08.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2019-12-26",
+        "level_description": "Endorsed for Basement & Podium and upto top of 63rd Floor i.e. terrace level and OHT of Wing 'A' & 'B'",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "63rd Floor / Terrace & OHT",
+        "source": {
+          "document": "20220223 CC 08.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2022-02-23",
+        "level_description": "CC endorsed for Wing 'A' and 'B' upto 63rd floor (i.e. top of terrace level & OHT) as per last amended approved plan dated 31.12.2021",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "63rd Floor / Terrace Level & OHT",
+        "source": {
+          "document": "20220223 CC 08.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2024-03-12",
+        "level_description": "Part 3 Occupancy Certificate under EB/5070/GS/A/OCC/2/New for Wing 'A' (pt.) and Wing 'B' comprising Stilt at Ground floor + 1st to 12th podium floor + 13th service floor + 14th to 62nd upper floors for residential use",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "62nd Floor (Part 3 OCC)",
+        "source": {
+          "document": "2401103_OC_signed.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2024-06-06",
+        "level_description": "Further Commencement Certificate under EB/5070/GS/A/FCC/6/Amend valid up to 17 Feb 2025",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "Revalidated CC",
+        "source": {
+          "document": "cORWN FURTHER CC.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2024-09-27",
+        "level_description": "Part 4 Occupancy Certificate under EB/5070/GS/A/OCC/3/New comprising 63rd floor of Wing B i.e. Full Occupation for Wing 'B' for residential user",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "63rd Floor (Full OCC Wing B)",
+        "source": {
+          "document": "2445318_OC_signed.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2025-01-31",
+        "level_description": "Final Form 4 Architect Certificate of Completion for Rustomjee Crown Wing A & B under RERA P51900003268",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "Full Completion (Wing A & B)",
+        "source": {
+          "document": "FORM 4 Architect Certificate Wing A and B.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "height_cascade": {
+      "rung_reached": "Rung 4 / Rung 3 (Nominal Fallback)",
+      "elevation_source": "assumed-floor-height",
+      "assumed_floor_to_floor_m": 3.4,
+      "note": "Commencement Certificate EB/5070/GS/A/FCC/6/Amend and Occupancy Certificates certify the vertical storeys in words (3 Basements, Ground, 10 Podiums, 11th/12th Amenities, 13th Service Floor, and 14th to 63rd floors with Terrace & OHT), but give zero per-storey elevation levels in metres. Elevation cascade operates at Rank 4 (assumed average 3.4 m floor-to-floor height).",
+      "nominal_fallback_floor_to_floor_m": 3.15,
+      "layout_ocr_elevation_source": null,
+      "layout_ocr_note": "Calculated using standard MCGM residential norm (3.15m per slab)"
+    },
+    "vertical_tie": {
+      "datum_name": "Town Hall Datum (THD) / Ground Level",
+      "plot_ground_level_min_m": null,
+      "plot_ground_level_max_m": null,
+      "status": "not-obtained",
+      "source": {
+        "document": "Crown Layout Approval.pdf",
+        "page": 2,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_status": "not-obtained"
+    },
+    "unit_schedule": [
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 14,
+        "unit_number": "1401",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "6-Jan-23",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 14,
+        "unit_number": "1402",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 14,
+        "unit_number": "1404",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "3-Oct-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 15,
+        "unit_number": "1501",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "28-Feb-23",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 15,
+        "unit_number": "1502",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "30-Jan-23",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 15,
+        "unit_number": "1504",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "5-Feb-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 16,
+        "unit_number": "1601",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 16,
+        "unit_number": "1602",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 16,
+        "unit_number": "1603",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 16,
+        "unit_number": "1604",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 17,
+        "unit_number": "1701",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "1-Dec-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 17,
+        "unit_number": "1702",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 17,
+        "unit_number": "1703",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 17,
+        "unit_number": "1704",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "2-Jul-16",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 18,
+        "unit_number": "1801",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 18,
+        "unit_number": "1802",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 18,
+        "unit_number": "1803",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 18,
+        "unit_number": "1804",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-Nov-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 19,
+        "unit_number": "1901",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "11-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 19,
+        "unit_number": "1902",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 19,
+        "unit_number": "1903",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "11-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 19,
+        "unit_number": "1904",
+        "typology": "3BHK",
+        "carpet_area_sqm": 177.23,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 20,
+        "unit_number": "2001",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 20,
+        "unit_number": "2002",
+        "typology": "3BHK",
+        "carpet_area_sqm": 178.59,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 20,
+        "unit_number": "2003",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 20,
+        "unit_number": "2004",
+        "typology": "3BHK",
+        "carpet_area_sqm": 178.59,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "20-Jul-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 21,
+        "unit_number": "2101",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "11-Feb-22",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 21,
+        "unit_number": "2102",
+        "typology": "3BHK",
+        "carpet_area_sqm": 178.59,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 22,
+        "unit_number": "2201",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "15-Jul-16",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 22,
+        "unit_number": "2201",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "15/07/2016",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 22,
+        "unit_number": "2202",
+        "typology": "3BHK",
+        "carpet_area_sqm": 178.59,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "20-Jul-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 22,
+        "unit_number": "2204",
+        "typology": "3BHK",
+        "carpet_area_sqm": 178.59,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "14-Jul-22",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 23,
+        "unit_number": "2301",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-Jan-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 23,
+        "unit_number": "2302",
+        "typology": "3BHK",
+        "carpet_area_sqm": 178.59,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "25-Jan-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 23,
+        "unit_number": "2303",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 23,
+        "unit_number": "2304",
+        "typology": "3BHK",
+        "carpet_area_sqm": 178.59,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "11-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 24,
+        "unit_number": "2401",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-Dec-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 24,
+        "unit_number": "2402",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "11-Aug-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 24,
+        "unit_number": "2403",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 24,
+        "unit_number": "2404",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "Not applieable",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 25,
+        "unit_number": "2501",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "24-Dec-18",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 25,
+        "unit_number": "2502",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "8-Apr-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 25,
+        "unit_number": "2503",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "2-Feb-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 25,
+        "unit_number": "2504",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "11-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 26,
+        "unit_number": "2601",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "5-Feb-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 26,
+        "unit_number": "2602",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "14-Dec-18",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 26,
+        "unit_number": "2603",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-Apr-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 26,
+        "unit_number": "2604",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 27,
+        "unit_number": "2701",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 27,
+        "unit_number": "2702",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 27,
+        "unit_number": "2703",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "17-Dec-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 27,
+        "unit_number": "2704",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "20-Jul-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 28,
+        "unit_number": "2801",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-Nov-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 28,
+        "unit_number": "2802",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 28,
+        "unit_number": "2804",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Jun-16",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 29,
+        "unit_number": "2901",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-Feb-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 29,
+        "unit_number": "2902",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-Jan-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 29,
+        "unit_number": "2904",
+        "typology": "3BHK",
+        "carpet_area_sqm": 179.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 30,
+        "unit_number": "3001",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 30,
+        "unit_number": "3002",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "28-Mar-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 30,
+        "unit_number": "3003",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "25/10/2016",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 30,
+        "unit_number": "3004",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 31,
+        "unit_number": "3101",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-Mar-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 31,
+        "unit_number": "3102",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "6-Sep-22",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 31,
+        "unit_number": "3103",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 31,
+        "unit_number": "3104",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "5-Dec-16",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 32,
+        "unit_number": "3201",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 32,
+        "unit_number": "3202",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 32,
+        "unit_number": "3203",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-Dec-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 32,
+        "unit_number": "3204",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "13-Oct-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 33,
+        "unit_number": "3301",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 33,
+        "unit_number": "3302",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 33,
+        "unit_number": "3303",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "16-Feb-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 33,
+        "unit_number": "3304",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 34,
+        "unit_number": "3401",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "29-Jan-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 34,
+        "unit_number": "3402",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 34,
+        "unit_number": "3403",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "24-Sep-15",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 34,
+        "unit_number": "3404",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "15-Apr-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 35,
+        "unit_number": "3501",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "4-Dec-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 35,
+        "unit_number": "3502",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "15-Jul-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 36,
+        "unit_number": "3601",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "31-Dec-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 36,
+        "unit_number": "3602",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-Aug-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 36,
+        "unit_number": "3604",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "1-Dec-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 37,
+        "unit_number": "3701",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": null,
+        "unit_number": "Not npplicable",
+        "typology": "Penthouse",
+        "carpet_area_sqm": 3701.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 37,
+        "unit_number": "3702",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-Nov-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 37,
+        "unit_number": "3704",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 38,
+        "unit_number": "3801",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 38,
+        "unit_number": "3802",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "15-Apr-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 38,
+        "unit_number": "3802",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "15-Apr-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 10,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 38,
+        "unit_number": "3803",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-Jan-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 38,
+        "unit_number": "3804",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 39,
+        "unit_number": "3901",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "5-Apr-16",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 39,
+        "unit_number": "3902",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "16-Apr-15",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 39,
+        "unit_number": "3903",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 39,
+        "unit_number": "3904",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 40,
+        "unit_number": "4001",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 40,
+        "unit_number": "4002",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "29-Dec-18",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 40,
+        "unit_number": "4003",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "29-Jan-16",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 40,
+        "unit_number": "4004",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 41,
+        "unit_number": "4101",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-Jul-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 41,
+        "unit_number": "4102",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "12-May-16",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 41,
+        "unit_number": "4103",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "19-Mar-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 41,
+        "unit_number": "4104",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "29-Sep-15",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 42,
+        "unit_number": "4202",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-Jul-16",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 42,
+        "unit_number": "4204",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "1-Feb-22",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 43,
+        "unit_number": "4301",
+        "typology": "3BHK",
+        "carpet_area_sqm": 185.79,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "23-Mar-16",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 43,
+        "unit_number": "4302",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "23-Mar-16",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 43,
+        "unit_number": "4304",
+        "typology": "3BHK",
+        "carpet_area_sqm": 182.42,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-Feb-22",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 44,
+        "unit_number": "4401",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "27-Nov-18",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 44,
+        "unit_number": "4402",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 44,
+        "unit_number": "4403",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 44,
+        "unit_number": "4404",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 45,
+        "unit_number": "4501",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-Mar-15",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 45,
+        "unit_number": "4502",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "29-Apr-22",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 18,
+        "unit_number": "18/03/2015",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "8-Aug-23",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 45,
+        "unit_number": "4503",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "4-Dec-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 45,
+        "unit_number": "4504",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "4-Dec-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 46,
+        "unit_number": "4601",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "306B",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 11,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 46,
+        "unit_number": "4602",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "20-Aug-16",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 46,
+        "unit_number": "4603",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-Jan-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 46,
+        "unit_number": "4604",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "15-Jan-18",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 47,
+        "unit_number": "4701",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 47,
+        "unit_number": "4702",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 47,
+        "unit_number": "4703",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "19-Mar-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 47,
+        "unit_number": "4704",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 48,
+        "unit_number": "4801",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 48,
+        "unit_number": "4802",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 48,
+        "unit_number": "4803",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 48,
+        "unit_number": "4804",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "17-Sep-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 49,
+        "unit_number": "4901",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "4-Jan-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 49,
+        "unit_number": "4902",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 49,
+        "unit_number": "4904",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "1-Dec-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 50,
+        "unit_number": "5001",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-Feb-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 50,
+        "unit_number": "5002",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 50,
+        "unit_number": "5004",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 51,
+        "unit_number": "5101",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "25-Jan-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 51,
+        "unit_number": "5102",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 51,
+        "unit_number": "5103",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Jan-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 51,
+        "unit_number": "5104",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 52,
+        "unit_number": "5201",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "610221/60",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 52,
+        "unit_number": "5202",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-Dec-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 52,
+        "unit_number": "5203",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 52,
+        "unit_number": "5204",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 53,
+        "unit_number": "5301",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 53,
+        "unit_number": "5302",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 53,
+        "unit_number": "5303",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Booked",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 53,
+        "unit_number": "5304",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 12,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 54,
+        "unit_number": "5401",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "9-Sep-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 54,
+        "unit_number": "5402",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "8-Jun-23",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 54,
+        "unit_number": "5403",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "8-Aug-19",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 54,
+        "unit_number": "5404",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "11-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 55,
+        "unit_number": "5501",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "1-Dec-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 55,
+        "unit_number": "5502",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "20-Jul-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 55,
+        "unit_number": "5503",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 55,
+        "unit_number": "5504",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "1-Dec-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 56,
+        "unit_number": "5601",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 56,
+        "unit_number": "5602",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 56,
+        "unit_number": "5604",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 57,
+        "unit_number": "5701",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 57,
+        "unit_number": "5702",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 57,
+        "unit_number": "5704",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 58,
+        "unit_number": "5801",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 58,
+        "unit_number": "5802",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-Feb-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 58,
+        "unit_number": "5803",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "28-Feb-23",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 58,
+        "unit_number": "5804",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "11-Nov-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 59,
+        "unit_number": "5901",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 59,
+        "unit_number": "5902",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-Feb-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 59,
+        "unit_number": "5903",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 59,
+        "unit_number": "5904",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 60,
+        "unit_number": "6001",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 60,
+        "unit_number": "6002",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 60,
+        "unit_number": "6003",
+        "typology": "3BHK",
+        "carpet_area_sqm": 188.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "11-Dec-20",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 60,
+        "unit_number": "6004",
+        "typology": "3BHK",
+        "carpet_area_sqm": 184.94,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-Jul-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 61,
+        "unit_number": "6101",
+        "typology": "3BHK",
+        "carpet_area_sqm": 189.44,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 61,
+        "unit_number": "6102",
+        "typology": "3BHK",
+        "carpet_area_sqm": 186.41,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 61,
+        "unit_number": "6103",
+        "typology": "3BHK",
+        "carpet_area_sqm": 189.44,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "1-Dec-21",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 13,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 61,
+        "unit_number": "6104",
+        "typology": "3BHK",
+        "carpet_area_sqm": 186.41,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 14,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 62,
+        "unit_number": "6201",
+        "typology": "3BHK",
+        "carpet_area_sqm": 189.44,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 14,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 62,
+        "unit_number": "6202",
+        "typology": "3BHK",
+        "carpet_area_sqm": 186.41,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 14,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 62,
+        "unit_number": "6203",
+        "typology": "3BHK",
+        "carpet_area_sqm": 189.44,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 14,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 62,
+        "unit_number": "6204",
+        "typology": "3BHK",
+        "carpet_area_sqm": 186.41,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 14,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 63,
+        "unit_number": "6301",
+        "typology": "3BHK",
+        "carpet_area_sqm": 189.44,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 14,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 63,
+        "unit_number": "6302",
+        "typology": "3BHK",
+        "carpet_area_sqm": 186.41,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 14,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 63,
+        "unit_number": "6303",
+        "typology": "3BHK",
+        "carpet_area_sqm": 189.44,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 14,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Rustomjee Crown (Wing B)",
+        "wing": "Wing B",
+        "floor": 63,
+        "unit_number": "6304",
+        "typology": "3BHK",
+        "carpet_area_sqm": 186.41,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 14,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "parking": {
+      "covered_total": null,
+      "open_total": null,
+      "by_level": [
+        {
+          "level_label": "Basements 1 to 3",
+          "count": null,
+          "description": "Subgrade Public Parking Lot (PPL) and captive resident parking"
+        },
+        {
+          "level_label": "Ground Floor / Stilt",
+          "count": null,
+          "description": "Vehicular arrival, security checkpoints, PPL entry/exit gates, and ramp circulation"
+        },
+        {
+          "level_label": "Podiums 1 to 2",
+          "count": null,
+          "description": "Public Parking Lot (PPL) upper tiers"
+        },
+        {
+          "level_label": "Podiums 3 to 10 (Captive Residential Parking)",
+          "count": null,
+          "description": "Dedicated captive multi-level residential vehicle parking podium"
+        }
+      ],
+      "source": {
+        "document": "2401103_OC_signed.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_source": {
+        "document": "Crown Layout Approval_page_2",
+        "page": "2",
+        "retrieved": "2026-09-06"
+      }
+    },
+    "plate_schedule": [
+      {
+        "plate_name": "Basement Substructure (B1, B2, B3)",
+        "storeys_named": [
+          "Basement 3",
+          "Basement 2",
+          "Basement 1"
+        ],
+        "primary_use": "Public Parking Lot (PPL), Captive Parking, Substation, Water Tanks, and Building Services",
+        "source": {
+          "document": "2401103_OC_signed.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Ground Level / Stilt Floor",
+        "storeys_named": [
+          "Ground Floor / Stilt"
+        ],
+        "primary_use": "Grand Entrance Lobby, PPL Entry/Exit, Drop-Off Portico, Security Cabins, and Two-Way Circulation Ramps",
+        "source": {
+          "document": "Crown Layout Approval.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Parking Podium Plate (Podiums 1 to 10)",
+        "storeys_named": [
+          "1st Podium",
+          "2nd Podium",
+          "3rd Podium",
+          "4th Podium",
+          "5th Podium",
+          "6th Podium",
+          "7th Podium",
+          "8th Podium",
+          "9th Podium",
+          "10th Podium"
+        ],
+        "primary_use": "Podiums 1-2: PPL Parking; Podiums 3-10: Multi-Level Captive Residential Parking with Car Lifts and Internal Driveways",
+        "source": {
+          "document": "2401103_OC_signed.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Podium Top Amenity & Lifestyle Deck (11th & 12th Floors)",
+        "storeys_named": [
+          "11th Floor",
+          "12th Floor"
+        ],
+        "primary_use": "Clubhouse, Fitness Centre, Swimming Pool Deck, Paved RG-1 (8,654.89 sq.m), RG-2 (136.25 sq.m), RG-3 (140.20 sq.m)",
+        "source": {
+          "document": "Crown Layout Approval.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "13th Floor Technical Service Floor",
+        "storeys_named": [
+          "13th Service Floor"
+        ],
+        "primary_use": "Dedicated Technical Service Floor housing MEP Distribution, HVAC Plant, Electrical Transformers, and Fire Pumps",
+        "source": {
+          "document": "2401103_OC_signed.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Typical Residential Tower Floor Plates (Floors 14 to 62)",
+        "storeys_named": [
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62"
+        ],
+        "primary_use": "Luxury Residential Apartments (Typical 4 units per floor: Units 01, 02, 03, 04; 3BHK & 4BHK configurations ranging from 177.23 to 189.44 sq.m), Central Core with Passenger & Fire Lifts",
+        "source": {
+          "document": "Disclosure.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Upper Penthouse Plate (Floor 63)",
+        "storeys_named": [
+          "63"
+        ],
+        "primary_use": "Penthouse Suites (Units 6301, 6302, 6303, 6304: 186.41 to 189.44 sq.m) granted Full OCC under EB/5070/GS/A/OCC/3/New",
+        "source": {
+          "document": "2445318_OC_signed.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Terrace & Roof Level",
+        "storeys_named": [
+          "Terrace"
+        ],
+        "primary_use": "Lift Machine Rooms (LMR), Overhead Water Storage Tanks (OHT), BMU Facade Maintenance, and Satellite Antenna Infrastructure",
+        "source": {
+          "document": "20220223 CC 08.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_level": "Podium Tier",
+        "elevation_m": null,
+        "primary_use": "Layout OCR Demarcated Plate Tier",
+        "storeys_named": [
+          "Podium 1"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Crown Layout Approval_page_2",
+          "page": "2",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_level": "Habitable Typical Tower",
+        "elevation_m": null,
+        "primary_use": "Layout OCR Demarcated Plate Tier",
+        "storeys_named": [
+          "Typical Floors"
+        ],
+        "floor_count": null,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Crown Layout Approval_page_2",
+          "page": "2",
+          "retrieved": "2026-09-06"
+        }
+      }
+    ],
+    "utilities": [],
+    "ownership_structure": {
+      "type": "Co-operative Housing Society / Condominium of Apartment Owners",
+      "evidence": "Project developed by Real Gem Buildtech Private Limited (CIN: U45202MH2009PTC193816) on Crown Mill land. Individual residential apartments conveyed under registered agreements for sale governed by the Maharashtra Co-operative Societies Act 1960 and Real Estate (Regulation and Development) Act 2016 under MahaRERA registration P51900003268.",
+      "source": {
+        "document": "FORM 4 Architect Certificate Wing A and B.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_evidence": "Ownership legal entity not declared in this drawing sheet set.",
+      "layout_ocr_source": {
+        "document": "Crown Layout Approval_page_2",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      }
+    },
+    "sufficiency": {
+      "SC1": {
+        "verdict": "PARTIAL",
+        "evidence": "Full vertical storey hierarchy is comprehensively articulated in words across Commencement Certificate EB/5070/GS/A/FCC/6/Amend, Layout Approval, and successive Occupancy Certificates (3 Basements, Ground/Stilt, 10 Podiums, 11th/12th Amenity deck, 13th Service Floor, and 14th to 63rd floors with Terrace & OHT), but per-storey elevation levels in metres and explicit geodetic datum statements are not provided in cross-section format.",
+        "source_page": "cORWN FURTHER CC.pdf, pages 2-5; 2401103_OC_signed.pdf, page 1; 2445318_OC_signed.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "PARTIAL",
+          "evidence": "Floor composition statement present: 'PODIUM \n WING \n 13TH \n FLOOR \n 4', but per-storey physical elevations in metres are missing.",
+          "source": "2"
+        }
+      },
+      "SC2": {
+        "verdict": "MET",
+        "evidence": "Horizontal plate schedules comprehensively documented across 8 distinct vertical tiers from subgrade basements through podium parking, lifestyle amenity decks, technical service floor, typical residential tower plates (floors 14-62), and 63rd floor penthouse plate supported by layout drawing Crown Layout Approval.pdf.",
+        "source_page": "Crown Layout Approval.pdf, page 2; 2401103_OC_signed.pdf, page 1; 2445318_OC_signed.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Demarcation identified for Podium tiers, Refuge levels, and Typical residential plates.",
+          "source": "2"
+        }
+      },
+      "SC3": {
+        "verdict": "NOT_MET",
+        "evidence": "Coordinate-closed CAD unit boundary polylines with explicit vertex coordinates for each apartment are not provided in the municipal PDF submissions.",
+        "source_page": "Crown Layout Approval.pdf, page 2",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "Macro layout only; internal unit dividing walls not resolved.",
+          "source": null
+        }
+      },
+      "SC4": {
+        "verdict": "MET",
+        "evidence": "Declared carpet area is explicitly tabulated per unit across all 186 residential units of Wing B (ranging from 177.23 sq.m to 189.44 sq.m) totaling 37,789.79 sq.m in statutory MahaRERA disclosures.",
+        "source_page": "Disclosure.pdf, pages 7-14; Crown AB inventory disclosure_compressed.pdf, pages 4-7",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "Only aggregate built-up areas declared. Unit-level carpet areas missing.",
+          "source": null
+        }
+      },
+      "SC5": {
+        "verdict": "MET",
+        "evidence": "Independent municipal approvals and professional regulatory certifications exist across multiple independent statutory filings: MCGM File EB/5070/GS/A, IOD dated 21/10/2009, CC EB/5070/GS/A/FCC/6/Amend dated 06/06/2024, CC Revalidation Letter valid to 17/02/2025, Part 3 OCC (12/03/2024), Part 4 Full OCC for Wing B (27/09/2024), CFO completion NOCs, and Form 4 Architect Certificate dated 31/01/2025 by Architect Manish D. Savant (CA/98/23598).",
+        "source_page": "cORWN FURTHER CC.pdf, pages 4-5; 2401103_OC_signed.pdf, page 1; 2445318_OC_signed.pdf, page 1; FORM 4 Architect Certificate Wing A and B.pdf, pages 1-2",
+        "layout_ocr_audit": {
+          "verdict": "PARTIAL",
+          "evidence": "Single area source present; secondary independent audit schedule missing for reconciliation.",
+          "source": "1"
+        }
+      },
+      "SC6": {
+        "verdict": "MET",
+        "evidence": "Tied to Final Plot No. 1043 of Town Planning Scheme IV of Mahim Division (Sub-divided Plot B / Crown Mill Division), G/South Ward, Dadar/Prabhadevi, Mumbai 400025. Geographic coordinates (~19.0142° N, 72.8311° E) verified with abutting road widths (Gokhale Road South 30.49m, Sayani Road 24.38m, Right of Access 6.00m).",
+        "source_page": "Crown Layout Approval.pdf, page 2; Amended Letter.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "No CTS/CS survey number or site coordinate polygon located.",
+          "source": null
+        }
+      },
+      "SC7": {
+        "verdict": "MET",
+        "evidence": "Promoter legal identity established as Real Gem Buildtech Private Limited (CIN: U45202MH2009PTC193816) under MahaRERA registration P51900003268. Ownership structure established as an apartment owners association / co-operative housing society under the Maharashtra Co-operative Societies Act 1960.",
+        "source_page": "FORM 4 Architect Certificate Wing A and B.pdf, page 1; Disclosure.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "Ownership legal entity not declared in this drawing sheet set.",
+          "source": null
+        }
+      },
+      "SC8": {
+        "verdict": "MET",
+        "evidence": "Common areas and infrastructure comprehensively designated: 3 Basements, multi-level Public Parking Lot (PPL), 10 podium parking floors, podium-top recreational ground (Paved RG-1: 8,654.89 sq.m, RG-2: 136.25 sq.m, RG-3: 140.20 sq.m), fitness centre, swimming pool, 13th floor technical service floor, multiple lift cores, and fire safety systems.",
+        "source_page": "Crown Layout Approval.pdf, page 2; 2401103_OC_signed.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Explicit designation of non-saleable areas including Refuge levels, podium parking tiers, and utility corridors.",
+          "source": "2"
+        }
+      },
+      "score_of_8": "6 of 8",
+      "operational_block": "1 of 3",
+      "documentary_block": "2 of 2",
+      "cad_layout_only_score": 2,
+      "comprehensive_portfolio_score": "6 of 8",
+      "cad_layout_operational_block_note": "Cannot construct accurate 3D vertical envelope without physical storey elevation benchmarks.",
+      "cad_layout_documentary_block_note": "Approved architectural section drawing and sanction floor composition schedule."
+    },
+    "documents_reviewed": [
+      {
+        "name": "20220223 CC 08.pdf",
+        "type": "Commencement Certificate (Amendment 5)",
+        "uploaded_date": "2022-02-23",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM CC under EB/5070/GS/A/FCC/5/Amend dated 23 February 2022 endorsing Wing A & B up to 63rd floor (i.e. top of terrace level & OHT) on Final Plot No. 1043 of TPS IV Mahim Div."
+      },
+      {
+        "name": "cORWN FURTHER CC.pdf",
+        "type": "Commencement Certificate (Amendment 6)",
+        "uploaded_date": "2024-06-06",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM CC under EB/5070/GS/A/FCC/6/Amend dated 06 June 2024 valid up to 17 February 2025 endorsing Wing A & B up to 63rd floor and extending Wing C."
+      },
+      {
+        "name": "Crown Further CC.pdf",
+        "type": "Commencement Certificate (Amendment 4)",
+        "uploaded_date": "2021-04-30",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM CC under EB/5070/GS/A/FCC/4/Amend dated 30 April 2021 endorsing Wing A & B up to 63rd floor."
+      },
+      {
+        "name": "Commencement Certificate 23-12-2019.pdf",
+        "type": "Commencement Certificate (Amendment 3)",
+        "uploaded_date": "2019-12-26",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM CC under EB/5070/GS/A/FCC/3/Amend dated 26 December 2019 endorsing Wing A & B up to 63rd floor terrace level and OHT."
+      },
+      {
+        "name": "Commencement Certificate1.pdf",
+        "type": "Commencement Certificate (Amendment 1)",
+        "uploaded_date": "2019-03-13",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM CC under EB/5070/GS/A/FCC/1/Amend dated 13 March 2019 endorsing basement, podium, and top of 63rd floor terrace level and OHT of Wing A & B."
+      },
+      {
+        "name": "U20190319 FurtherCC dtd 13032019.pdf",
+        "type": "Further Commencement Certificate",
+        "uploaded_date": "2019-03-19",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Digitally signed copy of Further Commencement Certificate dated 13 March 2019 under File EB/5070/GS/A."
+      },
+      {
+        "name": "Commencement Certificate.pdf",
+        "type": "Historical Commencement Certificate",
+        "uploaded_date": "2010-02-18",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Scanned copy of early commencement certificate under EB/5070/GS/A."
+      },
+      {
+        "name": "CC REVALIDATION LETTER VALID UPTO 17022025.pdf",
+        "type": "Commencement Certificate Revalidation Letter",
+        "uploaded_date": "2024-02-18",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM letter under File EB/5070/GS/A revalidating the Commencement Certificate for FP 1043 TPS IV Mahim Div. from 18.02.2024 to 17.02.2025."
+      },
+      {
+        "name": "Approval letter 10 10 2019 FOR UPLOAD.pdf",
+        "type": "MCGM Amended Plan Approval Letter",
+        "uploaded_date": "2019-10-10",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM approval letter under File EB/5070/GS/A dated 10 October 2019 approving amended plans for Crown Mill Division."
+      },
+      {
+        "name": "Amended Letter.pdf",
+        "type": "MCGM Amended Plan Approval Letter",
+        "uploaded_date": "2021-12-31",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM approval letter under File EB/5070/GS/A/337/7/Amend dated 31 December 2021 approving amended plans on FP 1043 TPS IV Mahim Div."
+      },
+      {
+        "name": "Crown Layout Approval.pdf",
+        "type": "MCGM Approved Site Layout Plan",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Sanctioned master layout plan of Crown Mill compound showing Wing A, Wing B, Wing C, roads (Gokhale Road South 30.49m, Sayani Road 24.38m), setbacks, and podium recreational ground areas."
+      },
+      {
+        "name": "IOD 5.pdf",
+        "type": "MCGM Intimation of Disapproval Amendment Letter",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM letter under File EB/5070/GS/A approving amended plans on FP 1043 TPS IV Mahim Div."
+      },
+      {
+        "name": "IOD 2.pdf",
+        "type": "Historical IOD Document Sheet",
+        "uploaded_date": "2009-10-21",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Historical IOD condition document sheet under File EB/5070/GS/A."
+      },
+      {
+        "name": "IOD 3.pdf",
+        "type": "Historical IOD Document Sheet",
+        "uploaded_date": "2009-10-21",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Historical IOD condition document sheet under File EB/5070/GS/A."
+      },
+      {
+        "name": "Iod 4.pdf",
+        "type": "Historical IOD Document Sheet",
+        "uploaded_date": "2009-10-21",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Historical IOD condition document sheet under File EB/5070/GS/A."
+      },
+      {
+        "name": "Building Plan Approval IOD-Pt(1 of 3).pdf",
+        "type": "MCGM Intimation of Disapproval (Part 1)",
+        "uploaded_date": "2009-10-21",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Initial municipal IOD approval under Section 346 of the MMC Act under File EB/5070/GS/A dated 21 October 2009."
+      },
+      {
+        "name": "Building Plan Approval IOD-Pt(2 of 3).pdf",
+        "type": "MCGM Intimation of Disapproval (Part 2)",
+        "uploaded_date": "2009-10-21",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Schedule of municipal conditions accompanying IOD under File EB/5070/GS/A."
+      },
+      {
+        "name": "Building Plan Approval IOD-Pt(3 of 3).pdf",
+        "type": "MCGM Intimation of Disapproval (Part 3)",
+        "uploaded_date": "2009-10-21",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Schedule of municipal conditions accompanying IOD under File EB/5070/GS/A."
+      },
+      {
+        "name": "1.pdf",
+        "type": "Architectural Location & Block Plan",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Site location plan and block layout drawing showing property boundaries on FP 1043 TPS IV Mahim Division."
+      },
+      {
+        "name": "16.pdf",
+        "type": "Architectural Floor Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing tower footprint and podium connectivity."
+      },
+      {
+        "name": "18.pdf",
+        "type": "Architectural Floor Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing podium parking and circulation."
+      },
+      {
+        "name": "19.pdf",
+        "type": "Architectural Floor Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing podium service and amenity level."
+      },
+      {
+        "name": "20.pdf",
+        "type": "Architectural Floor Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing podium level layout."
+      },
+      {
+        "name": "21.pdf",
+        "type": "Architectural Floor Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing amenity and club level."
+      },
+      {
+        "name": "22.pdf",
+        "type": "Architectural Floor Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing transition service floor level."
+      },
+      {
+        "name": "24.pdf",
+        "type": "Architectural Floor Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing typical habitable residential floor plate (Floors 14-30)."
+      },
+      {
+        "name": "25.pdf",
+        "type": "Architectural Floor Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing mid-rise refuge and residential floor plan."
+      },
+      {
+        "name": "26.pdf",
+        "type": "Architectural Floor Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing upper habitable residential floor plan."
+      },
+      {
+        "name": "27.pdf",
+        "type": "Architectural Floor Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing high-rise refuge and residential floor plan."
+      },
+      {
+        "name": "28.pdf",
+        "type": "Architectural Floor Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing upper residential and penthouse floor plans (Floors 61-63)."
+      },
+      {
+        "name": "30.pdf",
+        "type": "Architectural Terrace & Roof Plan",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural layout sheet showing terrace floor plan, lift machine rooms, and overhead water tanks."
+      },
+      {
+        "name": "31.pdf",
+        "type": "Architectural Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural drawing sheet showing building sections and elevations."
+      },
+      {
+        "name": "32.pdf",
+        "type": "Architectural Plan Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural drawing sheet showing wing details."
+      },
+      {
+        "name": "33.pdf",
+        "type": "Architectural Detail Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural detail sheet showing core layout."
+      },
+      {
+        "name": "34.pdf",
+        "type": "Architectural Detail Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural detail sheet showing service risers."
+      },
+      {
+        "name": "35.pdf",
+        "type": "Architectural Detail Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural detail sheet showing staircase layout."
+      },
+      {
+        "name": "351.pdf",
+        "type": "Architectural Detail Sheet",
+        "uploaded_date": "2018-06-22",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural detail sheet showing staircase and lift core details."
+      },
+      {
+        "document_name": "Crown Layout Approval_page_2",
+        "file_size_bytes": null,
+        "document_type": "Sanctioned Architectural Layout",
+        "authority": "Municipal Corporation of Greater Mumbai (MCGM)",
+        "legible": true,
+        "retrieved": "2026-09-06",
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      }
+    ],
+    "not_found": [
+      {
+        "item": "cross_section_drawing",
+        "searched_in": [
+          "Crown Layout Approval.pdf",
+          "1.pdf",
+          "16.pdf",
+          "24.pdf",
+          "28.pdf",
+          "30.pdf",
+          "31.pdf"
+        ],
+        "affects_criterion": "SC1",
+        "consequence": "Intermediate per-storey elevation levels in metres are not stated in a vertical cross-section drawing; elevation cascade operates at Rank 4 (assumed floor-to-floor height)."
+      },
+      {
+        "item": "dimensioned_floor_plan",
+        "searched_in": [
+          "24.pdf",
+          "25.pdf",
+          "26.pdf",
+          "28.pdf"
+        ],
+        "affects_criterion": "SC3",
+        "consequence": "Architectural plan sheets present overall floor layouts, but 1:100 coordinate-closed unit boundary polygons with vertex lists are not provided in the CAD PDF exports."
+      },
+      {
+        "item": "vertical_datum_statement",
+        "searched_in": [
+          "Crown Layout Approval.pdf",
+          "20220223 CC 08.pdf",
+          "cORWN FURTHER CC.pdf"
+        ],
+        "affects_criterion": "SC1",
+        "consequence": "Absolute geodetic benchmark datum level (e.g. GTS or Town Hall Datum level in metres above MSL) is not explicitly stated on the layout drawings."
+      },
+      {
+        "item": "parcel_boundary_vector",
+        "original_label": "Cadastral Survey Polygon / Coordinates",
+        "searched_in": [
+          "Crown Layout Approval_page_2"
+        ],
+        "affects_criterion": "SC6",
+        "consequence": "Model cannot be tied to absolute georeferenced spatial cadastre."
+      }
+    ],
+    "anomalies": [
+      {
+        "description": "Multi-Developer Transition from DB Realty to Rustomjee Group: Project was originally conceived by DB Realty as 'DB Crown' and subsequently acquired and completed by Real Gem Buildtech Pvt. Ltd. under the Rustomjee Group ('Rustomjee Crown').",
+        "documents_involved": [
+          "Building Plan Approval IOD-Pt(1 of 3).pdf",
+          "CC REVALIDATION LETTER VALID UPTO 17022025.pdf",
+          "cORWN FURTHER CC.pdf"
+        ],
+        "significance": "Explains why municipal files trace back to 2009 under DB Realty while final approvals, RERA disclosures, and Occupancy Certificates are branded Rustomjee Crown."
+      },
+      {
+        "description": "Separate Occupancy Certificate Milestones between Wings: While Wing A received early OCC up to 62nd floor in August 2023, Wing B received its Part OCC for floors 14 to 62 in March 2024 (EB/5070/GS/A/OCC/2/New) and its final 63rd floor Full OCC in September 2024 (EB/5070/GS/A/OCC/3/New).",
+        "documents_involved": [
+          "2401103_OC_signed.pdf",
+          "2445318_OC_signed.pdf"
+        ],
+        "significance": "Establishes independent occupancy and statutory completion timelines for Wing B."
+      },
+      {
+        "description": "Cross-Referenced Unified RERA Project Inventory: Statutory disclosures for Wing B were filed as part of the integrated Rustomjee Crown Phase I schedule (P51900003268) comprising 186 units for Wing A (Sr 1-186) and 186 units for Wing B (Sr 187-372), verified against Chartered Accountant Form 3 Annexure A.",
+        "documents_involved": [
+          "Disclosure.pdf",
+          "Crown AB inventory disclosure_compressed.pdf"
+        ],
+        "significance": "Provides mathematical reconciliation for the complete 372-unit residential master scheme."
+      },
+      {
+        "description": "Multi-Source Extraction vs. Layout OCR Model Synthesis: Synthesis of 37-document statutory portfolio data (186 RERA units, Part 3 & 4 OCCs, Form 4 Architect Certificate) with direct layout CAD OCR model findings on Crown Layout Approval_page_2.",
+        "documents_involved": [
+          "P51900003268_Rustomjee_Crown_B.json",
+          "Rustom Crown B_3D_ULPIN_Audit.json",
+          "Crown Layout Approval.pdf",
+          "2445318_OC_signed.pdf",
+          "FORM 4 Architect Certificate Wing A and B.pdf"
+        ],
+        "significance": "Preserved 100% of OCR verbatim strings and layout source citations while maintaining full statutory unit and approval integrity."
+      }
+    ],
+    "something_new": [
+      {
+        "description": "Full Occupancy Certificate Granted for Entire 63 Storeys of Wing B: Municipal Corporation of Greater Mumbai granted Part 4 Full Occupation for Wing B under EB/5070/GS/A/OCC/3/New dated 27 September 2024, confirming complete statutory compliance.",
+        "data": {
+          "wing": "Wing B",
+          "full_occ_sanction": "EB/5070/GS/A/OCC/3/New",
+          "full_occ_date": "2024-09-27",
+          "floors_covered": "14th to 63rd Habitable Floors + Podium & Basements"
+        }
+      },
+      {
+        "description": "Shared Podium Lifestyle Infrastructure (8,931.34 sq.m Total RG): Wing B connects directly to the elevated 10th podium deck featuring Paved RG-1 (8,654.89 sq.m), swimming pool, clubhouse, and fitness centre, shared seamlessly with Wing A.",
+        "data": {
+          "paved_rg1_podium_sqm": 8654.89,
+          "rg2_podium_sqm": 136.25,
+          "rg3_podium_sqm": 140.2
+        }
+      },
+      {
+        "description": "Multi-Tier Public Parking Lot (PPL) Substructure: Wing B rests upon the integrated 5-tier Public Parking Lot (1st-3rd Basements + Ground + 1st-2nd Podiums) dedicated to municipal parking under Section 33(24) DCPR 2034.",
+        "data": {
+          "ppl_levels": "Basements 1 to 3, Ground, Podiums 1 and 2",
+          "occ_reference": "EB/5070/GS/A/OCC/1/New"
+        }
+      }
+    ]
+  }
+]

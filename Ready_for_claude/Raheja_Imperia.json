@@ -1,0 +1,4385 @@
+[
+  {
+    "schema_version": "1.1",
+    "extracted_by": "Multi-Source Statutory Ingestion Engine + CAD Layout Intelligent OCR Model",
+    "extracted_on": "2026-09-06",
+    "project": {
+      "name": "Raheja Imperia-I",
+      "rera_number": "P51900009379",
+      "survey_number": "434 (Old C.S. Nos. 1/433, 434, 435, 1/435, 470, 471, 472, 466, 467, 468)",
+      "survey_number_type": "CS",
+      "division": "Lower Parel Division",
+      "ward": "G/South",
+      "planning_authority": "Municipal Corporation of Greater Mumbai (MCGM)",
+      "land_area_sqm": 22065.28,
+      "latitude": 19.0011,
+      "longitude": 72.8236,
+      "boundaries": {
+        "north": "C.S. No. 435 of Lower Parel Division",
+        "south": "C.S. No. 437 of Lower Parel Division",
+        "east": "C.S. No. 441 & 2/441 and Existing Shankarrao Naram Path Road",
+        "west": "C.S. No. 436 of Lower Parel Division"
+      },
+      "source": {
+        "document": "Final.pdf",
+        "page": 51,
+        "retrieved": "2026-09-05"
+      },
+      "alias_name": "Rahega_Imperia",
+      "planning_authority_acronym": "MCGM",
+      "layout_ocr_survey_number": "1",
+      "layout_ocr_source": {
+        "document": "RevisedIOD-60 FLOORS_page_10",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      },
+      "audit_notes": "Statutory title 'Raheja Imperia-I' under MahaRERA P51900009379 on New C.S. No. 434 (Old C.S. Nos. 1/433, 434, 435, 1/435, 470, 471, 472) of Lower Parel Division (G/South Ward), plot area 21,291.68 sq.m. CAD Layout OCR sheet Imperia IOD_page_1 noted alias 'Rahega_Imperia'."
+    },
+    "buildings": [
+      {
+        "name": "Raheja Imperia-I (Tower I - Wing A & Wing B)",
+        "wing": "Wing A & Wing B",
+        "basements": 0,
+        "plinths": 1,
+        "podiums": 2,
+        "stilts": 1,
+        "slabs_of_super_structure": 58,
+        "service_floors": 1,
+        "fire_check_floors": 2,
+        "total_sanctioned_floors": 60,
+        "composition_verbatim": "Residential building comprising of wing A & B having PO stilt(pt)+P1 level podium(pt) + P2 level + 5 car parking floor + 11th to 57th upper floors on plot bearing C.S.No./CTS No. 434 of Division Lower Parel at Shankarrao Naram Path [Part 1 OCC EB/947/GS/A/OCC/1/New] and 58th floor & 59th service floor of Wing A & B [Part 2 OCC EB/947/GS/A/OCC/1/New] up to top of LMR & OHR above 60th floor [Full CC EB/947/GS/A] [Layout CAD OCR Verbatim: 'TYPICAL \\n PLOT \\n 52 \\n PERP \\n PERMISSIBLE \\n DCR \\n HANDED \\n 3) \\n PROPOSED \\n CPSa \\n DOTTED \\n SCALE \\n LINE \\n CALCULATIONS FOR PHYSICAL \\n 25']",
+        "source": {
+          "document": "OC1.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "statutory_composition_verbatim": "Residential building comprising of wing A & B having PO stilt(pt)+P1 level podium(pt) + P2 level + 5 car parking floor + 11th to 57th upper floors on plot bearing C.S.No./CTS No. 434 of Division Lower Parel at Shankarrao Naram Path [Part 1 OCC EB/947/GS/A/OCC/1/New] and 58th floor & 59th service floor of Wing A & B [Part 2 OCC EB/947/GS/A/OCC/1/New] up to top of LMR & OHR above 60th floor [Full CC EB/947/GS/A]",
+        "layout_ocr_composition_verbatim": "TYPICAL \n PLOT \n 52 \n PERP \n PERMISSIBLE \n DCR \n HANDED \n 3) \n PROPOSED \n CPSa \n DOTTED \n SCALE \n LINE \n CALCULATIONS FOR PHYSICAL \n 25",
+        "layout_ocr_podiums": 3,
+        "layout_ocr_basements": 2,
+        "layout_ocr_source": {
+          "document": "Imperia IOD_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        },
+        "audit_notes": "Statutory Part 1 and Part 2 OCCs certify Tower I (Wing A & B) comprising Stilt + P1-P2 + 5 car parking floors + 11th to 57th upper floors + 58th floor + 59th service floor up to top of LMR/OHR above 60th floor (213.95m). CAD Layout OCR sheet Imperia IOD_page_1 scanned 'TYPICAL \\n PLOT \\n 52 \\n PERP \\n PERMISSIBLE'."
+      }
+    ],
+    "elevation_anchors": [
+      {
+        "endorsed_on": "2005-01-20",
+        "level_description": "Top of the 2nd stilt level",
+        "metres": 6.8,
+        "datum_stated": "above A.G.L.",
+        "storey_reference": "2nd Stilt Level",
+        "source": {
+          "document": "CC upto 60th Floor.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2014-03-07",
+        "level_description": "Endorsed as per amended plan approved on 08.11.2012 upto 3.90 Mt. Level",
+        "metres": 3.9,
+        "datum_stated": "Mt. Level",
+        "storey_reference": "Plinth Level",
+        "source": {
+          "document": "CC upto 60th Floor.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2014-07-03",
+        "level_description": "Endorsed as per amended plan approved on 02/07/2014 upto 4.20 Mt. Level",
+        "metres": 4.2,
+        "datum_stated": "Mt. Level",
+        "storey_reference": "Podium 1 Level",
+        "source": {
+          "document": "CC upto 60th Floor.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2014-12-22",
+        "level_description": "Further extended upto 1st habitable floor as per amended plans dated 02.07.2014",
+        "metres": 33.95,
+        "datum_stated": "Mt. level",
+        "storey_reference": "1st Habitable Floor (11th Floor)",
+        "source": {
+          "document": "CC upto 60th Floor.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2015-04-16",
+        "level_description": "Further extended upto 49th floor level as per amended plans dated 02.07.2014",
+        "metres": 171.05,
+        "datum_stated": "Mt. level",
+        "storey_reference": "49th Floor Level",
+        "source": {
+          "document": "CC upto 60th Floor.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2015-10-31",
+        "level_description": "Further extended upto 53rd floor level (Upto 52nd floor) as per amended plan dated 02.07.2014",
+        "metres": 181.55,
+        "datum_stated": "Mt. height",
+        "storey_reference": "53rd Floor Level (Upto 52nd Floor)",
+        "source": {
+          "document": "CC upto 60th Floor.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2017-12-16",
+        "level_description": "Further extended for further work of Residential building No. 1 from 55th floor to top of LMR & OHR above 60th floor as per amended approved plan dated 02.12.2017 i.e. full CC (excluding crown)",
+        "metres": 213.95,
+        "datum_stated": "up to 213.95 m.",
+        "storey_reference": "Top of LMR & OHR above 60th Floor",
+        "source": {
+          "document": "CC upto 60th Floor.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "height_cascade": {
+      "rung_reached": 1,
+      "elevation_source": "certificate-metres",
+      "assumed_floor_to_floor_m": null,
+      "note": "Commencement Certificate EB/947/GS/A provides 7 explicit elevation anchors in metres from stilt level (+6.80m above AGL) through habitable floors (+33.95m, +171.05m, +181.55m) up to top of LMR and OHR (+213.95m), satisfying Cascade Rank 1.",
+      "layout_ocr_rung": "Rung 3 (Nominal Fallback)",
+      "layout_ocr_nominal_floor_to_floor_m": 3.15,
+      "layout_ocr_note": "Calculated using standard MCGM residential norm (3.15m per slab)"
+    },
+    "vertical_tie": {
+      "datum_name": "Town Hall Datum (THD) / Above Ground Level (AGL)",
+      "plot_ground_level_min_m": null,
+      "plot_ground_level_max_m": null,
+      "status": "not-obtained",
+      "source": {
+        "document": "CC upto 60th Floor.pdf",
+        "page": 2,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_retrieved": "2026-09-06"
+    },
+    "unit_schedule": [
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1101",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1201",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1202",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1203",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 13,
+        "unit_number": "1301",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 13,
+        "unit_number": "1302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 13,
+        "unit_number": "1303",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1401",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1402",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1403",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1501",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1502",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1503",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1601",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1602",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1603",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1701",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1702",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1703",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 18,
+        "unit_number": "1801",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 18,
+        "unit_number": "1802",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 141.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 19,
+        "unit_number": "1901",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 19,
+        "unit_number": "1902",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 19,
+        "unit_number": "1903",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 20,
+        "unit_number": "2001",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 20,
+        "unit_number": "2002",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 20,
+        "unit_number": "2003",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 22,
+        "unit_number": "2201",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 22,
+        "unit_number": "2202",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 22,
+        "unit_number": "2203",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 23,
+        "unit_number": "2301",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 23,
+        "unit_number": "2302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 23,
+        "unit_number": "2303",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 24,
+        "unit_number": "2401",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 24,
+        "unit_number": "2402",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 24,
+        "unit_number": "2403",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 25,
+        "unit_number": "2501",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 25,
+        "unit_number": "2502",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 25,
+        "unit_number": "2503",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 26,
+        "unit_number": "2601",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 26,
+        "unit_number": "2602",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 141.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 27,
+        "unit_number": "2701",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 27,
+        "unit_number": "2703",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 28,
+        "unit_number": "2801",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 28,
+        "unit_number": "2802",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 28,
+        "unit_number": "2803",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 29,
+        "unit_number": "2901",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 29,
+        "unit_number": "2902",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 29,
+        "unit_number": "2903",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 30,
+        "unit_number": "3001",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 30,
+        "unit_number": "3002",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 30,
+        "unit_number": "3003",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 31,
+        "unit_number": "3101",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 31,
+        "unit_number": "3102",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 31,
+        "unit_number": "3103",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 32,
+        "unit_number": "3201",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 32,
+        "unit_number": "3202",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 32,
+        "unit_number": "3203",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 33,
+        "unit_number": "3301",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 33,
+        "unit_number": "3302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 141.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 34,
+        "unit_number": "3401",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 34,
+        "unit_number": "3402",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 34,
+        "unit_number": "3403",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 35,
+        "unit_number": "3501",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 35,
+        "unit_number": "3502",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 35,
+        "unit_number": "3503",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 36,
+        "unit_number": "3601",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 36,
+        "unit_number": "3602",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 36,
+        "unit_number": "3603",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 37,
+        "unit_number": "3701",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 37,
+        "unit_number": "3702",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 37,
+        "unit_number": "3703",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 38,
+        "unit_number": "3801",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 38,
+        "unit_number": "3802",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 38,
+        "unit_number": "3803",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 39,
+        "unit_number": "3901",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 39,
+        "unit_number": "3902",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 39,
+        "unit_number": "3903",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 40,
+        "unit_number": "4001",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 40,
+        "unit_number": "4002",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 141.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 42,
+        "unit_number": "4201",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 42,
+        "unit_number": "4202",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.05,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 42,
+        "unit_number": "4203",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 43,
+        "unit_number": "4301",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 43,
+        "unit_number": "4302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.05,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 43,
+        "unit_number": "4303",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 44,
+        "unit_number": "4401",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 44,
+        "unit_number": "4402",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.05,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 44,
+        "unit_number": "4403",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 45,
+        "unit_number": "4501",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 45,
+        "unit_number": "4502",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.05,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 45,
+        "unit_number": "4503",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 46,
+        "unit_number": "4601",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 46,
+        "unit_number": "4602",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 46,
+        "unit_number": "4603",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 47,
+        "unit_number": "4701",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 47,
+        "unit_number": "4702",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 47,
+        "unit_number": "4703",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 49,
+        "unit_number": "4901",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 49,
+        "unit_number": "4902",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 49,
+        "unit_number": "4903",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 50,
+        "unit_number": "5001",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 50,
+        "unit_number": "5002",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 50,
+        "unit_number": "5003",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 51,
+        "unit_number": "5101",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 51,
+        "unit_number": "5102",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 51,
+        "unit_number": "5103",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 52,
+        "unit_number": "5201",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 52,
+        "unit_number": "5202",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 52,
+        "unit_number": "5203",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 53,
+        "unit_number": "5301",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 53,
+        "unit_number": "5302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 53,
+        "unit_number": "5303",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 56,
+        "unit_number": "5601",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 56,
+        "unit_number": "5602",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 56,
+        "unit_number": "5603",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 57,
+        "unit_number": "5701",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 57,
+        "unit_number": "5702",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 57,
+        "unit_number": "5703",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 58,
+        "unit_number": "5801",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 58,
+        "unit_number": "5802",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing A",
+        "floor": 58,
+        "unit_number": "5803",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 11,
+        "unit_number": "1101",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 11,
+        "unit_number": "1102",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 141.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 12,
+        "unit_number": "1201",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 12,
+        "unit_number": "1202",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 12,
+        "unit_number": "1203",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 13,
+        "unit_number": "1301",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 13,
+        "unit_number": "1302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 13,
+        "unit_number": "1303",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 14,
+        "unit_number": "1401",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 14,
+        "unit_number": "1402",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 14,
+        "unit_number": "1403",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 15,
+        "unit_number": "1501",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 15,
+        "unit_number": "1502",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 15,
+        "unit_number": "1503",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 16,
+        "unit_number": "1601",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 16,
+        "unit_number": "1602",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 16,
+        "unit_number": "1603",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 17,
+        "unit_number": "1701",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 17,
+        "unit_number": "1702",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 17,
+        "unit_number": "1703",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 18,
+        "unit_number": "1801",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 18,
+        "unit_number": "1802",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 141.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 19,
+        "unit_number": "1901",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 19,
+        "unit_number": "1902",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 19,
+        "unit_number": "1903",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 20,
+        "unit_number": "2001",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 20,
+        "unit_number": "2002",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 20,
+        "unit_number": "2003",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 22,
+        "unit_number": "2201",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 22,
+        "unit_number": "2202",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 22,
+        "unit_number": "2203",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 23,
+        "unit_number": "2301",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 23,
+        "unit_number": "2302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 23,
+        "unit_number": "2303",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 24,
+        "unit_number": "2401",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 24,
+        "unit_number": "2402",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 24,
+        "unit_number": "2403",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 25,
+        "unit_number": "2501",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 25,
+        "unit_number": "2502",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 25,
+        "unit_number": "2503",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 26,
+        "unit_number": "2601",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 26,
+        "unit_number": "2602",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 141.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 27,
+        "unit_number": "2701",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 27,
+        "unit_number": "2702",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 28,
+        "unit_number": "2801",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 28,
+        "unit_number": "2802",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 28,
+        "unit_number": "2803",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 29,
+        "unit_number": "2901",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 29,
+        "unit_number": "2902",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 29,
+        "unit_number": "2903",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 30,
+        "unit_number": "3001",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 30,
+        "unit_number": "3002",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 30,
+        "unit_number": "3003",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 31,
+        "unit_number": "3101",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 31,
+        "unit_number": "3102",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 31,
+        "unit_number": "3103",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 32,
+        "unit_number": "3201",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 32,
+        "unit_number": "3202",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 32,
+        "unit_number": "3203",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 33,
+        "unit_number": "3301",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 33,
+        "unit_number": "3302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 141.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 34,
+        "unit_number": "3401",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 34,
+        "unit_number": "3402",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 34,
+        "unit_number": "3403",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 35,
+        "unit_number": "3501",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 35,
+        "unit_number": "3502",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 35,
+        "unit_number": "3503",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 36,
+        "unit_number": "3601",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 36,
+        "unit_number": "3602",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 36,
+        "unit_number": "3603",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 37,
+        "unit_number": "3701",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 37,
+        "unit_number": "3702",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 37,
+        "unit_number": "3703",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 38,
+        "unit_number": "3801",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 38,
+        "unit_number": "3802",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 38,
+        "unit_number": "3803",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 39,
+        "unit_number": "3901",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 39,
+        "unit_number": "3902",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 130.74,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 39,
+        "unit_number": "3903",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 131.37,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 40,
+        "unit_number": "4001",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 40,
+        "unit_number": "4002",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 141.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 42,
+        "unit_number": "4201",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 42,
+        "unit_number": "4202",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.05,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 42,
+        "unit_number": "4203",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 43,
+        "unit_number": "4301",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 43,
+        "unit_number": "4302",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.05,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 43,
+        "unit_number": "4303",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 44,
+        "unit_number": "4401",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 44,
+        "unit_number": "4402",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.05,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 44,
+        "unit_number": "4403",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 45,
+        "unit_number": "4501",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 179.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 8,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 45,
+        "unit_number": "4502",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.05,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 45,
+        "unit_number": "4503",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 46,
+        "unit_number": "4601",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 47,
+        "unit_number": "4701",
+        "typology": "Duplex Penthouse",
+        "carpet_area_sqm": 286.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 49,
+        "unit_number": "4901",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 50,
+        "unit_number": "5001",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 50,
+        "unit_number": "5002",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 50,
+        "unit_number": "5003",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 51,
+        "unit_number": "5101",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 51,
+        "unit_number": "5102",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 51,
+        "unit_number": "5103",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 52,
+        "unit_number": "5201",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 52,
+        "unit_number": "5202",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 52,
+        "unit_number": "5203",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 53,
+        "unit_number": "5301",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 54,
+        "unit_number": "5401",
+        "typology": "Duplex Penthouse",
+        "carpet_area_sqm": 286.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 54,
+        "unit_number": "5402",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 54,
+        "unit_number": "5403",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 56,
+        "unit_number": "5601",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 57,
+        "unit_number": "5701",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 57,
+        "unit_number": "5702",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 57,
+        "unit_number": "5703",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 58,
+        "unit_number": "5801",
+        "typology": "4 BHK",
+        "carpet_area_sqm": 180.2,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 58,
+        "unit_number": "5802",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 143.58,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Raheja Imperia-I",
+        "wing": "Wing B",
+        "floor": 58,
+        "unit_number": "5803",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 119.44,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Imperia sold inventory.pdf",
+          "page": 9,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "parking": {
+      "covered_total": 772,
+      "open_total": 0,
+      "by_level": [
+        {
+          "level_label": "P0 (Stilt Level)",
+          "count": 416
+        },
+        {
+          "level_label": "P1 Level Podium",
+          "count": 206
+        },
+        {
+          "level_label": "P2 Level",
+          "count": 0
+        },
+        {
+          "level_label": "CP1 (Car Parking Level 4/5)",
+          "count": 21
+        },
+        {
+          "level_label": "CP2 (Car Parking Level 6)",
+          "count": 30
+        },
+        {
+          "level_label": "CP3 (Car Parking Level 7)",
+          "count": 30
+        },
+        {
+          "level_label": "CP4 (Car Parking Level 8)",
+          "count": 30
+        },
+        {
+          "level_label": "CP5 (Car Parking Level 9)",
+          "count": 30
+        },
+        {
+          "level_label": "CP5a (Car Parking Level 10)",
+          "count": 9
+        }
+      ],
+      "source": {
+        "document": "Imperia IOD.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_source": {
+        "document": "Imperia IOD_page_1",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      },
+      "audit_notes": "Statutory drawings confirm 772 covered car parking bays across P0 (416), P1 (206), CP1-CP5a (150). CAD Layout OCR scanned Imperia IOD_page_1."
+    },
+    "plate_schedule": [
+      {
+        "plate_name": "Typical Residential Floor (Floors 12 to 35)",
+        "storeys_named": [
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "20",
+          "22",
+          "23",
+          "24",
+          "25",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "34",
+          "35"
+        ],
+        "floor_count": 19,
+        "built_up_area_sqm": 870.84,
+        "source": {
+          "document": "IOD FInal.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        },
+        "layout_ocr_identified": true,
+        "layout_ocr_label": "Typical Floors",
+        "layout_ocr_source": {
+          "document": "Imperia IOD_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Refuge Floors (R1/R2)",
+        "storeys_named": [
+          "11",
+          "18",
+          "26",
+          "33",
+          "40",
+          "44",
+          "48",
+          "55"
+        ],
+        "floor_count": 8,
+        "built_up_area_sqm": 765.2,
+        "source": {
+          "document": "IOD FInal.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Upper Typical Residential Floor (Floors 42-46 & 49-53)",
+        "storeys_named": [
+          "42",
+          "43",
+          "45",
+          "46",
+          "49",
+          "50",
+          "51",
+          "52",
+          "53"
+        ],
+        "floor_count": 9,
+        "built_up_area_sqm": 701.03,
+        "source": {
+          "document": "IOD FInal.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Duplex Penthouse Floors (Floors 47-48 & 54)",
+        "storeys_named": [
+          "47",
+          "48",
+          "54"
+        ],
+        "floor_count": 3,
+        "built_up_area_sqm": 699.4,
+        "source": {
+          "document": "IOD FInal.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Terrace / Multipurpose Hall & Fire Check Floor (Floors 19, 41, 59-60)",
+        "storeys_named": [
+          "19",
+          "41",
+          "59",
+          "60"
+        ],
+        "floor_count": 4,
+        "built_up_area_sqm": 307.36,
+        "source": {
+          "document": "IOD FInal.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "utilities": [],
+    "ownership_structure": {
+      "type": "Co-operative Housing Society",
+      "evidence": "Clause 14 of Agreement for Sale mandates the formation of a co-operative housing society under the Maharashtra Co-operative Societies Act 1960 ('Society/Association of Flat Holders of Tower I'); condition 7 of Revised IOD EB/947/GS/A requires registered undertaking for handing over society office to the society/association.",
+      "source": {
+        "document": "Afsola imperia.pdf",
+        "page": 36,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_type": null,
+      "layout_ocr_evidence": "Identified ownership under corporate entity / Private Limited Developer.",
+      "layout_ocr_source": {
+        "document": "RevisedIOD-60 FLOORS_page_10",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      }
+    },
+    "sufficiency": {
+      "SC1": {
+        "verdict": "MET",
+        "evidence": "Commencement Certificate EB/947/GS/A provides 7 explicit elevation anchors in metres: +6.80m above AGL (2nd stilt), +3.90m Level (plinth), +4.20m Level (podium 1), +33.95m level (1st habitable / 11th floor), +171.05m level (49th floor), +181.55m height (53rd floor), and +213.95m (top of LMR/OHR above 60th floor).",
+        "source_page": "CC upto 60th Floor.pdf, pages 2-5",
+        "layout_ocr_audit": {
+          "verdict": "PARTIAL",
+          "evidence": "Floor composition statement present: 'TYPICAL \n PLOT \n 52 \n PERP \n PERMISSIBLE \n DCR \n HANDED \n 3) \n PROPOSED \n CPSa \n DOTTED \n SCALE \n LINE \n CALCULATIONS FOR PHYSICAL \n 25', but per-storey physical elevations in metres are missing.",
+          "source_page": "1"
+        }
+      },
+      "SC2": {
+        "verdict": "MET",
+        "evidence": "Built-Up Area summary and IOD sheets distinguish 5 distinct floor plate templates by storey: (1) Typical Residential Floor (Floors 12 to 35), (2) Refuge Floors (Floors 11, 18, 26, 33, 40, 44, 48, 55), (3) Upper Typical Residential Floor (Floors 42-46, 49-53), (4) Duplex Penthouse Floors (Floors 47-48, 54), and (5) Terrace / Multipurpose Hall & Fire Check Floor (Floors 19, 41, 59-60).",
+        "source_page": "IOD FInal.pdf, pages 4-6; Imperia IOD.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Demarcation identified for Podium tiers, Refuge levels, and Typical residential plates.",
+          "source_page": "1"
+        }
+      },
+      "SC3": {
+        "verdict": "NOT_MET",
+        "evidence": "Architectural CAD blueprints show general floor layouts, line-out diagrams, and refuge layouts, but lack dimensioned interior unit partition wall plans with closed room-level polygons required for automated tier D-SURVEYED volumetric reconstruction.",
+        "source_page": "RevisedIOD-60 FLOORS.pdf, pages 9-14; IOD FInal.pdf, pages 4-6",
+        "layout_ocr_audit": {
+          "verdict": "PARTIAL",
+          "evidence": "Partial room dividing layout detected (21 tokens), but outer unit envelope closures are not fully continuous.",
+          "source_page": "Imperia IOD_page_1"
+        }
+      },
+      "SC4": {
+        "verdict": "MET",
+        "evidence": "Declared carpet area is provided per unit across all typologies (3 BHK: 119.44, 130.74, 131.37, 141.11, 143.05, 143.58 sq.m; 4 BHK: 179.35, 180.20 sq.m; Duplex Penthouse: 286.60 sq.m) with exact apartment numbers and wing assignments.",
+        "source_page": "Imperia sold inventory.pdf, pages 1-9",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "Only aggregate built-up areas declared. Unit-level carpet areas missing.",
+          "source_page": null
+        }
+      },
+      "SC5": {
+        "verdict": "MET",
+        "evidence": "Independent second area source exists via the MahaRERA Disclosure of Sold/Booked Inventory (Circular 29 filing as of 31 March 2022) detailing 238 individual flats with carpet areas derived from executed sale deeds and bookings, cross-validating the architectural IOD floor schedules.",
+        "source_page": "Imperia sold inventory.pdf, pages 1-9",
+        "layout_ocr_audit": {
+          "verdict": "PARTIAL",
+          "evidence": "Single area source present; secondary independent audit schedule missing for reconciliation.",
+          "source_page": "1"
+        }
+      },
+      "SC6": {
+        "verdict": "MET",
+        "evidence": "Parcel boundary is tied to official cadastral record New C.S. No. 434 (Old C.S. Nos. 1/433, 434, 435, 1/435, 470, 471, 472) of Lower Parel Division, G/South Ward, with 1:500 scale survey line diagrams in approved layout EB/254/GS/AL, plus precise 4-corner GPS boundary coordinates in Architect's Certificate Form 1 (19°00'05.45\"N, 72°49'26.02\"E; 19°00'03.05\"N, 72°49'25.76\"E; 19°00'03.15\"N, 72°49'24.85\"E; 19°00'05.54\"N, 72°49'25.12\"E).",
+        "source_page": "imperia Arch certificate.pdf, page 1; Imperia Layout1.pdf, page 2",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Cadastral reference present: CS No. 1, Ward None.",
+          "source_page": "1"
+        }
+      },
+      "SC7": {
+        "verdict": "MET",
+        "evidence": "Ownership structure is established as a Co-operative Housing Society under the Maharashtra Co-operative Societies Act 1960 as stipulated in Clause 14 of the Agreement for Sale ('Society/Association of Flat Holders of Tower I') and reinforced by condition 7 of Revised IOD EB/947/GS/A requiring an undertaking to hand over the society office.",
+        "source_page": "Afsola imperia.pdf, page 36; RevisedIOD-60 FLOORS.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Identified ownership under corporate entity / Private Limited Developer.",
+          "source_page": "1"
+        }
+      },
+      "SC8": {
+        "verdict": "MET",
+        "evidence": "Non-saleable and common spaces are comprehensively designated: refuge areas on floors 11, 18, 26, 33, 40, 48, and 55; fire check floors on floors 21 and 41; service floor on 59th floor; terrace MP hall; and 772 dedicated covered car parking bays across podium levels P0 to CP5a.",
+        "source_page": "Final.pdf (Agreement for Sale Fourth Schedule Part A), page 51; Imperia IOD.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Explicit designation of non-saleable areas including Refuge levels, podium parking tiers, and utility corridors.",
+          "source_page": "1"
+        }
+      },
+      "score_of_8": "7 of 8",
+      "operational_block": "Cannot construct accurate 3D vertical envelope without physical storey elevation benchmarks.",
+      "documentary_block": "Approved architectural section drawing and sanction floor composition schedule.",
+      "comprehensive_portfolio_score": "7 of 8 MET",
+      "cad_layout_only_score": 4
+    },
+    "documents_reviewed": [
+      {
+        "name": "CC upto 60th Floor.pdf",
+        "type": "Commencement Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "5-page MCGM Commencement Certificate EB/947/GS/A containing 7 explicit elevation anchors in metres up to 213.95m (top of LMR/OHR above 60th floor)."
+      },
+      {
+        "name": "01_part_Oc.pdf",
+        "type": "Part Occupancy Certificate (Part 1)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Part 1 OCC under EB/947/GS/A/OCC/1/New dated 18 June 2021 granting occupation for Wing A & B from P0 stilt + P1 podium + P2 + 5 car parking floors + 11th to 57th upper floors."
+      },
+      {
+        "name": "02_Part_oc.pdf",
+        "type": "Part Occupancy Certificate (Part 2)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Part 2 OCC under EB/947/GS/A/OCC/1/New dated 02 July 2021 granting occupation for 58th floor and 59th service floor of Wing A & B."
+      },
+      {
+        "name": "OC1.pdf",
+        "type": "Part Occupancy Certificate (Part 1 - Alternate Copy)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Digital copy of Part 1 OCC dated 18 June 2021."
+      },
+      {
+        "name": "Oc2.pdf",
+        "type": "Part Occupancy Certificate (Part 2 - Alternate Copy)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Digital copy of Part 2 OCC dated 02 July 2021."
+      },
+      {
+        "name": "imperia Arch certificate.pdf",
+        "type": "Architect's Certificate (Form 1)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Form 1 certificate by Ar. Kamal Khemani (CA/99/24971) dated 22.05.2021 detailing 4 GPS boundary vertices, 58 superstructure slabs, 2 podiums, and stilt floor."
+      },
+      {
+        "name": "Arhitect certificate final.pdf",
+        "type": "Architect Certificate (Form 1 Scanned)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "3-page scanned copy of Form 1 Architect Certificate."
+      },
+      {
+        "name": "imperia layout.pdf",
+        "type": "Approved Layout Plan",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Approved Layout Sheet MD-01 & MD-01A (scales 1:2500 & 1:500) depicting Sub-Plot A (22,065.28 sqm), MCGM RG Plot (6,193.68 sqm), and MHADA Plot (5,067.78 sqm)."
+      },
+      {
+        "name": "Imperia Layout1.pdf",
+        "type": "Layout Approval Letter & Survey Plans",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "4-page layout approval document EB/254/GS/AL dated 30.04.2004 containing line diagrams, setback calculations, and DCR 58 mill land distribution."
+      },
+      {
+        "name": "Imperia sold inventory.pdf",
+        "type": "MahaRERA Inventory Disclosure (March 2022)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "9-page filing as on 31 March 2022 under Circular 29 detailing 238 sold/booked units across Wing A and Wing B with exact RERA carpet areas."
+      },
+      {
+        "name": "Imperia Sold Inventory Details.pdf",
+        "type": "MahaRERA Inventory Disclosure (December 2021)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "6-page quarterly filing as on 31 December 2021 detailing 179 sold/booked units."
+      },
+      {
+        "name": "RevisedIOD-60 FLOORS.pdf",
+        "type": "Revised IOD Approval & Blueprints",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "17-page MCGM approval EB/947/GS/A with typical plans, duplex layouts, fire check floors, and west/north-south elevations."
+      },
+      {
+        "name": "IOD FInal.pdf",
+        "type": "IOD Architectural Approval Sheets",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "6-page architectural drawing set including location plan, site plan, typical floor plan (12-35), refuge floor plan, and duplex plans."
+      },
+      {
+        "name": "Imperia IOD.pdf",
+        "type": "IOD Master Sheet & BUA / Parking Statement",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "High-density master drawing containing Built-Up Area summary, 5 plate definitions, and detailed parking table (772 bays across P0 to CP5a)."
+      },
+      {
+        "name": "imperia TC.pdf",
+        "type": "Title Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "8-page legal title investigation by Kanga & Co. Advocates & Solicitors tracing ownership history from Prakash Cotton Mills to Raheja Universal."
+      },
+      {
+        "name": "Afsola imperia.pdf",
+        "type": "Agreement for Sale (Standard Form)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "52-page standard registered agreement for sale detailing project phases, common facilities, and co-operative society covenants under Clause 14."
+      },
+      {
+        "name": "Final.pdf",
+        "type": "Consolidated RERA Dossier",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "120-page comprehensive dossier combining Architect Certificate, Agreement for Sale schedules (First, Second, Third, and Fourth), Title Certificate, Part OCs, and CCs."
+      },
+      {
+        "name": "RevisedIOD-60 FLOORS_page_10",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "RevisedIOD-60 FLOORS_page_7",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Imperia Layout1_page_2",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "RevisedIOD-60 FLOORS_page_13",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Imperia Layout1_page_4",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "imperia layout_page_1",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Imperia Layout1_page_3",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "RevisedIOD-60 FLOORS_page_5",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "RevisedIOD-60 FLOORS_page_6",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Imperia IOD_page_1",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "imperia layout_page_2",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "RevisedIOD-60 FLOORS_page_4",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "RevisedIOD-60 FLOORS_page_17",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      }
+    ],
+    "not_found": [
+      {
+        "item": "dimensioned_floor_plan",
+        "searched_in": [
+          "RevisedIOD-60 FLOORS.pdf",
+          "IOD FInal.pdf",
+          "imperia layout.pdf"
+        ],
+        "affects_criterion": "SC3",
+        "consequence": "No unit-level internal dimensioned drawings with bounding wall faces; prevents automated generation of tier D-SURVEYED unit geometry."
+      },
+      {
+        "item": "cross_section_drawing",
+        "searched_in": [
+          "RevisedIOD-60 FLOORS.pdf",
+          "IOD FInal.pdf"
+        ],
+        "affects_criterion": "SC1",
+        "consequence": "Full building architectural vertical section sheet with dimensioned floor-to-floor heights not present; relied on CC elevation anchors in metres."
+      },
+      {
+        "item": "vertical_datum_statement",
+        "searched_in": [
+          "CC upto 60th Floor.pdf",
+          "RevisedIOD-60 FLOORS.pdf",
+          "imperia layout.pdf"
+        ],
+        "affects_criterion": null,
+        "consequence": "Commencement certificate heights are given above AGL / Mt. Level; tying to Town Hall Datum (THD) requires MCGM DP Remarks."
+      }
+    ],
+    "anomalies": [
+      {
+        "description": "Floor Count and Superstructure Reporting Evolution: Commencement Certificate EB/947/GS/A sanctions construction up to 60 floors (213.95m), Architect Form 1 reports 58 slabs of superstructure, Part 1 OCC covers up to 57th floor, Part 2 OCC covers 58th floor and 59th service floor, and IOD reflects a total of 60 floors including crown/LMR.",
+        "documents_involved": [
+          "CC upto 60th Floor.pdf",
+          "01_part_Oc.pdf",
+          "02_Part_oc.pdf",
+          "imperia Arch certificate.pdf",
+          "RevisedIOD-60 FLOORS.pdf"
+        ],
+        "significance": "Highlights progressive vertical completion milestones where physical slabs, habitable floors, and service/LMR levels differ across statutory stages."
+      },
+      {
+        "description": "Cadastral Survey Number Consolidation under Mill Land DCR 58: Historic textile mill property encompassing 52,400.89 sq.m across Old CS Nos. 1/433, 434, 435, 1/435, 470, 471, 472 was reconstituted into New CS No. 434 and tripartite-divided into Sub-Plot A (22,065.28 sq.m private), MCGM RG Plot 1A/434 (6,193.68 sq.m), and MHADA Plot 1C/434 (5,067.78 sq.m).",
+        "documents_involved": [
+          "imperia TC.pdf",
+          "imperia layout.pdf",
+          "Imperia Layout1.pdf",
+          "Final.pdf"
+        ],
+        "significance": "Crucial for parcel identity reconciliation; ensures 3D-ULPIN links Tower I strictly to Sub-Plot A under New CS 434."
+      },
+      {
+        "description": "Total Unit Sanction vs Sold Inventory Count: Architectural IOD BUA summary designs for 272 total residential tenements in Tower A & B, whereas MahaRERA disclosure documents 238 units sold/booked as of 31 March 2022.",
+        "documents_involved": [
+          "Imperia IOD.pdf",
+          "Imperia sold inventory.pdf"
+        ],
+        "significance": "Demonstrates 34 unsold units remaining in developer inventory at the time of filing."
+      }
+    ],
+    "something_new": [
+      {
+        "description": "High-Rise Elevation Progression via 7 CC Metre Anchors: The municipal Commencement Certificate EB/947/GS/A provides seven sequential height endorsements in metres (+6.80m, +3.90m, +4.20m, +33.95m, +171.05m, +181.55m, and +213.95m), enabling precise vertical georeferencing without relying on assumed floor heights.",
+        "data": {
+          "anchors_count": 7,
+          "stilt_top_agl_m": 6.8,
+          "plinth_level_m": 3.9,
+          "podium_level_m": 4.2,
+          "first_habitable_m": 33.95,
+          "floor_49_m": 171.05,
+          "floor_53_m": 181.55,
+          "top_lmr_ohr_m": 213.95
+        }
+      },
+      {
+        "description": "Multi-Level Integrated Podium Parking Facility: A dedicated 772-bay covered vehicle storage network distributed across 9 distinct levels (P0 stilt with 416 bays, P1 podium with 206 bays, and 5 upper parking floors CP1-CP5a accommodating 150 bays).",
+        "data": {
+          "total_parking_bays": 772,
+          "p0_stilt_bays": 416,
+          "p1_podium_bays": 206,
+          "p2_level_bays": 0,
+          "upper_car_parking_bays": 150
+        }
+      },
+      {
+        "description": "DCR 58 Tripartite Urban Mill Land Reconstitution: Transformation of the Prakash Cotton Mills industrial complex into private luxury residential development (Sub-Plot A), public open space (MCGM RG Plot), and public affordable housing (MHADA Plot).",
+        "data": {
+          "original_mill_land_sqm": 52400.89,
+          "sub_plot_a_imperia_sqm": 22065.28,
+          "mcgm_rg_plot_sqm": 6193.68,
+          "mhada_housing_plot_sqm": 5067.78
+        }
+      }
+    ],
+    "plate_schedule_layout_ocr_tiers": [
+      {
+        "plate_name": "Podium Tier",
+        "storeys_named": [
+          "Podium 1",
+          "Podium 2",
+          "Podium 3"
+        ],
+        "floor_count": 3,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Imperia IOD_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Habitable Typical Tower",
+        "storeys_named": [
+          "Typical Floors"
+        ],
+        "floor_count": null,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Imperia IOD_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,4697 @@
+[
+  {
+    "schema_version": "1.1",
+    "extracted_by": "Multi-Source Statutory Ingestion Engine + CAD Layout Intelligent OCR Model",
+    "extracted_on": "2026-09-06",
+    "project": {
+      "name": "One Lodha Place",
+      "rera_number": "P51900014984",
+      "survey_number": "443, 444 (1/444), 2/445, 446",
+      "survey_number_type": "Cadastral Survey (C.S.)",
+      "division": "Lower Parel Division",
+      "ward": "G/South Ward",
+      "planning_authority": "Municipal Corporation of Greater Mumbai (MCGM)",
+      "land_area_sqm": 71351.57,
+      "promoter": "Macrotech Developers Limited (formerly Lodha Developers Ltd / Shreeniwas Cotton Mills Ltd)",
+      "cin": "U45200MH1995PLC093041",
+      "corporate_office": "Lodha Excelus, N.M. Joshi Marg, Mahalaxmi, Mumbai 400011",
+      "registered_office": "412, Floor-4, 17G Vardhaman Chamber, Cawasji Patel Road, Horniman Circle, Fort, Mumbai 400001",
+      "centroid_lat_long": [
+        18.9982,
+        72.8274
+      ],
+      "bounds": {
+        "north": "Kamala Mills & Empire Dyeing & Mfg Co. Ltd.",
+        "south": "Shankar Rao Naram Path, MCGM Plot A1 & MHADA Plot A2",
+        "east": "N.M. Joshi Marg",
+        "west": "Senapati Bapat Marg (30.48 m wide)"
+      },
+      "master_layout": "Shreeniwas Cotton Mills (The Park) Integrated Layout",
+      "alias_name": "One lodha place",
+      "planning_authority_acronym": "MCGM",
+      "layout_ocr_survey_number": "",
+      "layout_ocr_source": {
+        "document": "page-3_page_1",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      },
+      "audit_notes": "Statutory title 'One Lodha Place' under MahaRERA P51900014984 on C.S. Nos. 443, 444 (1/444), 2/445, 446 of Lower Parel Division (G/South Ward), plot area 71,351.57 sq.m. CAD Layout OCR model scanned 05 09 2024 -Amended Approva Layout Plan_page_1."
+    },
+    "buildings": [
+      {
+        "name": "One Lodha Place (Commercial Building C-1)",
+        "designation": "C-1 (OLP)",
+        "usage": "Commercial / IT & ITES Office / Retail Shopping Mall & Restaurant",
+        "configuration": "2 Basements + Ground (Shopping Mall / Restaurant) + 1st (Shopping Mall / Restaurant) + P2 (Service Floor) + P3 to P10 (8 Parking Floors) + 11th (Service Floor) + 12th to 40th Floors",
+        "total_storeys_above_ground": 41,
+        "basements_count": 2,
+        "podium_parking_storeys": 8,
+        "service_floors_count": 2,
+        "refuge_floors": [
+          {
+            "floor": 13,
+            "required_sqm": 544.81,
+            "provided_sqm": 581.26,
+            "source": {
+              "document": "page-2.pdf",
+              "page": 1,
+              "retrieved": "2026-09-05"
+            }
+          }
+        ],
+        "height_m": 165.47,
+        "total_built_up_area_sqm": null,
+        "total_carpet_area_sqm": 58423.9,
+        "licensed_surveyor": "Shri Shashikant Laxman Jadhav (Lic. No. J/167/LS) / Space Age Consultants",
+        "structural_engineer": "Shri Shantilal H. Jain (Lic. No. STR/J/21)",
+        "site_supervisor": "Shri Sandeep T. Kakad (Lic. No. K/452/SS-I)",
+        "occupancy_status": "Part Occupancy Granted up to 40th Part Floor",
+        "source": {
+          "document": "05 09 2024 -Amended Approva Layout Plan.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "statutory_composition_verbatim": null,
+        "layout_ocr_composition_verbatim": "Ground \n Sec \n Podiun \n No \n including \n User \n fungible \n fungible \n Kitchen \n 17",
+        "composition_verbatim": "None [Layout CAD OCR Verbatim: 'Ground \\n Sec \\n Podiun \\n No \\n including \\n User \\n fungible \\n fungible \\n Kitchen \\n 17']",
+        "layout_ocr_podiums": 20,
+        "layout_ocr_stilts": 1,
+        "layout_ocr_source": {
+          "document": "05 09 2024 -Amended Approva Layout Plan_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        },
+        "audit_notes": "Statutory approved layout plan explicitly sanctions Building C1 with 2 Basements + Ground + 1st Shopping Mall + P2 Service Floor + P3 to P10 Parking (8 floors) + 11th Service Floor + 12th to 40th Office Floors (Total Height 165.47 M). Layout OCR model processed 05 09 2024 -Amended Approva Layout Plan_page_1."
+      }
+    ],
+    "elevation_anchors": [
+      {
+        "endorsed_on": "2010-08-10",
+        "level_description": "Initial CC granted upto plinth level as per approved plan dated 17.06.2010",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "Plinth Level",
+        "source": {
+          "document": "SNCML C1 - CC from 17th to 26th... dated 24122020.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2018-03-09",
+        "level_description": "Endorsed CC as per approved plan dated 14.02.2018 for building R1, R2, R4 and commercial building C-1 up to Plinth Level (Basement Top)",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "Plinth Level (Basement Top)",
+        "source": {
+          "document": "20180309 SNML - Further CC R1 R2 OLP.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2018-12-27",
+        "level_description": "Extended CC for staircase/lift core only for Commercial building C-1 of non-habitable floors up to top of 8th podium floor as per approved amended plan dated 26.12.2018",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "8th Podium Floor (Core)",
+        "source": {
+          "document": "2018_12_27 SNML CC for R4 bldg till 66th floor.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2019-05-13",
+        "level_description": "Extended core CC for staircase, lift upto 17th floor level of Commercial Building C-1 as per last amended approved plan dated 25.04.2019",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "17th Floor Level (Core)",
+        "source": {
+          "document": "2019_05_13 SNML R4 CC till 77th fl C1 st lift till 17th fl.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2019-10-11",
+        "level_description": "Further extended for Commercial building C-1 for Ground + 1st + 2nd to 10th (Podium) + P-11 level (service floor) + 12th to 16th habitable floor as per amended approved plan dated 25.04.2019",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "16th Habitable Floor",
+        "source": {
+          "document": "SNCML C1 - CC from 17th to 26th... dated 24122020.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2020-12-24",
+        "level_description": "Extended for Commercial building C-1 from 17th to 26th habitable floor and staircase lift lobby core from 18th to 31st floor level as per approved amended plan dated 05.02.2020",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "26th Habitable Floor / 31st Floor Core",
+        "source": {
+          "document": "SNCML C1 - CC from 17th to 26th... dated 24122020.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2021-10-13",
+        "level_description": "Part 11 Occupancy Certificate for Commercial Building C-1 (OLP) for 2 Basement + Ground (Shopping Mall) + 1st (Shopping Mall) + P2 (Service) floor + P3 to P10 Parking floor + 11th (Service) + 12th to 22nd floor",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "22nd Floor (Part 11 OCC)",
+        "source": {
+          "document": "75th floor and OLP Commercial.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2022-04-29",
+        "level_description": "Part 12 Occupancy Certificate for Commercial Building C-1 (OLP) comprising 23rd to 35th upper floor",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "35th Upper Floor (Part 12 OCC)",
+        "source": {
+          "document": "2022 04 29 SNML R4 75TH PT-C1 - OLP - 23rd to 35th letter.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2022-08-26",
+        "level_description": "Part 13 Occupancy Certificate for Commercial Building C-1 (OLP) for 36th to 40th part floor",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "40th Part Floor (Part 13 OCC)",
+        "source": {
+          "document": "2022 08 26-SNML-C1 - OLP - 36th to 40th Pt.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2024-09-05",
+        "level_description": "Sanctioned municipal building height for Commercial Building C1: 2 Basement + Ground (Restaurant) + 1st (Restaurant) + P2 to P8 Parking Floors + P9th + P10th + 11th (Service) + 12th to 40th Floors of Ht. 165.47 M.",
+        "metres": 165.47,
+        "datum_stated": "Ground Level / Finished Plot Level",
+        "storey_reference": "Terrace / Top of Building C-1",
+        "source": {
+          "document": "05 09 2024 -Amended Approva Layout Plan.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "height_cascade": {
+      "rung_reached": 1,
+      "elevation_source": "municipal-approved-layout-sanction",
+      "sanctioned_total_height_m": 165.47,
+      "assumed_floor_to_floor_m": 4.14,
+      "note": "Overall building height of 165.47 M is explicitly sanctioned in the approved layout plan (05 09 2024 -Amended Approva Layout Plan.pdf) by MCGM Executive Engineer (BP) City-I. Individual intermediate floor slab elevations in metres are not stated in cross-section format; intermediate storeys operate at Rank 4 (assumed average 4.14 m floor-to-floor height).",
+      "layout_ocr_rung": "Rung 3 (Nominal Fallback)",
+      "layout_ocr_nominal_floor_to_floor_m": 3.15,
+      "layout_ocr_note": "Calculated using standard MCGM residential norm (3.15m per slab)"
+    },
+    "vertical_tie": {
+      "datum_name": "Town Hall Datum (THD) / Ground Level",
+      "plot_ground_level_min_m": null,
+      "plot_ground_level_max_m": null,
+      "status": "established-by-sanction-height",
+      "source": {
+        "document": "05 09 2024 -Amended Approva Layout Plan.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_retrieved": "2026-09-06"
+    },
+    "unit_schedule": [
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 9,
+        "unit_number": "901",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 61.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-12-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 9,
+        "unit_number": "902",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 9,
+        "unit_number": "903",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 76.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "19-09-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 9,
+        "unit_number": "904",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 91.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-03-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 9,
+        "unit_number": "905",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 93.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "29-12-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 9,
+        "unit_number": "906",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 150.1,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "16-09-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 9,
+        "unit_number": "907",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 62.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "05-01-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 9,
+        "unit_number": "908",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 132.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 9,
+        "unit_number": "909",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 138.1,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 9,
+        "unit_number": "910",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 505.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "12-12-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 9,
+        "unit_number": "911",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 60.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "05-12-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1001",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 61.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-12-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1002",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "14-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1003",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 76.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "24-01-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1004",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 91.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1005",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 93.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "16-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1006",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 150.1,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1007",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 62.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1007B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 74.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1008",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 143.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1009",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 54.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "01-11-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1010",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1011",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1012",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "28-12-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1014",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "28-12-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1015",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 71.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "28-12-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1015B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1015C",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 73.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1015D",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 146.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1016",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 108.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "06-06-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1017",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 98.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "28-06-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1018",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 63.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "03-08-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 10,
+        "unit_number": "1019",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 60.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "14-03-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1101",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 61.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "27-03-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1102",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1103",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 76.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "23-03-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1104",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 91.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "16-10-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1105",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 93.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "29-01-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1106",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 150.1,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "16-11-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1107",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 62.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "13-08-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1107B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 74.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1108",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 143.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-07-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1109",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 54.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "06-02-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1110",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "27-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1111",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "09-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1112",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "09-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1114",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "27-03-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1115",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 71.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "24-04-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1115B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1115C",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 73.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1115D",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 146.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1116",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 108.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "21-08-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1117",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 98.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "21-08-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1118",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 63.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "13-06-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 11,
+        "unit_number": "1119",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 60.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-10-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1201",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 61.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1202",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "31-07-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1203",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 76.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1204",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 91.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "13-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1205",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 93.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "27-03-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1206",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 150.1,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "27-03-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1207",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 62.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1207B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 74.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1208",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 143.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "23-11-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1209",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 54.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "24-01-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1210",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "13-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1211",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "04-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1212",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "04-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1214",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "21-06-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1215",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 71.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1215B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1215C",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 73.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1215D",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 146.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1216",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 108.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "07-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1217",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 98.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "17-11-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1218",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 63.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "24-12-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 12,
+        "unit_number": "1219",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 60.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "04-09-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1401",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 61.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "28-08-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1402",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "07-08-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1403",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 76.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "30-03-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1404",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 91.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-08-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1405",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 93.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "20-06-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1406",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 150.1,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "30-12-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1407",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 62.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1407B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 74.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1408",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 106.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "29-12-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1409",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 91.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "23-03-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1410",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1411",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1412",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "03-11-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1414",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "28-10-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1415",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 71.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "09-12-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1415B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1415C",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 73.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1415D",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 146.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1416",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 108.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "11-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1417",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 98.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-04-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1418",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 63.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "06-12-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 14,
+        "unit_number": "1419",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 60.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "27-11-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1501",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 61.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "07-06-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1502",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "05-04-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1503",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 76.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "11-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1504",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 91.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "05-12-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1505",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 93.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-09-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1506",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 150.1,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1507",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 62.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "16-04-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1507B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 74.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1508",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 143.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1509",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 54.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-12-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1510",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "23-03-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1511",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "14-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1512",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "14-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1514",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "14-05-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1515",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 71.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "24-09-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1515B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1515C",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 73.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1515D",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 146.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1516",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 108.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "15-06-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1517",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 98.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "16-07-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1518",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 63.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 15,
+        "unit_number": "1519",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 60.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "29-12-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1601",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 61.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-12-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1602",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "16-05-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1603",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 76.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "30-01-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1604",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 91.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "23-08-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1605",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 93.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "18-03-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1606",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 150.1,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1607",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 62.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "30-07-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1607B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 74.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1608",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 143.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "26-07-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1609",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 54.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "10-08-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1610",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "01-12-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1611",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "17-07-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1612",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "14-11-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1614",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 68.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "21-09-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1615",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 71.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1615B",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1615C",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 73.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1615D",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 146.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1616",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 108.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "22-04-2021",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1617",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 98.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "17-11-2018",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1618",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 63.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "20-08-2020",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 16,
+        "unit_number": "1619",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 60.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": "23-12-2019",
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1701",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 235.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1702",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 98.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1703",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 62.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1704",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 60.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1705",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 61.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Sold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1706",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 67.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1707",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 76.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1708",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 92.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1709",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 93.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1710",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 149.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1711",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 62.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1712",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 129.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 17,
+        "unit_number": "1714",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 227.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 18,
+        "unit_number": "1801",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 342.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 18,
+        "unit_number": "1802",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 261.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 18,
+        "unit_number": "1803",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 470.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 18,
+        "unit_number": "1804",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 492.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 18,
+        "unit_number": "1805",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 305.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 18,
+        "unit_number": "1806",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 230.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 19,
+        "unit_number": "1901",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 342.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 19,
+        "unit_number": "1902",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 261.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 19,
+        "unit_number": "1903",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 470.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 19,
+        "unit_number": "1904",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 492.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 19,
+        "unit_number": "1905",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 305.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 19,
+        "unit_number": "1906",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 230.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 20,
+        "unit_number": "2001",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 342.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 20,
+        "unit_number": "2002",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 261.2,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 20,
+        "unit_number": "2003",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 470.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 20,
+        "unit_number": "2004",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 492.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 20,
+        "unit_number": "2005",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 305.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 20,
+        "unit_number": "2006",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 230.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 21,
+        "unit_number": "2101",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 452.1,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 21,
+        "unit_number": "2102",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 175.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 21,
+        "unit_number": "2103",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 470.1,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 21,
+        "unit_number": "2104",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 492.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 21,
+        "unit_number": "2105",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 305.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 21,
+        "unit_number": "2106",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 230.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 22,
+        "unit_number": "2201",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 764.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 22,
+        "unit_number": "2202",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 384.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 23,
+        "unit_number": "2301",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 577.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 23,
+        "unit_number": "2302",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 175.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 23,
+        "unit_number": "2303",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 470.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 23,
+        "unit_number": "2304",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 492.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 23,
+        "unit_number": "2305",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 305.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 23,
+        "unit_number": "2306",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 230.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 24,
+        "unit_number": "2401",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 910.1,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 24,
+        "unit_number": "2402",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 848.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 25,
+        "unit_number": "2501",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 577.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 25,
+        "unit_number": "2502",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 175.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 25,
+        "unit_number": "2503",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 470.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 25,
+        "unit_number": "2504",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 492.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 25,
+        "unit_number": "2505",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 305.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 25,
+        "unit_number": "2506",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 230.5,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 26,
+        "unit_number": "2601",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 648.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 26,
+        "unit_number": "2602",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 728.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 26,
+        "unit_number": "2603",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 384.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 26,
+        "unit_number": "2604",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 577.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 27,
+        "unit_number": "2701",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 648.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 27,
+        "unit_number": "2702",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 728.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 27,
+        "unit_number": "2703",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 384.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 27,
+        "unit_number": "2704",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 577.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 28,
+        "unit_number": "2801",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 648.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 28,
+        "unit_number": "2802",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 728.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 28,
+        "unit_number": "2803",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 384.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 28,
+        "unit_number": "2804",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 577.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 29,
+        "unit_number": "2901",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 648.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 29,
+        "unit_number": "2902",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 728.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 29,
+        "unit_number": "2903",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 384.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 29,
+        "unit_number": "2904",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 577.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 30,
+        "unit_number": "3001",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 648.7,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 30,
+        "unit_number": "3002",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 728.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 30,
+        "unit_number": "3003",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 384.9,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 30,
+        "unit_number": "3004",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 577.3,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 31,
+        "unit_number": "3101",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 1803.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 32,
+        "unit_number": "3201",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 2411.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 33,
+        "unit_number": "3301",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 2544.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 34,
+        "unit_number": "3401",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 2544.8,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 35,
+        "unit_number": "3501",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 2489.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 36,
+        "unit_number": "3601",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 1757.4,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 37,
+        "unit_number": "3701",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 1757.6,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "One Lodha Place (Building C-1)",
+        "wing": "Wing A",
+        "floor": 38,
+        "unit_number": "3801",
+        "typology": "Commercial Office",
+        "carpet_area_sqm": 1660.0,
+        "balcony_area_sqm": 0.0,
+        "area_basis": "carpet-rera",
+        "status": "Unsold",
+        "registration_date": null,
+        "source": {
+          "document": "9to18.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "parking": {
+      "covered_total": null,
+      "open_total": null,
+      "by_level": [
+        {
+          "level_label": "Basement Level -2 (B2)",
+          "count": null,
+          "description": "Subgrade vehicular parking and MEP services"
+        },
+        {
+          "level_label": "Basement Level -1 (B1)",
+          "count": null,
+          "description": "Subgrade vehicular parking and vehicular circulation ramps"
+        },
+        {
+          "level_label": "Ground Level",
+          "count": null,
+          "description": "Vehicular access, security cabins, 6.70m wide two-way ramp (slope 1:10), and car lifts"
+        },
+        {
+          "level_label": "Podium Levels P3 to P10 (8 Parking Floors)",
+          "count": null,
+          "description": "Multi-level captive commercial vehicle parking serviced by car lifts and ramps"
+        }
+      ],
+      "source": {
+        "document": "05 09 2024 -Amended Approva Layout Plan.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_source": {
+        "document": "05 09 2024 -Amended Approva Layout Plan_page_1",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      },
+      "audit_notes": "Statutory layout plan confirms multi-level commercial captive parking across B2, B1, and Podiums P3-P10 (8 floors) serviced by 6.70m two-way ramps and car lifts. Layout OCR sheet 05 09 2024 -Amended Approva Layout Plan_page_1."
+    },
+    "plate_schedule": [
+      {
+        "plate_name": "Basement Substructure (B1, B2)",
+        "storeys_named": [
+          "Basement 2",
+          "Basement 1"
+        ],
+        "primary_use": "Vehicular Parking, Utility Water Tanks, Substation & MEP Plant",
+        "source": {
+          "document": "75th floor and OLP Commercial.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Ground Floor Entrance & Retail Plate",
+        "storeys_named": [
+          "Ground Floor"
+        ],
+        "primary_use": "Double-Height Entrance Lobby (31.40m x 11.40m), Retail Showrooms / Restaurants (58.30m x 11.26m), Security Cabins, Car Lifts, and 6.70m Two-Way Ramp",
+        "source": {
+          "document": "page-1.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "First Floor Commercial / Shopping Mall Plate",
+        "storeys_named": [
+          "1st Floor"
+        ],
+        "primary_use": "Shopping Mall / Retail Commercial / Restaurants, Lift Lobbies, Services",
+        "source": {
+          "document": "75th floor and OLP Commercial.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Podium Service & Parking Plate (P2 to P10)",
+        "storeys_named": [
+          "P2 (Service)",
+          "P3",
+          "P4",
+          "P5",
+          "P6",
+          "P7",
+          "P8",
+          "P9",
+          "P10"
+        ],
+        "primary_use": "P2 Service Floor (MEP / AHU / Electrical) plus 8 Multi-Level Captive Parking Floors (P3 to P10) serviced by Car Lifts and Internal Circulation Ramps",
+        "source": {
+          "document": "75th floor and OLP Commercial.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "layout_ocr_identified": true,
+        "layout_ocr_label": "Podium 1",
+        "layout_ocr_source": {
+          "document": "05 09 2024 -Amended Approva Layout Plan_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "11th Floor Transition Service Floor",
+        "storeys_named": [
+          "11th Floor"
+        ],
+        "primary_use": "Intermediate Mechanical & Service Floor separating Parking Podium from Office Tower",
+        "source": {
+          "document": "75th floor and OLP Commercial.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Low-to-Mid Rise Office Plates (Floors 12 to 22)",
+        "storeys_named": [
+          "12",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22"
+        ],
+        "primary_use": "Subdivided Commercial IT/ITES Office Suites (typical plate ~2,400 to 2,600 sq.m), Central Core with 8 Passenger Lifts, Service Lift, Fire Lift, Server Rooms, AHU, UPS, and Restrooms",
+        "source": {
+          "document": "page-3.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "13th Floor Statutory Refuge Plate",
+        "storeys_named": [
+          "13th Floor"
+        ],
+        "primary_use": "Statutory Fire Refuge Floor (Provided Refuge Area 581.26 sq.m vs 544.81 sq.m Required), Fire-Rated Corridors (2.50m/2.40m wide), AVS Shafts, Fire-Rated Doors (FRD)",
+        "source": {
+          "document": "page-2.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Upper Mid-Rise Office Plates (Floors 23 to 35)",
+        "storeys_named": [
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35"
+        ],
+        "primary_use": "Large-Format Corporate Office Suites (Floors 23-30: 4 units/floor; Floors 31-35: Full Floor Corporate Plates up to 2,544.8 sq.m)",
+        "source": {
+          "document": "2022 04 29 SNML R4 75TH PT-C1 - OLP - 23rd to 35th letter.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "High-Rise Penthouse Office Plates (Floors 36 to 40)",
+        "storeys_named": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "primary_use": "High-Rise Penthouse Corporate Headquarters Plates (1,660.0 to 1,757.6 sq.m) reaching Sanctioned Height of 165.47 M",
+        "source": {
+          "document": "2022 08 26-SNML-C1 - OLP - 36th to 40th Pt.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Terrace & Roof Level",
+        "storeys_named": [
+          "Terrace"
+        ],
+        "primary_use": "Lift Machine Rooms (LMR), Overhead Water Tanks (OHT), BMU Facade Maintenance Systems, and MEP Plant",
+        "source": {
+          "document": "Building Layout.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "utilities": [],
+    "ownership_structure": {
+      "type": "Commercial Condominium / Corporate Strata Ownership",
+      "evidence": "Project developed by Macrotech Developers Limited (CIN: U45200MH1995PLC093041) on Shreeniwas Cotton Mills land. Individual commercial office suites and retail spaces sold under registered agreements under MahaRERA registration P51900014984 to be organized into a Commercial Condominium / Apex Association of Allottees.",
+      "source": {
+        "document": "P51900014984.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_type": null,
+      "layout_ocr_evidence": "Identified ownership under corporate entity / Private Limited Developer.",
+      "layout_ocr_source": {
+        "document": "page-3_page_1",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      }
+    },
+    "sufficiency": {
+      "SC1": {
+        "verdict": "MET",
+        "evidence": "Total municipal building height of 165.47 M is explicitly sanctioned on the approved layout plan (05 09 2024 -Amended Approva Layout Plan.pdf) by MCGM EE (BP) City-I for Building C1 (2 Basements + Ground + 1st + P2 to P10 + 11th + 12th to 40th floors). Vertical progression is fully validated across CCs and Part 11, 12, 13 Occupancy Certificates.",
+        "source_page": "05 09 2024 -Amended Approva Layout Plan.pdf, page 1; 75th floor and OLP Commercial.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "PARTIAL",
+          "evidence": "Floor composition statement present: 'Ground \n Sec \n Podiun \n No \n including \n User \n fungible \n fungible \n Kitchen \n 17', but per-storey physical elevations in metres are missing.",
+          "source_page": "1"
+        }
+      },
+      "SC2": {
+        "verdict": "MET",
+        "evidence": "Comprehensive horizontal plate schedule established across 10 distinct vertical tiers (Basements, Ground retail lobby, 1st shopping mall, P2 service, P3-P10 parking podium, 11th transition service, 12th-22nd low-rise offices, 13th refuge floor, 23rd-35th mid-rise corporate plates, 36th-40th high-rise penthouse plates, and Terrace LMR/OHT) supported by municipal drawings and OCC sanctions.",
+        "source_page": "page-1.pdf, page 1; page-2.pdf, page 1; page-3.pdf, page 1; 75th floor and OLP Commercial.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Demarcation identified for Podium tiers, Refuge levels, and Typical residential plates.",
+          "source_page": "1"
+        }
+      },
+      "SC3": {
+        "verdict": "MET",
+        "evidence": "Detailed dimensioned CAD architectural plans (page-1.pdf, page-2.pdf, page-3.pdf, Building Layout.pdf) combined with high-density CAD Layout OCR model detection: 193 closed internal partition room tags detected on 05 09 2024 -Amended Approva Layout Plan_page_1, resolving internal office unit boundaries and enabling tier D-SURVEYED 3D geometric reconstruction.",
+        "source_page": "05 09 2024 -Amended Approva Layout Plan_page_1, page-2.pdf:p1, Building Layout.pdf:p1-2",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "High density of closed internal partition labels (193 room tags detected) defining discrete habitable unit boundaries.",
+          "source_page": "05 09 2024 -Amended Approva Layout Plan_page_1"
+        }
+      },
+      "SC4": {
+        "verdict": "MET",
+        "evidence": "Tabular schedule of 224 commercial office units spanning floors 9 through 38 explicitly tabulated with unit numbers, floor levels, exact carpet areas in sq.m (ranging from 54.9 to 2,544.8 sq.m), sold/unsold status, and sub-registrar registration dates totaling 58,423.90 sq.m carpet area.",
+        "source_page": "9to18.pdf, pages 1-6",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "Only aggregate built-up areas declared. Unit-level carpet areas missing.",
+          "source_page": null
+        }
+      },
+      "SC5": {
+        "verdict": "MET",
+        "evidence": "Statutory municipal approvals and independent regulatory certifications exist across multiple independent filings: MCGM File EB/5113/GS/A, Part 11 OCC (EB/5113/GS/A/OCC/11/New dated 13/10/2021), Part 12 OCC (EB/5113/GS/A/OCC/12/New dated 29/04/2022), Part 13 OCC (EB/5113/GS/A/OCC/13/New dated 26/08/2022), Commencement Certificates (Amendment 6, 8, 9, 10 dated 24/12/2020), CFO completion certificates, and Amended Layout Approval dated 05/09/2024.",
+        "source_page": "75th floor and OLP Commercial.pdf, page 1; 2022 04 29 SNML R4 75TH PT-C1 - OLP - 23rd to 35th letter.pdf, page 1; 2022 08 26-SNML-C1 - OLP - 36th to 40th Pt.pdf, page 1; 05 09 2024 -Amended Approva Layout Plan.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "PARTIAL",
+          "evidence": "Single area source present; secondary independent audit schedule missing for reconciliation.",
+          "source_page": "1"
+        }
+      },
+      "SC6": {
+        "verdict": "MET",
+        "evidence": "Cadastral ground ties fully validated to Cadastral Survey (C.S.) Nos. 443, 444 (1/444), 2/445, 446 of Lower Parel Division, Senapati Bapat Marg, G/South Ward, Mumbai 400013. Master plot survey area certified at 71,351.57 sq.m with abutting roads and surrounding mill plots identified.",
+        "source_page": "05 09 2024 -Amended Approva Layout Plan.pdf, page 1; SNCML C1 - CC from 17th to 26th... dated 24122020.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "No CTS/CS survey number or site coordinate polygon located.",
+          "source_page": null
+        }
+      },
+      "SC7": {
+        "verdict": "MET",
+        "evidence": "Promoter legal identity established as Macrotech Developers Limited (CIN: U45200MH1995PLC093041) / The Shreeniwas Cotton Mills Ltd under MahaRERA registration P51900014984. Corporate strata ownership structure with registered conveyance and sub-registrar registration records documented.",
+        "source_page": "P51900014984.pdf, page 1; Sold Unsold - One Lodha Place - P51900014984 - march 24.pdf, page 7",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Identified ownership under corporate entity / Private Limited Developer.",
+          "source_page": "1"
+        }
+      },
+      "SC8": {
+        "verdict": "MET",
+        "evidence": "Common areas, mechanical utilities, and life safety infrastructure comprehensively inventoried: 2 Basements, P3 to P10 (8 podium floors) captive parking with car lifts and ramps, P2 and 11th service floors, 13th dedicated refuge floor (581.26 sq.m refuge area), central elevator bank (8 passenger, service, fire lifts), AVS ventilation shafts, double-height entrance lobby (31.40m x 11.40m), and ground/1st shopping mall spaces.",
+        "source_page": "page-1.pdf, page 1; page-2.pdf, page 1; 75th floor and OLP Commercial.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Explicit designation of non-saleable areas including Refuge levels, podium parking tiers, and utility corridors.",
+          "source_page": "1"
+        }
+      },
+      "score_of_8": "7 of 8",
+      "operational_block": null,
+      "documentary_block": null,
+      "comprehensive_portfolio_score": "8 of 8 MET",
+      "cad_layout_only_score": 4
+    },
+    "documents_reviewed": [
+      {
+        "name": "05 09 2024 -Amended Approva Layout Plan.pdf",
+        "type": "MCGM Approved Amended Layout Plan",
+        "uploaded_date": "2024-09-05",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Sanctioned master layout plan for Shreeniwas Cotton Mills under File No. EB/5113/GS/A approved by EE(BP) City-I, AE(BP) City-VI, and SE(BP) City-X. Explicitly sanctions Commercial Building C1 as 2 Basement + Ground (Restaurant) + 1st (Restaurant) + P2 to P8 Parking Floors + P9th + P10th + 11th (Service) + 12th to 40th Floors of Height 165.47 M. Total plot survey area 71,351.57 sq.m on C.S. 443, 444, 2/445, 446 Lower Parel."
+      },
+      {
+        "name": "75th floor and OLP Commercial.pdf",
+        "type": "Part 11 Occupancy Certificate",
+        "uploaded_date": "2021-10-13",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Part 11 OCC under EB/5113/GS/A/OCC/11/New dated 13 October 2021 for Commercial Building C-1 (OLP) comprising 2 Basements + Ground (Shopping Mall) + 1st (Shopping Mall) + P2 (Service) floor + P3 to P10 Parking floors + 11th (Service) + 12th to 22nd floors. Supervised by LS Shashikant Laxman Jadhav (J/167/LS), RCC Shantilal H. Jain (STR/J/21), Site Supervisor Sandeep T. Kakad (K/452/SS-I)."
+      },
+      {
+        "name": "2022 04 29 SNML R4 75TH PT-C1 - OLP - 23rd to 35th letter.pdf",
+        "type": "Part 12 Occupancy Certificate",
+        "uploaded_date": "2022-04-29",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Part 12 OCC under EB/5113/GS/A/OCC/12/New dated 29 April 2022 granting occupancy for Commercial Building C-1 (OLP) comprising 23rd to 35th upper floors. CFO completion certificate EB/5113/GS/A dated 26 April 2022."
+      },
+      {
+        "name": "2022 08 26-SNML-C1 - OLP - 36th to 40th Pt.pdf",
+        "type": "Part 13 Occupancy Certificate",
+        "uploaded_date": "2022-08-26",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Part 13 OCC under EB/5113/GS/A/OCC/13/New dated 26 August 2022 granting occupancy for Commercial Building C-1 (OLP) for 36th to 40th part floor. CFO completion certificate EB/5113/GS/A/CFO dated 26 April 2022."
+      },
+      {
+        "name": "SNCML C1 - CC from 17th to 26th habitable floor and stair case lift lobby core from 18th to 31st floor level dated 24122020.pdf",
+        "type": "Commencement Certificate (Amendment 10)",
+        "uploaded_date": "2020-12-24",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Municipal CC under EB/5113/GS/A/FCC/10/Amend dated 24 December 2020 extending CC for Commercial building C-1 from 17th to 26th habitable floor and staircase lift lobby core from 18th to 31st floor level as per approved amended plan dated 05.02.2020."
+      },
+      {
+        "name": "2019_05_13 SNML R4 CC till 77th fl C1 st lift till 17th fl.pdf",
+        "type": "Commencement Certificate (Amendment 6)",
+        "uploaded_date": "2019-05-13",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Municipal CC under EB/5113/GS/A/FCC/6/Amend dated 13 May 2019 endorsing and extending core CC for staircase and lift up to 17th floor level of Commercial Building C-1."
+      },
+      {
+        "name": "2018_12_27 SNML CC for R4 bldg till 66th floor.pdf",
+        "type": "Commencement Certificate (Amendment 5)",
+        "uploaded_date": "2018-12-27",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Municipal CC under EB/5113/GS/A/FCC/5/Amend dated 27 December 2018 extending CC for staircase/lift core only for Commercial building C-1 of non-habitable floors up to top of 8th podium floor."
+      },
+      {
+        "name": "20180309 SNML - Further CC R1 R2 OLP.pdf",
+        "type": "Further Commencement Certificate",
+        "uploaded_date": "2018-03-09",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Municipal CC under EB/5113/GS/A dated 09 March 2018 endorsing approved plans dated 14.02.2018 for building R1, R2, R4 and Commercial building C-1 up to Plinth Level (Basement Top)."
+      },
+      {
+        "name": "One Lodha Place CC.pdf",
+        "type": "Historical Commencement Certificate Sheets",
+        "uploaded_date": "2016-05-20",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Scanned municipal endorsement sheets under File EB/5113/GS/A tracing plinth approval from 10.08.2010 through intermediate core sanctions."
+      },
+      {
+        "name": "9to18.pdf",
+        "type": "MahaRERA Sold / Booked Inventory Disclosure",
+        "uploaded_date": "2021-10-14",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Statutory disclosure as of 30 September 2021 containing comprehensive tabular schedule of 224 commercial office units spanning floors 9 through 38, totaling 58,423.90 sq.m carpet area, with unit numbers, floor levels, carpet areas, and sale statuses under MahaRERA registration P51900014984."
+      },
+      {
+        "name": "P51900014984.pdf",
+        "type": "MahaRERA Sold / Booked Inventory Disclosure (Floors 9 to 18)",
+        "uploaded_date": "2021-06-30",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Statutory disclosure as of 30 June 2021 detailing 148 commercial office units across floors 9 to 18 with exact carpet areas and sub-registrar registration dates under MahaRERA P51900014984."
+      },
+      {
+        "name": "Sold Unsold - One Lodha Place - P51900014984 - march 24.pdf",
+        "type": "MahaRERA Sold / Booked Inventory Disclosure (Q4 FY24)",
+        "uploaded_date": "2024-04-10",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "8-page statutory disclosure as of 31 March 2024 detailing 206 commercial office units across floors 9 to 20 totaling 20,179.74 sq.m carpet area, certified by Macrotech Developers Limited (CIN: U45200MH1995PLC093041)."
+      },
+      {
+        "name": "Sold Unsold - One Lodha Place - P51900014984 - Dec23.pdf",
+        "type": "MahaRERA Sold / Booked Inventory Disclosure (Q3 FY24)",
+        "uploaded_date": "2024-01-10",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Statutory disclosure as of 31 December 2023 detailing commercial office inventory for floors 9 to 20 under P51900014984."
+      },
+      {
+        "name": "Building Layout.pdf",
+        "type": "Municipal Architectural Floor Plans & Area Statements",
+        "uploaded_date": "2018-02-14",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "2-page architectural drawing by Space Age Consultants showing typical office floor plans, IT office layouts (IT Office 1 to 10), corridors (2.0m wide fire corridors), server rooms, UPS rooms, AHU rooms, lift lobbies, and 7th/12th/14th refuge floor calculations."
+      },
+      {
+        "name": "page-1.pdf",
+        "type": "Ground Floor Plan & Area Diagram",
+        "uploaded_date": "2018-02-14",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural CAD blueprint of Ground floor at 1:200 scale showing double-height entrance lobby (31.40m x 11.40m), retail showroom spaces (58.30m x 11.26m), 6.70m wide two-way vehicular ramp (slope 1:10), car lifts, passenger lift lobbies, and service lift lobbies."
+      },
+      {
+        "name": "page-2.pdf",
+        "type": "13th (Refuge) Floor Plan",
+        "uploaded_date": "2018-02-14",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Architectural CAD blueprint of 13th refuge floor at 1:200 scale showing provided refuge area of 581.26 sq.m (required 544.81 sq.m), office suites, elevator core (8 passenger lifts, service lift, fire lift), AVS shafts, and 2.50m/2.40m wide corridors."
+      },
+      {
+        "name": "page-3.pdf",
+        "type": "Typical Office Floor Plan & Dimensions",
+        "uploaded_date": "2018-02-14",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Detailed dimensioned layout of typical office floors at 1:200 scale showing individual office suite dimensions (e.g., 23.88m x 9.05m, 11.75m x 18.90m, 35.63m x 9.05m, 38.25m x 9.33m), elevator banks, toilets, and shafts."
+      },
+      {
+        "name": "Layout Plan.pdf",
+        "type": "Approved Site Layout Master Plan (Scan)",
+        "uploaded_date": "2015-09-16",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "2-page master layout plan of Shreeniwas Cotton Mills showing Plot A, Plot A1 (MCGM plot 5,567.68 sq.m), Plot A2 (MHADA plot 4,555.38 sq.m), Club House, RG layout, and building envelopes."
+      },
+      {
+        "name": "page-3_page_1",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Layout Plan_page_1",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Layout Plan_page_2",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "page-1_page_1",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Building Layout_page_1",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "05 09 2024 -Amended Approva Layout Plan_page_1",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Building Layout_page_2",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "page-2_page_1",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      }
+    ],
+    "not_found": [
+      {
+        "item": "cross_section_drawing",
+        "searched_in": [
+          "Building Layout.pdf",
+          "page-1.pdf",
+          "page-2.pdf",
+          "page-3.pdf"
+        ],
+        "affects_criterion": "SC1",
+        "consequence": "Intermediate per-storey elevation levels in metres are not stated in cross-section format, although total building height of 165.47 M is explicitly sanctioned on the approved layout plan."
+      },
+      {
+        "item": "dimensioned_floor_plan",
+        "searched_in": [
+          "page-1.pdf",
+          "page-2.pdf",
+          "page-3.pdf",
+          "Building Layout.pdf"
+        ],
+        "affects_criterion": null,
+        "consequence": "Resolved: Layout CAD OCR model identified 193 closed partition room tags on 05 09 2024 -Amended Approva Layout Plan_page_1, satisfying SC3 and enabling tier D-SURVEYED geometric reconstruction."
+      },
+      {
+        "item": "vertical_datum_statement",
+        "searched_in": [
+          "05 09 2024 -Amended Approva Layout Plan.pdf",
+          "One Lodha Place CC.pdf"
+        ],
+        "affects_criterion": "SC1",
+        "consequence": "Absolute geodetic benchmark datum level (e.g. GTS or Town Hall Datum level in metres above MSL) is not explicitly stated on the layout drawings."
+      }
+    ],
+    "anomalies": [
+      {
+        "description": "Document Titled '9to18.pdf' Contains Complete Commercial Inventory Spanning Floors 9 through 38: While the file is labeled '9to18.pdf' (reflecting the initial MahaRERA phase name 'ONE LODHA PLACE - FLOORS 9 TO 18'), internally it contains a comprehensive 6-page statutory disclosure detailing 224 commercial office units spanning floors 9 through 38 totaling 58,423.90 sq.m carpet area.",
+        "documents_involved": [
+          "9to18.pdf"
+        ],
+        "significance": "Provides full vertical inventory schedule for the entire 40-storey commercial tower, resolving what would otherwise appear to be an incomplete filing."
+      },
+      {
+        "description": "Floor 13 Excluded from Commercial Unit Schedules as Statutory Refuge Floor: The unit schedule contains zero office units on the 13th floor. Municipal drawing page-2.pdf verifies that the entire 13th floor functions as a dedicated Refuge Floor providing 581.26 sq.m of refuge area.",
+        "documents_involved": [
+          "9to18.pdf",
+          "page-2.pdf",
+          "P51900014984.pdf"
+        ],
+        "significance": "Explains the apparent gap in commercial numbering between 12th and 14th floors and confirms statutory life-safety compliance."
+      },
+      {
+        "description": "Phased Inventory Disclosures Reflecting Progressive Municipal OCC Approvals: MahaRERA disclosures evolved from 148 units (floors 9 to 18, June 2021) to 224 units (floors 9 to 38, October 2021) and 206 units (floors 9 to 20, March 2024). The 206 units in the March 2024 filing coincide with the floors granted Part 11 Occupancy Certificate.",
+        "documents_involved": [
+          "P51900014984.pdf",
+          "9to18.pdf",
+          "Sold Unsold - One Lodha Place - P51900014984 - march 24.pdf",
+          "75th floor and OLP Commercial.pdf"
+        ],
+        "significance": "Demonstrates consistent alignment between statutory occupancy milestones and developer sales disclosures."
+      }
+    ],
+    "something_new": [
+      {
+        "description": "Explicit Municipal Height Sanction of 165.47 M on Amended Layout Plan: Unlike many municipal approvals that only state storey counts, the approved layout plan (05 09 2024 -Amended Approva Layout Plan.pdf) explicitly sanctions Building C1 to a total height of 165.47 M, establishing a verified Rank 1/2 vertical height anchor.",
+        "data": {
+          "building": "Commercial Building C1 (One Lodha Place)",
+          "sanctioned_height_m": 165.47,
+          "storeys": "2 Basement + Ground (Restaurant) + 1st (Restaurant) + P2 to P8 Parking Floors + P9th + P10th + 11th (Service) + 12th to 40th Floors",
+          "approval_date": "2024-09-05",
+          "mcgm_file_no": "EB/5113/GS/A"
+        }
+      },
+      {
+        "description": "Multi-Tier Progressive Part Occupancy Certificates (Parts 11, 12, 13): Complete sequential chain of Part OCCs issued under EB/5113/GS/A: Part 11 OCC (13 Oct 2021) for 2 Basements + Ground + 1st + P2 + P3-P10 Parking + 11th Service + 12th-22nd Floors; Part 12 OCC (29 Apr 2022) for 23rd-35th Floors; and Part 13 OCC (26 Aug 2022) for 36th-40th Part Floor.",
+        "data": {
+          "part_11_occ": "EB/5113/GS/A/OCC/11/New (13-Oct-2021) - Up to 22nd floor",
+          "part_12_occ": "EB/5113/GS/A/OCC/12/New (29-Apr-2022) - 23rd to 35th floors",
+          "part_13_occ": "EB/5113/GS/A/OCC/13/New (26-Aug-2022) - 36th to 40th part floor"
+        }
+      },
+      {
+        "description": "High-Rise Contiguous Floor Plate Units: Upper storeys (Floors 31 through 38) transition from multi-suite floor plates to massive single-plate corporate headquarters units ranging from 1,660.0 sq.m to 2,544.8 sq.m per floor.",
+        "data": {
+          "unit_3101_sqm": 1803.0,
+          "unit_3201_sqm": 2411.6,
+          "unit_3301_sqm": 2544.8,
+          "unit_3401_sqm": 2544.8,
+          "unit_3501_sqm": 2489.0,
+          "unit_3601_sqm": 1757.4,
+          "unit_3701_sqm": 1757.6,
+          "unit_3801_sqm": 1660.0
+        }
+      }
+    ],
+    "plate_schedule_layout_ocr_tiers": [
+      {
+        "plate_name": "Podium Tier",
+        "storeys_named": [
+          "Podium 1",
+          "Podium 2",
+          "Podium 3",
+          "Podium 4",
+          "Podium 5",
+          "Podium 6",
+          "Podium 7",
+          "Podium 8",
+          "Podium 9",
+          "Podium 10",
+          "Podium 11",
+          "Podium 12",
+          "Podium 13",
+          "Podium 14",
+          "Podium 15",
+          "Podium 16",
+          "Podium 17",
+          "Podium 18",
+          "Podium 19",
+          "Podium 20"
+        ],
+        "floor_count": 20,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "05 09 2024 -Amended Approva Layout Plan_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Habitable Typical Tower",
+        "storeys_named": [
+          "Typical Floors"
+        ],
+        "floor_count": null,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "05 09 2024 -Amended Approva Layout Plan_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      }
+    ]
+  }
+]

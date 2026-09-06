@@ -76,9 +76,35 @@ const floorDb = {};
 const unitDb = {};
 const unitDetailDb = {};
 
+const ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+function calculateCheckCharacter(input) {
+  const cleanInput = input.toUpperCase().replace(/-/g, '');
+  let p = 36;
+  for (let i = 0; i < cleanInput.length; i++) {
+    const val = ALPHABET.indexOf(cleanInput.charAt(i));
+    let s = (p + val) % 37;
+    if (s === 0) s = 37;
+    p = (s * 2) % 37;
+  }
+  return ALPHABET.charAt((38 - p) % 37 % 36);
+}
+
 for (const b of BUILDINGS) {
   const floors = [];
+  const totalFloors = b.floors || 78;
+  const FLOOR_HEIGHT_M = 3.5;
+  const wingMap = {
+    'BLDG-LODHA-WORLD-ONE': 'WWO',
+    'BLDG-LODHA-TRUMP': 'WTT',
+    'BLDG-LODHA-KIARA': 'WKI',
+    'BLDG-LODHA-MARQUISE': 'WMQ',
+    'BLDG-LODHA-ALLURA': 'WAL',
+    'BLDG-LODHA-PARKSIDE': 'WPS',
+  };
+  const wPrefix = wingMap[b.buildingId] || ('W' + b.buildingId.substring(11, 13).toUpperCase());
+
   for (let f = 1; f <= b.floors; f++) {
+    const pF = f.toString().padStart(2, '0');
     const floorId = generateFloorId(b.buildingId, f);
     const floorName = `Floor ${f}`;
     const elevMin = (f - 1) * 3.5;
@@ -98,7 +124,6 @@ for (const b of BUILDINGS) {
 
     const units = [];
     for (let u = 1; u <= 4; u++) {
-      const pF = f.toString().padStart(2, '0');
       const pU = u.toString().padStart(2, '0');
       const unitNumber = `${f}${pU}`;
       const unitId = `UNIT-${b.buildingId.replace('BLDG-', '')}-L${pF}-${pU}`;
@@ -117,6 +142,9 @@ for (const b of BUILDINGS) {
       const bhk = isPenthouse ? 5 : isGrandSuite ? 4 : 3;
       const areaSqFt = isPenthouse ? 5200 : isGrandSuite ? 3450 : 2350;
 
+      const baseString = `CS707P-${wPrefix}-S${pF}-U${pU}-PRV`;
+      const displayIdentifier = baseString + '-' + calculateCheckCharacter(baseString);
+
       const unitRecord = {
         unitId,
         unitNumber,
@@ -125,6 +153,7 @@ for (const b of BUILDINGS) {
         areaSqFt,
         status,
         floorId,
+        displayIdentifier,
         createdAt: '2026-09-06T00:00:00.000Z',
         updatedAt: '2026-09-06T00:00:00.000Z',
       };
@@ -245,6 +274,64 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify(data));
     return;
+  }
+
+  // GET /api/resolve/:displayIdentifier
+  const resolveMatch = pathname.match(/^\/api\/resolve\/(.+)$/);
+  if (resolveMatch) {
+    const displayId = decodeURIComponent(resolveMatch[1]);
+    
+    // Very basic mock resolution for UI testing purposes
+    if (displayId.includes('-')) {
+      const parts = displayId.split('-');
+      const base = parts[0];
+      
+      let recordType = 'Building';
+      let spatialData = {
+        buildingId: BUILDINGS[0].buildingId,
+        name: BUILDINGS[0].buildingName,
+        parcelBase: base
+      };
+
+      // Search unit details db for exact match
+      const unitRecord = Object.values(unitDetailDb).find(u => u.displayIdentifier === displayId);
+      
+      if (unitRecord) {
+        recordType = 'Unit';
+        spatialData = {
+          buildingId: unitRecord.buildingId,
+          floorId: unitRecord.floorId,
+          unitId: unitRecord.unitId,
+          name: `Room ${unitRecord.unitNumber}`
+        };
+      } else {
+        // Fallback or floors could be added here
+        const storeyPart = parts.find(p => p.startsWith('S'));
+        if (storeyPart) {
+          recordType = 'Floor';
+          const sNum = storeyPart.replace('S', '').padStart(2, '0');
+          spatialData = {
+            buildingId: BUILDINGS[0].buildingId,
+            floorId: `FLR-${BUILDINGS[0].buildingId}-L${sNum}`,
+            name: `Floor ${parseInt(sNum)}`
+          };
+        }
+      }
+
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({
+        valid: true,
+        displayIdentifier: displayId,
+        parsedIdentifier: {
+          base: base,
+          check: parts[parts.length - 1]
+        },
+        recordType,
+        spatialData,
+        status: 'EXISTING'
+      }));
+      return;
+    }
   }
 
   res.writeHead(404, { 'Content-Type': 'application/json' });

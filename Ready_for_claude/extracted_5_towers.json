@@ -1,0 +1,225 @@
+[
+  {
+    "name": "The Park Master Complex (Towers 1 to 5, Retail & Town Houses)",
+    "designation": "Towers 1 to 5 (Wings 1 to 5), Wing 6 & Town Houses",
+    "usage": "Integrated Residential High-Rise Skyscraper Township & Retail",
+    "configuration": "4 Basements (B1 to B4) + Ground / Stilt (P0 GCP) + 6 Podiums (P1 to P6) + 7th Podium Top Recreational Park (P7) + 78 Upper Storeys (Floors 8 to 78) + Terrace Level + Lift Machine Room / OHT Level",
+    "total_storeys_above_ground": 78,
+    "basements_count": 4,
+    "podium_parking_storeys": 6,
+    "service_floors_count": 1,
+    "refuge_floors": [
+      {
+        "floor": 14,
+        "elevation_m": 46.35,
+        "description": "Low-Rise Refuge Floor (Wings 1, 2, 3, 4, 5)",
+        "source": {
+          "document": "23.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "floor": 21,
+        "elevation_m": 68.4,
+        "description": "Refuge Floor (Wings 1, 2, 3, 4, 5)",
+        "source": {
+          "document": "23.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "floor": 28,
+        "elevation_m": 94.2,
+        "description": "Refuge Floor (Wings 1, 2, 3, 4)",
+        "source": {
+          "document": "23.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "floor": 35,
+        "elevation_m": 116.25,
+        "description": "Mid-Rise Refuge Floor (Wings 1, 2, 3, 4)",
+        "source": {
+          "document": "23.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "floor": 42,
+        "elevation_m": 138.3,
+        "description": "Refuge Floor (Wings 1, 2, 3, 4)",
+        "source": {
+          "document": "23.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "floor": 48,
+        "elevation_m": 162.45,
+        "description": "High-Rise Refuge Floor (Wings 1, 2, 3, 4)",
+        "source": {
+          "document": "23.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "floor": 58,
+        "elevation_m": 193.95,
+        "description": "High-Rise Refuge Floor (Wings 1, 2, 3, 4)",
+        "source": {
+          "document": "23.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "floor": 70,
+        "elevation_m": 230.55,
+        "description": "Supertall Refuge Floor (Wings 1, 2, 4)",
+        "source": {
+          "document": "23.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "fire_check_floors": [
+      {
+        "floor": 22,
+        "elevation_m": 71.55,
+        "description": "Fire Check Floor Level 1",
+        "source": {
+          "document": "23.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "floor": 42,
+        "elevation_m": 141.45,
+        "description": "Fire Check Floor Level 2",
+        "source": {
+          "document": "23.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "floor": 65,
+        "elevation_m": 216,
+        "description": "Fire Check Floor Level 3",
+        "source": {
+          "document": "23.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "height_m": 268.4,
+    "total_built_up_area_sqm": 271636.86,
+    "total_carpet_area_sqm": 240427.47,
+    "licensed_surveyor": "Shri Shashikant Laxman Jadhav (Lic. No. J/167/LS), M/s Spaceage Consultants",
+    "structural_engineer": "Shri Girish Purushottam Dravid (Lic. No. STR/D/59), Sterling Engineering Consultancy Services Pvt. Ltd.",
+    "site_supervisor": "Shri Anil Kumar Raman (Lic. No. R-202/SS-I) / Shri Sandeep T. Kakad (Lic. No. K/452/SS-I)",
+    "architect": "Kapadia Associates Pvt. Ltd. Architects (Job No. 178)",
+    "occupancy_status": "Full and Part Occupancy Certificates Granted Across All Towers (Part 1 to Part 12 OCCs under EB/1342/GS/A)",
+    "source": {
+      "document": "Layout plan.pdf",
+      "page": 1,
+      "retrieved": "2026-09-05"
+    },
+    "plinths_count": 1,
+    "podiums_sanctioned_count": 4,
+    "composition_verbatim": "PODIUM \n LINE \n DIAGRAME \n 40 \n 44 \n AREA \n 44 \n IST PODIUM \n 0f \n AREA LINE DIAGRAME Of",
+    "layout_ocr_source": {
+      "document": "24_page_1",
+      "page": "1",
+      "retrieved": "2026-09-06"
+    },
+    "stilts": null,
+    "slabs_of_super_structure": null,
+    "total_sanctioned_floors": null
+  },
+  {
+    "name": "Tower 1: Allura (Wing 1)",
+    "designation": "Wing 1",
+    "usage": "Residential Skyscraper Tower",
+    "total_storeys_above_ground": 78,
+    "height_m": 268.4,
+    "total_units": 549,
+    "total_carpet_area_sqm": 49402.11,
+    "occupancy_status": "Occupancy Granted (Part 3, Part 4, Part 5, Part 12 OCCs up to 78th Floor)",
+    "source": {
+      "document": "20190722- MTM -Part OC Letter of wing 1,2,3.pdf",
+      "page": 1,
+      "retrieved": "2026-09-05"
+    }
+  },
+  {
+    "name": "Tower 2: Parkside (Wing 2)",
+    "designation": "Wing 2",
+    "usage": "Residential Skyscraper Tower",
+    "total_storeys_above_ground": 78,
+    "height_m": 268.4,
+    "total_units": 549,
+    "total_carpet_area_sqm": 47871.28,
+    "occupancy_status": "Occupancy Granted (Part 3, Part 4, Part 5, Part 12 OCCs up to 78th Floor)",
+    "source": {
+      "document": "20210921 Kiara 7th to 42nd and Parkside full OC 64th.pdf",
+      "page": 1,
+      "retrieved": "2026-09-05"
+    }
+  },
+  {
+    "name": "Tower 3: Marquise (Wing 3)",
+    "designation": "Wing 3",
+    "usage": "Residential Skyscraper Tower",
+    "total_storeys_above_ground": 76,
+    "height_m": 268.4,
+    "total_units": 396,
+    "total_carpet_area_sqm": 51413.04,
+    "occupancy_status": "Occupancy Granted (Part 3, Part 4, Part 5, Part 12 OCCs up to 76th Floor)",
+    "source": {
+      "document": "20190722- MTM -Part OC Letter of wing 1,2,3.pdf",
+      "page": 1,
+      "retrieved": "2026-09-05"
+    }
+  },
+  {
+    "name": "Tower 4: Trump Tower Mumbai (Wing 4)",
+    "designation": "Wing 4",
+    "usage": "Ultra-Luxury Branded Residential Skyscraper Tower",
+    "total_storeys_above_ground": 78,
+    "height_m": 268.4,
+    "total_units": 385,
+    "total_carpet_area_sqm": 52551.2,
+    "occupancy_status": "Occupancy Granted (Part 6, Part 7, Part 12 OCCs up to 78th Floor)",
+    "source": {
+      "document": "oc2.pdf",
+      "page": 1,
+      "retrieved": "2026-09-05"
+    }
+  },
+  {
+    "name": "Tower 5: Kiara (Wing 5)",
+    "designation": "Wing 5",
+    "usage": "Residential Skyscraper Tower",
+    "total_storeys_above_ground": 66,
+    "height_m": 219.35,
+    "total_units": 322,
+    "total_carpet_area_sqm": 39189.84,
+    "occupancy_status": "Occupancy Granted (Part 10 and Part 11 OCCs for 7th to 66th Floors)",
+    "source": {
+      "document": "20211215 OC Kiara (43 to 58 pt and 59 to 66).pdf",
+      "page": 1,
+      "retrieved": "2026-09-05"
+    }
+  }
+]

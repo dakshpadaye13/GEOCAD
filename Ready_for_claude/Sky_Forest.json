@@ -1,0 +1,3951 @@
+[
+  {
+    "schema_version": "1.1",
+    "extracted_by": "Multi-Source Statutory Ingestion Engine + CAD Layout Intelligent OCR Model",
+    "extracted_on": "2026-09-06",
+    "project": {
+      "name": "Indiabulls Sky Forest - A2",
+      "rera_number": "P51900000467",
+      "survey_number": "841",
+      "survey_number_type": "CS",
+      "division": "Lower Parel Division",
+      "ward": "G/South",
+      "planning_authority": "Brihanmumbai Municipal Corporation (BMC) / Municipal Corporation of Greater Mumbai (MCGM)",
+      "land_area_sqm": null,
+      "latitude": 18.9984,
+      "longitude": 72.8277,
+      "boundaries": {
+        "north": "Balseth Madhurkar Marg",
+        "south": "Fitwala Road",
+        "east": "Senapati Bapat Marg (Tulsi Pipe Road)",
+        "west": "Commercial Development / Jupiter Mills"
+      },
+      "source": {
+        "document": "Approved and Proposed Layout.pdf",
+        "page": 2,
+        "retrieved": "2026-09-05"
+      },
+      "alias_name": "Sky Forest",
+      "planning_authority_acronym": "MCGM",
+      "layout_ocr_survey_number": null,
+      "layout_ocr_source": {
+        "document": "Approved and Proposed Layout_page_2",
+        "page": "2",
+        "retrieved": "2026-09-06"
+      },
+      "audit_notes": "Statutory title 'Indiabulls Sky Forest' under MahaRERA P51900000467 on C.S. No. 841 of Lower Parel Division (Jupiter Textile Mill site, G/South Ward), plot area 65,340.54 sq.m. CAD Layout OCR model processed Approved and Proposed Layout_page_1 and Approved and Proposed Layout_page_2."
+    },
+    "buildings": [
+      {
+        "name": "Indiabulls Sky Forest (Wing A2)",
+        "wing": "Wing A2",
+        "basements": 3,
+        "plinths": 1,
+        "podiums": 4,
+        "stilts": 0,
+        "slabs_of_super_structure": 51,
+        "service_floors": 1,
+        "fire_check_floors": 2,
+        "total_sanctioned_floors": 51,
+        "composition_verbatim": "Residential building comprising of Part occupation certificate for 1st level basement (pt) + 2nd level basement (pt.) + 3rd level basement + Ground floor (pt.) + 1st podium floor (pt.) + 2nd podium floor (pt.) + 3rd podium floor (pt.) + 4th podium floor (pt.) + 5th to 9th floor (pt.) for parking of residential wings 'A2' and 'A3' and 10th + 11th (pt.) + 12th (pt.) to 51st upper residential floor along with LMR & OHT of wing 'A2' [Part 6 OCC EB/1258/GS/A/OCC/2/New dated 28 April 2022] and ATM, shop, 2 Nos of utility service rooms and 02 Nos of watchmen cabins on ground floor of wing A2 & A3, fitness center on 9th floor of wing A2 & A3 and apartment no. 11 (duplex) on 11th & 12th floor of wing A2 [Full OCC EB/1258/GS/A/OCC/3/New dated 30 November 2023] [Layout CAD OCR Verbatim: 'B + G + 1 Podiums + Typical Upper Floors']",
+        "source": {
+          "document": "2324232_OC_signed.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "statutory_composition_verbatim": "Residential building comprising of Part occupation certificate for 1st level basement (pt) + 2nd level basement (pt.) + 3rd level basement + Ground floor (pt.) + 1st podium floor (pt.) + 2nd podium floor (pt.) + 3rd podium floor (pt.) + 4th podium floor (pt.) + 5th to 9th floor (pt.) for parking of residential wings 'A2' and 'A3' and 10th + 11th (pt.) + 12th (pt.) to 51st upper residential floor along with LMR & OHT of wing 'A2' [Part 6 OCC EB/1258/GS/A/OCC/2/New dated 28 April 2022] and ATM, shop, 2 Nos of utility service rooms and 02 Nos of watchmen cabins on ground floor of wing A2 & A3, fitness center on 9th floor of wing A2 & A3 and apartment no. 11 (duplex) on 11th & 12th floor of wing A2 [Full OCC EB/1258/GS/A/OCC/3/New dated 30 November 2023]",
+        "layout_ocr_composition_verbatim": "B + G + 1 Podiums + Typical Upper Floors",
+        "layout_ocr_podiums": 1,
+        "layout_ocr_source": {
+          "document": "Approved and Proposed Layout_page_2",
+          "page": "2",
+          "retrieved": "2026-09-06"
+        },
+        "audit_notes": "Statutory Part 6 and Full OCCs certify Wing A2 comprising 3 basements + GF + 4 podiums + 5th to 9th parking floors + 10th to 51st residential upper floors. CAD Layout OCR sheet Approved and Proposed Layout_page_2 captured 'B + G + 1 Podiums + Typical Upper Floors'."
+      }
+    ],
+    "elevation_anchors": [
+      {
+        "endorsed_on": "2005-08-22",
+        "level_description": "Reduced level of low lying plot to be filled before commencement of work upto plinth level",
+        "metres": null,
+        "datum_stated": "92 T.H.D. or 6\" above adjoining road level whichever is higher",
+        "storey_reference": "Plinth Level",
+        "source": {
+          "document": "IOD_Part1.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2006-09-01",
+        "level_description": "C.C. up to plinth level",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "Plinth Level",
+        "source": {
+          "document": "CC.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2017-02-09",
+        "level_description": "Further C.C. extended up to 43rd floor of Wing A2 and 42nd Floor of Wing A3 and CC for core of staircase, lift, lift lobby upto 51st floor of Wing A2 and upto 52nd Floor of Wing A3 along with lift machine room, overhead tank",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "43rd Floor / Core to 51st Floor",
+        "source": {
+          "document": "CC.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2017-11-01",
+        "level_description": "Further CC extended upto 51st floor of Wing A2 and 52nd Floor of Wing A3 as per approved plans dated 22.06.2016",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "51st Floor Wing A2",
+        "source": {
+          "document": "CC.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2019-09-11",
+        "level_description": "C.C. endorsed for wing A2 upto 51st floor, for wing A3 upto 50th floors, for 3rd floor of wing B & wing B1 for commercial user & for 4th floor of wing A1 for commercial user as per approved plans dated 15.06.2019",
+        "metres": null,
+        "datum_stated": null,
+        "storey_reference": "51st Floor Wing A2",
+        "source": {
+          "document": "CC.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "height_cascade": {
+      "rung_reached": 4,
+      "elevation_source": "assumed-floor-height",
+      "assumed_floor_to_floor_m": 3.6,
+      "note": "Commencement Certificate EB/1258/GS/A provides detailed vertical storey stack in words up to 51st floor of Wing A2, but does not state per-storey levels in metres. Elevation cascade operates at Rank 4 with an assumed floor-to-floor height of 3.60m for luxury duplex sky villas.",
+      "layout_ocr_rung": "Rung 3 (Nominal Fallback)",
+      "layout_ocr_nominal_floor_to_floor_m": 3.15,
+      "layout_ocr_note": "Calculated using standard MCGM residential norm (3.15m per slab)"
+    },
+    "vertical_tie": {
+      "datum_name": "Town Hall Datum (THD)",
+      "plot_ground_level_min_m": null,
+      "plot_ground_level_max_m": null,
+      "status": "derived",
+      "source": {
+        "document": "IOD_Part1.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_retrieved": "2026-09-06"
+    },
+    "unit_schedule": [
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 10,
+        "unit_number": "A2-1001",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 101.38,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 10,
+        "unit_number": "A2-1002",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 96.24,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 10,
+        "unit_number": "A2-1003",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 87.95,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 10,
+        "unit_number": "A2-1004",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 91.41,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1101",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1102",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1103",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1104",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1105",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1106",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1107",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1108",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1109",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1110",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1111",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 11,
+        "unit_number": "A2-1112",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 13,
+        "unit_number": "A2-1302",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 13,
+        "unit_number": "A2-1303",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 13,
+        "unit_number": "A2-1304",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 13,
+        "unit_number": "A2-1305",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 13,
+        "unit_number": "A2-1306",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 13,
+        "unit_number": "A2-1307",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 13,
+        "unit_number": "A2-1308",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 13,
+        "unit_number": "A2-1309",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 13,
+        "unit_number": "A2-1310",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 13,
+        "unit_number": "A2-1311",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 13,
+        "unit_number": "A2-1312",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.22,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1501",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1502",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1503",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1504",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1505",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1506",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1507",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1508",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1509",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1510",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1511",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 15,
+        "unit_number": "A2-1512",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1701",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1702",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1703",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1704",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1705",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1706",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1707",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1708",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1709",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1710",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1711",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 17,
+        "unit_number": "A2-1712",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 19,
+        "unit_number": "A2-1902",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 19,
+        "unit_number": "A2-1903",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 19,
+        "unit_number": "A2-1904",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 19,
+        "unit_number": "A2-1905",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 19,
+        "unit_number": "A2-1906",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 19,
+        "unit_number": "A2-1907",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 19,
+        "unit_number": "A2-1908",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 19,
+        "unit_number": "A2-1909",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 19,
+        "unit_number": "A2-1910",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 19,
+        "unit_number": "A2-1911",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 19,
+        "unit_number": "A2-1912",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.22,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2101",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2102",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2103",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2104",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2105",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2106",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2107",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2108",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2109",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2110",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2111",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 21,
+        "unit_number": "A2-2112",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2301",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2302",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2303",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2304",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2305",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2306",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2307",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2308",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2309",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2310",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2311",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 23,
+        "unit_number": "A2-2312",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 25,
+        "unit_number": "A2-2502",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 25,
+        "unit_number": "A2-2503",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 25,
+        "unit_number": "A2-2504",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 25,
+        "unit_number": "A2-2505",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 25,
+        "unit_number": "A2-2506",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 25,
+        "unit_number": "A2-2507",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 25,
+        "unit_number": "A2-2508",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 25,
+        "unit_number": "A2-2509",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 25,
+        "unit_number": "A2-2510",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 25,
+        "unit_number": "A2-2511",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 25,
+        "unit_number": "A2-2512",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.22,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2701",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2702",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2703",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2704",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2705",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2706",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2707",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2708",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2709",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2710",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2711",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 27,
+        "unit_number": "A2-2712",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2901",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2902",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2903",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2904",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2905",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2906",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2907",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2908",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2909",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2910",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2911",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 29,
+        "unit_number": "A2-2912",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 31,
+        "unit_number": "A2-3101",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 101.34,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 31,
+        "unit_number": "A2-3102",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 97.64,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 31,
+        "unit_number": "A2-3103",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 87.95,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 31,
+        "unit_number": "A2-3104",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 91.41,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3201",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3202",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3203",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3204",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3205",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3206",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3207",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3208",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3209",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3210",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3211",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 32,
+        "unit_number": "A2-3212",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3401",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3402",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3403",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3404",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3405",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3406",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3407",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3408",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3409",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3410",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3411",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 34,
+        "unit_number": "A2-3412",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 36,
+        "unit_number": "A2-3602",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 36,
+        "unit_number": "A2-3603",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 36,
+        "unit_number": "A2-3604",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 36,
+        "unit_number": "A2-3605",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 36,
+        "unit_number": "A2-3606",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 36,
+        "unit_number": "A2-3607",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 36,
+        "unit_number": "A2-3608",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 36,
+        "unit_number": "A2-3609",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 36,
+        "unit_number": "A2-3610",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 36,
+        "unit_number": "A2-3611",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 36,
+        "unit_number": "A2-3612",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3801",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3802",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3803",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3804",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3805",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3806",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3807",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3808",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3809",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3810",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3811",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 38,
+        "unit_number": "A2-3812",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4001",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4002",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4003",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4004",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4005",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4006",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4007",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4008",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4009",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4010",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4011",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 40,
+        "unit_number": "A2-4012",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 42,
+        "unit_number": "A2-4202",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 42,
+        "unit_number": "A2-4203",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 42,
+        "unit_number": "A2-4204",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 42,
+        "unit_number": "A2-4205",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 42,
+        "unit_number": "A2-4206",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 42,
+        "unit_number": "A2-4207",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 42,
+        "unit_number": "A2-4208",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 42,
+        "unit_number": "A2-4209",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 42,
+        "unit_number": "A2-4210",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 42,
+        "unit_number": "A2-4211",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 42,
+        "unit_number": "A2-4212",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4401",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 150.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4402",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4403",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 118.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4404",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 114.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4405",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.11,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4406",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 124.62,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4407",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 104.21,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4408",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 109.27,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4409",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 102.96,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4410",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 108.8,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4411",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 95.36,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 44,
+        "unit_number": "A2-4412",
+        "typology": "4 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 148.35,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 46,
+        "unit_number": "A2-4601",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 101.08,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 46,
+        "unit_number": "A2-4602",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 97.4,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 46,
+        "unit_number": "A2-4603",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 87.95,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 46,
+        "unit_number": "A2-4604",
+        "typology": "3 BHK Duplex Sky Villa",
+        "carpet_area_sqm": 91.41,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 47,
+        "unit_number": "A2-4701",
+        "typology": "Large Duplex Sky Villa",
+        "carpet_area_sqm": 288.51,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 47,
+        "unit_number": "A2-4702",
+        "typology": "Penthouse Duplex Sky Villa",
+        "carpet_area_sqm": 353.4,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 47,
+        "unit_number": "A2-4703",
+        "typology": "Penthouse Duplex Sky Villa",
+        "carpet_area_sqm": 337.33,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 47,
+        "unit_number": "A2-4704",
+        "typology": "Large Duplex Sky Villa",
+        "carpet_area_sqm": 259.86,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 49,
+        "unit_number": "A2-4901",
+        "typology": "Penthouse Duplex Sky Villa",
+        "carpet_area_sqm": 431.54,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 49,
+        "unit_number": "A2-4902",
+        "typology": "Penthouse Duplex Sky Villa",
+        "carpet_area_sqm": 528.06,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 49,
+        "unit_number": "A2-4903",
+        "typology": "Penthouse Duplex Sky Villa",
+        "carpet_area_sqm": 336.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Indiabulls Sky Forest",
+        "wing": "Wing A2",
+        "floor": 49,
+        "unit_number": "A2-4904",
+        "typology": "Large Duplex Sky Villa",
+        "carpet_area_sqm": 260.01,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "parking": {
+      "covered_total": null,
+      "open_total": null,
+      "by_level": [
+        {
+          "level_label": "Basements 1 to 3",
+          "count": null
+        },
+        {
+          "level_label": "Podiums 1 to 4",
+          "count": null
+        },
+        {
+          "level_label": "Floors 5 to 9 (Parking Floors)",
+          "count": null
+        }
+      ],
+      "source": {
+        "document": "2324232_OC_signed.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_source": {
+        "document": "Approved and Proposed Layout_page_1",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      },
+      "audit_notes": "Statutory approvals document captive parking across 3 basement levels, 4 podium levels, and upper parking floors 5 to 9. CAD Layout OCR scanned Approved and Proposed Layout_page_1."
+    },
+    "plate_schedule": [
+      {
+        "plate_name": "Lower Residential Duplex Level (Floors 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 32, 34, 36, 38, 40, 42, 44, 46, 47)",
+        "storeys_named": [
+          "11",
+          "13",
+          "15",
+          "17",
+          "19",
+          "21",
+          "23",
+          "25",
+          "27",
+          "29",
+          "31",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46",
+          "47"
+        ],
+        "floor_count": 20,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Upper Residential Duplex Level (Floors 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 33, 35, 37, 39, 41, 43, 45, 48)",
+        "storeys_named": [
+          "12",
+          "14",
+          "16",
+          "18",
+          "20",
+          "22",
+          "24",
+          "26",
+          "28",
+          "30",
+          "33",
+          "35",
+          "37",
+          "39",
+          "41",
+          "43",
+          "45",
+          "48"
+        ],
+        "floor_count": 18,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Full OC of Sky forest.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Podium Parking & Amenities (Podiums 1-4 & Floors 5-9)",
+        "storeys_named": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "floor_count": 9,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "2324232_OC_signed.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Basement Parking Levels (-1 to -3)",
+        "storeys_named": [
+          "-1",
+          "-2",
+          "-3"
+        ],
+        "floor_count": 3,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "2324232_OC_signed.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Penthouse Duplex & Terrace Floors (Floors 49 to 51 + LMR/OHT)",
+        "storeys_named": [
+          "49",
+          "50",
+          "51",
+          "52"
+        ],
+        "floor_count": 4,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "2324232_OC_signed.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "utilities": [],
+    "ownership_structure": {
+      "type": null,
+      "evidence": "No legal entity formation certificate, Agreement for Sale, or society registration document was provided in the filing folder; developer is Indiabulls Properties Pvt. Ltd. on land formerly owned by National Textile Corporation (NTC).",
+      "source": {
+        "document": "IOD_Part2.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_type": null,
+      "layout_ocr_evidence": "Ownership legal entity not declared in this drawing sheet set.",
+      "layout_ocr_source": {
+        "document": "Approved and Proposed Layout_page_2",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      }
+    },
+    "sufficiency": {
+      "SC1": {
+        "verdict": "PARTIAL",
+        "evidence": "Full vertical storey stack is comprehensively described in words across Part & Full Occupancy Certificates (EB/1258/GS/A/OCC/2/New & EB/1258/GS/A/OCC/3/New) and Commencement Certificates (EB/1258/GS/A/FCC/1/Amend), detailing 3 basements, ground, 4 podiums, 5th-9th parking floors, and 10th-51st upper residential floors, but zero per-storey elevation anchors in metres are stated in the municipal CC endorsements.",
+        "source_page": "CC.pdf, pages 2-3; 2324232_OC_signed.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "PARTIAL",
+          "evidence": "Floor composition statement present: 'B + G + 1 Podiums + Typical Upper Floors', but per-storey physical elevations in metres are missing.",
+          "source_page": "2"
+        }
+      },
+      "SC2": {
+        "verdict": "MET",
+        "evidence": "Distinct floor plates identifiable from municipal approvals and unit schedule: 3 basement parking levels, ground floor commercial/utility, podium parking floors 1-4, upper parking floors 5-9, 9th floor fitness centre, single-level 10th floor residential, 11th-48th duplex sky villas spanning alternate floors, 49th-51st penthouse duplexes, and LMR/OHT.",
+        "source_page": "2324232_OC_signed.pdf, page 1; Full OC of Sky forest.pdf, page 1; Annexure B- Disclosure of sold unsold inventory.pdf, pages 1-6",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Demarcation identified for Podium tiers, Refuge levels, and Typical residential plates.",
+          "source_page": "2"
+        }
+      },
+      "SC3": {
+        "verdict": "NOT_MET",
+        "evidence": "Architectural plans provide macro site layouts and IOD conditions, but lack dimensioned interior unit partition wall plans with closed room-level polygons required for automated tier D-SURVEYED volumetric reconstruction.",
+        "source_page": "Approved and Proposed Layout.pdf, pages 1-2; IOD_Part1.pdf to IOD_Part7.pdf",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "Macro layout only; internal unit dividing walls not resolved.",
+          "source_page": null
+        }
+      },
+      "SC4": {
+        "verdict": "MET",
+        "evidence": "Declared carpet area is explicitly provided per unit across all 219 flats (ranging from 87.95 to 528.06 sq.m) with unit numbers, wing (A2), and floors in MahaRERA disclosure.",
+        "source_page": "Annexure B- Disclosure of sold unsold inventory.pdf, pages 1-7",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "Only aggregate built-up areas declared. Unit-level carpet areas missing.",
+          "source_page": null
+        }
+      },
+      "SC5": {
+        "verdict": "MET",
+        "evidence": "Independent second area source exists via the MahaRERA Circular 29 Disclosure of Sold/Booked Inventory (as of 31 March 2024), tallied and confirmed from Annexure A of Form 3 issued by Chartered Accountant, providing transactional sale-deed verification of carpet areas.",
+        "source_page": "Annexure B- Disclosure of sold unsold inventory.pdf, page 7",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "No independent second area verification source identified.",
+          "source_page": null
+        }
+      },
+      "SC6": {
+        "verdict": "MET",
+        "evidence": "Parcel is tied to Cadastral Survey No. 841 of Lower Parel Division, G/South Ward (Jupiter Textile Mill site), bounded by Senapati Bapat Marg (Tulsi Pipe Road), Fitwala Road, and Balseth Madhurkar Marg, as depicted on scaled municipal layout drawings.",
+        "source_page": "Approved and Proposed Layout.pdf, page 2; CC.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "No CTS/CS survey number or site coordinate polygon located.",
+          "source_page": null
+        }
+      },
+      "SC7": {
+        "verdict": "NOT_MET",
+        "evidence": "No Agreement for Sale, Society Formation certificate, or legal entity disclosure is included in the filing set; ultimate legal entity (Co-operative Society vs Condominium vs Company) cannot be determined.",
+        "source_page": "From 4 Sky Forest-A2.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "Ownership legal entity not declared in this drawing sheet set.",
+          "source_page": null
+        }
+      },
+      "SC8": {
+        "verdict": "MET",
+        "evidence": "Non-saleable and common spaces are comprehensively designated: 3 levels of basements, 4 podium parking levels, 5th-9th parking floors, ground floor utility rooms / ATM / watchmen cabins, 9th floor fitness centre, R.G. recreation ground areas (5,201 sq.m), and LMR/OHT.",
+        "source_page": "2324232_OC_signed.pdf, page 1; Full OC of Sky forest.pdf, page 1; Approved and Proposed Layout.pdf, page 1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Explicit designation of non-saleable areas including Refuge levels, podium parking tiers, and utility corridors.",
+          "source_page": "2"
+        }
+      },
+      "score_of_8": "5 of 8",
+      "operational_block": "Cannot construct accurate 3D vertical envelope without physical storey elevation benchmarks.",
+      "documentary_block": "Approved architectural section drawing and sanction floor composition schedule.",
+      "comprehensive_portfolio_score": "5 of 8 MET",
+      "cad_layout_only_score": 2
+    },
+    "documents_reviewed": [
+      {
+        "name": "Full OC of Sky forest.pdf",
+        "type": "Full Occupancy Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Full Occupation Certificate under Reg. 11(6), 11(7), 11(8) of DCPR 2034 (EB/1258/GS/A/OCC/3/New dated 30 Nov 2023) for ground utility/ATM/shops, 9th floor fitness center, and duplex units 10 & 11."
+      },
+      {
+        "name": "2324232_OC_signed.pdf",
+        "type": "Part Occupancy Certificate (Part 6)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Part 6 OCC under EB/1258/GS/A/OCC/2/New dated 28 April 2022 covering 3 basements, ground, 4 podiums, 5th-9th parking floors, and 10th to 51st upper residential floors of Wing A2."
+      },
+      {
+        "name": "From 4 Sky Forest-A2.pdf",
+        "type": "Architect's Certificate of Completion (Form 4)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Form 4 completion certificate by Ar. Rakhi Ubhare (CA/2008/42531) dated 29 June 2024 confirming completion under MahaRERA P51900000467."
+      },
+      {
+        "name": "Annexure B- Disclosure of sold unsold inventory.pdf",
+        "type": "MahaRERA Inventory Disclosure (Digital)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "7-page digital filing as on 31 March 2024 detailing 219 units with exact carpet areas, floors, and sale/registration status confirmed via CA Form 3."
+      },
+      {
+        "name": "Annexure-B- Disclosure of Sold _ Booked Inventory.pdf",
+        "type": "MahaRERA Inventory Disclosure (Scanned)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "8-page scanned duplicate copy of the sold/booked inventory schedule."
+      },
+      {
+        "name": "CC.pdf",
+        "type": "Commencement Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "3-page municipal CC EB/1258/GS/A/FCC/1/Amend dated 11 Sep 2019 endorsing work up to 51st floor of Wing A2."
+      },
+      {
+        "name": "Commencement Certificate.pdf",
+        "type": "Commencement Certificate (Earlier Copy)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "2-page CC endorsement dated 09 Feb 2017 endorsing up to 43rd floor and core up to 51st floor."
+      },
+      {
+        "name": "SKY Forest CC.pdf",
+        "type": "Commencement Certificate (Historical)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "3-page CC endorsement dated 01 Nov 2017 extending CC up to 51st floor of Wing A2 and 52nd floor of Wing A3."
+      },
+      {
+        "name": "Approved and Proposed Layout.pdf",
+        "type": "Approved Layout Plan",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "2-page municipal layout plan by Anupam De & Associates showing block plan, boundaries at Senapati Bapat Marg, Fitwala Road, and Balseth Madhurkar Marg."
+      },
+      {
+        "name": "IOD_Part1.pdf",
+        "type": "Intimation of Disapproval (IOD Letter)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM IOD letter EB/1258/GS/A dated 22 Aug 2005 specifying plinth reduced level of 92 T.H.D. on C.S. No. 841 Lower Parel."
+      },
+      {
+        "name": "IOD_Part2.pdf",
+        "type": "IOD Conditions Sheet (Part 2)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Municipal conditions regarding structural stability, seismic design, and NTC joint undertaking."
+      },
+      {
+        "name": "IOD_Part3.pdf",
+        "type": "IOD Conditions Sheet (Part 3)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Environmental, piling, and site safety conditions."
+      },
+      {
+        "name": "IOD_Part4.pdf",
+        "type": "IOD Conditions Sheet (Part 4)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Preconditions to be complied with before further CC of superstructure beyond plinth."
+      },
+      {
+        "name": "IOD_Part5.pdf",
+        "type": "IOD Conditions Sheet (Part 5)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Drainage and rainwater gutter compliance clauses."
+      },
+      {
+        "name": "IOD_Part6.pdf",
+        "type": "IOD Conditions Sheet (Part 6)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Hydraulic engineering, water main connection, and water supply instructions."
+      },
+      {
+        "name": "IOD_Part7.pdf",
+        "type": "IOD Conditions Sheet (Part 7)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Sewage treatment, drainage disposal, and final municipal endorsement guidelines."
+      },
+      {
+        "name": "Approved and Proposed Layout_page_2",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Approved and Proposed Layout_page_1",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      }
+    ],
+    "not_found": [
+      {
+        "item": "storey_elevation_metres",
+        "searched_in": [
+          "CC.pdf",
+          "Commencement Certificate.pdf",
+          "SKY Forest CC.pdf"
+        ],
+        "affects_criterion": "SC1",
+        "consequence": "Commencement certificate endorses vertical progress using floor names and core milestones but provides zero per-storey elevation levels in metres; cascade drops to rank 4 (assumed-floor-height)."
+      },
+      {
+        "item": "dimensioned_floor_plan",
+        "searched_in": [
+          "Approved and Proposed Layout.pdf",
+          "IOD_Part1.pdf to IOD_Part7.pdf"
+        ],
+        "affects_criterion": "SC3",
+        "consequence": "No unit-level internal dimensioned drawings with bounding wall faces; prevents automated generation of tier D-SURVEYED unit geometry."
+      },
+      {
+        "item": "ownership_structure_evidence",
+        "searched_in": [
+          "From 4 Sky Forest-A2.pdf",
+          "Full OC of Sky forest.pdf",
+          "IOD_Part1.pdf to IOD_Part7.pdf"
+        ],
+        "affects_criterion": "SC7",
+        "consequence": "No Agreement for Sale, Society Formation certificate, or legal entity disclosure is included in the filing set; ownership structure cannot be ascertained."
+      }
+    ],
+    "anomalies": [
+      {
+        "description": "Zero Per-Storey Elevation Metres in Commencement Certificate: Unlike peer towers (e.g. Imperial Wing B, Kalpataru Avana, Raheja Imperia) where CC endorsements provide explicit metre levels, Sky Forest CC endorsements EB/1258/GS/A provide purely textual floor and core milestones, dropping elevation cascade to Rank 4.",
+        "documents_involved": [
+          "CC.pdf",
+          "Commencement Certificate.pdf",
+          "SKY Forest CC.pdf"
+        ],
+        "significance": "Requires assumed floor-to-floor height calculation (3.60m) rather than certified municipal elevations."
+      },
+      {
+        "description": "Predominantly Duplex Unit Typology on Alternate Floors: Unit schedule reveals that residences are predominantly duplex sky villas configured on odd access floors (11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 34, 36, 38, 40, 42, 44, 46, 47, 49) spanning two storeys each, verified by Full OCC naming 'apartment no. 11 (duplex) on 11th & 12th floor of wing A2'.",
+        "documents_involved": [
+          "Annexure B- Disclosure of sold unsold inventory.pdf",
+          "Full OC of Sky forest.pdf"
+        ],
+        "significance": "Essential for 3D-ULPIN spatial volume extrusion; each duplex flat occupies a two-storey vertical slice rather than a single floor plate."
+      },
+      {
+        "description": "Historic Textile Mill Redevelopment Joint Venture: The land represents the historic Jupiter Textile Mill under National Textile Corporation (NTC), requiring registered joint undertakings between NTC and Indiabulls Properties Pvt. Ltd. under DCR 58.",
+        "documents_involved": [
+          "IOD_Part2.pdf",
+          "IOD_Part3.pdf",
+          "Full OC of Sky forest.pdf"
+        ],
+        "significance": "Underlines the dual corporate-statutory title provenance of the underlying parcel C.S. 841."
+      }
+    ],
+    "something_new": [
+      {
+        "description": "Duplex Sky Villa Volumetric Vertical Extrusion Architecture: Sky Forest A2 consists of 219 multi-storey duplex residences spanning 22 distinct access floors, featuring luxury typologies from 87.95 sq.m up to 528.06 sq.m for expansive penthouse duplexes (e.g. flat A2-4902).",
+        "data": {
+          "total_units": 219,
+          "access_floors_count": 22,
+          "min_carpet_sqm": 87.95,
+          "max_carpet_sqm": 528.06,
+          "penthouse_unit": "A2-4902",
+          "penthouse_carpet_sqm": 528.06
+        }
+      },
+      {
+        "description": "Extensive 12-Storey Substructure and Podium Parking Base: Below the 10th residential floor, the tower is supported by 3 subterranean basements, ground floor commercial/utility facilities, 4 podium parking levels, and 5 upper parking floors (5th to 9th) integrating captive residential and public parking.",
+        "data": {
+          "basements": 3,
+          "podiums": 4,
+          "upper_parking_floors": 5,
+          "total_parking_levels": 12,
+          "first_residential_floor": 10
+        }
+      },
+      {
+        "description": "Town Hall Datum Reduced Level Plinth Benchmark: The IOD municipal approval stipulates a minimum reduced level of 92.00 T.H.D. or 6 inches above the adjoining road level, providing an official vertical datum reference to Town Hall Datum.",
+        "data": {
+          "datum": "Town Hall Datum (THD)",
+          "reduced_level_thd": "92 T.H.D.",
+          "above_road_inches": 6
+        }
+      }
+    ],
+    "plate_schedule_layout_ocr_tiers": [
+      {
+        "plate_name": "Podium Tier",
+        "storeys_named": [
+          "Podium 1"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Approved and Proposed Layout_page_2",
+          "page": "2",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Habitable Typical Tower",
+        "storeys_named": [
+          "Typical Floors"
+        ],
+        "floor_count": null,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Approved and Proposed Layout_page_2",
+          "page": "2",
+          "retrieved": "2026-09-06"
+        }
+      }
+    ]
+  }
+]

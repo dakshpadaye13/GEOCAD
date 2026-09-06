@@ -10,6 +10,20 @@ interface BuildingFloorData {
 
 const cache: Record<string, BuildingFloorData> = {};
 
+const ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+function calculateCheckCharacter(input: string): string {
+  const cleanInput = input.toUpperCase().replace(/-/g, '');
+  let p = 36;
+  for (let i = 0; i < cleanInput.length; i++) {
+    const val = ALPHABET.indexOf(cleanInput.charAt(i));
+    let s = (p + val) % 37;
+    if (s === 0) s = 37;
+    p = (s * 2) % 37;
+  }
+  return ALPHABET.charAt((38 - p) % 37 % 36);
+}
+
 function generateFloorId(buildingId: string, floorNumber: number): string {
   const prefix = buildingId.startsWith('BLDG-')
     ? buildingId.replace('BLDG-', 'FLR-')
@@ -77,6 +91,11 @@ function buildBuildingData(buildingId: string): BuildingFloorData {
       const bhk = isPenthouse ? 5 : isGrandSuite ? 4 : 3;
       const areaSqFt = isPenthouse ? 5200 : isGrandSuite ? 3450 : 2350;
 
+      // Base Parcel ID + Wing + Storey + Unit + Type
+      const wPrefix = 'W' + buildingId.substring(11, 13).toUpperCase();
+      const baseString = `CS707P-${wPrefix}-S${floorNum}-U${paddedUnit}-PRV`;
+      const displayIdentifier = baseString + '-' + calculateCheckCharacter(baseString);
+
       const unitDto: UnitDTO = {
         unitId,
         unitNumber,
@@ -85,6 +104,7 @@ function buildBuildingData(buildingId: string): BuildingFloorData {
         areaSqFt,
         status: unitStatus,
         floorId,
+        displayIdentifier,
         createdAt: '2026-09-06T00:00:00.000Z',
         updatedAt: '2026-09-06T00:00:00.000Z',
       };

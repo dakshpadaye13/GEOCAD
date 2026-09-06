@@ -1,0 +1,1241 @@
+[
+  {
+    "schema_version": "1.1",
+    "extracted_by": "AGY-HighRes-OCR-Engine",
+    "extracted_on": "2026-09-05",
+    "project": {
+      "name": "Monte South (Titlis 4)",
+      "rera_number": "P51900048944",
+      "survey_number": "1798, 16/1840, 1841",
+      "survey_number_type": "CS",
+      "division": "Byculla Division",
+      "ward": "E",
+      "planning_authority": "Brihanmumbai Municipal Corporation (BMC)",
+      "land_area_sqm": null,
+      "latitude": null,
+      "longitude": null,
+      "boundaries": {
+        "north": null,
+        "south": "B. J. Marg",
+        "east": null,
+        "west": null
+      },
+      "source": {
+        "document": "part 3 tit oc.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      }
+    },
+    "buildings": [
+      {
+        "name": "Monte South Building No. 1 (Tower A - Titlis)",
+        "wing": "Wing A",
+        "basements": 1,
+        "plinths": 1,
+        "podiums": 8,
+        "stilts": 0,
+        "slabs_of_super_structure": 64,
+        "service_floors": 1,
+        "fire_check_floors": 2,
+        "total_sanctioned_floors": 64,
+        "composition_verbatim": "Building No.1,Wing - 'A' for 5th floor Podium (Pt) + 6th Floor Podium(Pt) + 7th floor Podium(Pt) +52nd floor to 63rd floor + 64th (part) upper floors",
+        "source": {
+          "document": "part 3 tit oc.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "elevation_anchors": [],
+    "height_cascade": {
+      "rung_reached": 4,
+      "elevation_source": "assumed-floor-height",
+      "assumed_floor_to_floor_m": 3.4,
+      "note": "Full CC endorses superstructure up to 64th floor top including LMR+OHT, but contains zero level statements in metres. Floor-to-floor height assumed at 3.4 m."
+    },
+    "vertical_tie": {
+      "datum_name": null,
+      "plot_ground_level_min_m": null,
+      "plot_ground_level_max_m": null,
+      "status": "not-obtained",
+      "source": {
+        "document": null,
+        "page": null,
+        "retrieved": null
+      }
+    },
+    "unit_schedule": [
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "55th Floor",
+        "unit_number": "A5503",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "55th Floor",
+        "unit_number": "A5504",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "55th Floor",
+        "unit_number": "A5505",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "55th Floor",
+        "unit_number": "A5506",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "55th Floor",
+        "unit_number": "A5507",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "55th Floor",
+        "unit_number": "A5508",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "56th Floor",
+        "unit_number": "A5603",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "56th Floor",
+        "unit_number": "A5604",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "56th Floor",
+        "unit_number": "A5605",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "56th Floor",
+        "unit_number": "A5606",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "56th Floor",
+        "unit_number": "A5607",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "56th Floor",
+        "unit_number": "A5608",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "57th Floor",
+        "unit_number": "A5704",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "57th Floor",
+        "unit_number": "A5705",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "57th Floor",
+        "unit_number": "A5706",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "57th Floor",
+        "unit_number": "A5707",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "57th Floor",
+        "unit_number": "A5708",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "58th Floor",
+        "unit_number": "A5803",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "58th Floor",
+        "unit_number": "A5804",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "58th Floor",
+        "unit_number": "A5805",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "58th Floor",
+        "unit_number": "A5806",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "59th Floor",
+        "unit_number": "A5904",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "59th Floor",
+        "unit_number": "A5905",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "60th Floor",
+        "unit_number": "A6003",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "60th Floor",
+        "unit_number": "A6004",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "60th Floor",
+        "unit_number": "A6005",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "60th Floor",
+        "unit_number": "A6006",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "60th Floor",
+        "unit_number": "A6007",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "60th Floor",
+        "unit_number": "A6008",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "58th Floor",
+        "unit_number": "A5807",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "58th Floor",
+        "unit_number": "A5808",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "59th Floor",
+        "unit_number": "A5903",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "59th Floor",
+        "unit_number": "A5906",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "59th Floor",
+        "unit_number": "A5907",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "59th Floor",
+        "unit_number": "A5908",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "61st Floor",
+        "unit_number": "A6103",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "61st Floor",
+        "unit_number": "A6104",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "61st Floor",
+        "unit_number": "A6105",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "61st Floor",
+        "unit_number": "A6106",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "61st Floor",
+        "unit_number": "A6107",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "61st Floor",
+        "unit_number": "A6108",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "62nd Floor",
+        "unit_number": "A6203",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "62nd Floor",
+        "unit_number": "A6204",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "62nd Floor",
+        "unit_number": "A6205",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "62nd Floor",
+        "unit_number": "A6206",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "62nd Floor",
+        "unit_number": "A6207",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "62nd Floor",
+        "unit_number": "A6208",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "63rd Floor",
+        "unit_number": "A6303",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "63rd Floor",
+        "unit_number": "A6304",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "63rd Floor",
+        "unit_number": "A6305",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "63rd Floor",
+        "unit_number": "A6306",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "63rd Floor",
+        "unit_number": "A6307",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "63rd Floor",
+        "unit_number": "A6308",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "64th Floor",
+        "unit_number": "A6403",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "64th Floor",
+        "unit_number": "A6404",
+        "typology": "3 BHK",
+        "carpet_area_sqm": 116.32,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "64th Floor",
+        "unit_number": "A6405",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "64th Floor",
+        "unit_number": "A6406",
+        "typology": "2 BHK",
+        "carpet_area_sqm": 87.45,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "64th Floor",
+        "unit_number": "A6407",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Monte South (Titlis 4)",
+        "wing": "Wing A",
+        "floor": "64th Floor",
+        "unit_number": "A6408",
+        "typology": "3 BHK Large",
+        "carpet_area_sqm": 125.63,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "parking": {
+      "covered_total": null,
+      "open_total": null,
+      "by_level": [
+        {
+          "level_label": "8 Podium Parking Floors",
+          "count": null
+        }
+      ],
+      "source": {
+        "document": "further cc tower a.pdf",
+        "page": 2,
+        "retrieved": "2026-09-05"
+      }
+    },
+    "plate_schedule": [
+      {
+        "plate_name": "Basement Plate",
+        "storeys_named": [
+          "Basement"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "further cc tower a.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Podium Parking Plate (8 Floors)",
+        "storeys_named": [
+          "1st",
+          "2nd",
+          "3rd",
+          "4th",
+          "5th",
+          "6th",
+          "7th",
+          "8th"
+        ],
+        "floor_count": 8,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "further cc tower a.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Service Floor Plate (between 8th and 9th floor)",
+        "storeys_named": [
+          "Service Floor"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "further cc tower a.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Superstructure Typical Residential Plate (Titlis 4, Floors 55 to 64)",
+        "storeys_named": [
+          "55th",
+          "56th",
+          "57th",
+          "58th",
+          "59th",
+          "60th",
+          "61st",
+          "62nd",
+          "63rd",
+          "64th"
+        ],
+        "floor_count": 10,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Roof Terrace / LMR / OHT Plate",
+        "storeys_named": [
+          "LMR",
+          "OHT"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "further cc tower a.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "utilities": [],
+    "ownership_structure": {
+      "type": "Limited Liability Partnership (LLP)",
+      "evidence": "Promoted by M/s. Swayam Realtors & Traders LLP (LLPIN AAB-0362), a joint venture between Adani Realty and Marathon Group, on freehold land of Khatau Mills Compound, Byculla.",
+      "source": {
+        "document": "titlis.pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      }
+    },
+    "sufficiency": {
+      "SC1": {
+        "verdict": "PARTIAL",
+        "evidence": "Full CC (further cc tower a.pdf) details progression up to 64th floor top + LMR + OHT, and Part 3 OCC (part 3 tit oc.pdf) covers 5th-7th podiums and 52nd-64th floors. However, zero elevation figures in metres are stated.",
+        "source_page": "further cc tower a.pdf:p2-4, part 3 tit oc.pdf:p1"
+      },
+      "SC2": {
+        "verdict": "PARTIAL",
+        "evidence": "CC and OCC differentiate Basements, 8 Podiums, Service Floor between 8th/9th floor, and upper residential stack up to 64th floor. However, floor plates specific to Titlis 4 (floors 55-64) are only visible as low-res screenshot plans.",
+        "source_page": "further cc tower a.pdf:p2-3, part 3 tit oc.pdf:p1"
+      },
+      "SC3": {
+        "verdict": "NOT MET",
+        "evidence": "Submitted plans (new plan 1.pdf and new plan 2.pdf) are desktop screen captures of Adobe Reader displaying plans for floors 28-29 rather than dimensioned CAD unit plans for Titlis 4 (floors 55-64). Internal dividing wall dimensions are illegible.",
+        "source_page": "new plan 1.pdf:p1, new plan 2.pdf:p1"
+      },
+      "SC4": {
+        "verdict": "MET",
+        "evidence": "CA certificate inventory filings (Disclouser Sold Unsold Tit-4 Dec 2024.pdf p.1-2) declare exact carpet area per individual unit for all 58 flats across floors 55 to 64 (87.45 sqm, 116.32 sqm, 125.63 sqm).",
+        "source_page": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf:p1-2"
+      },
+      "SC5": {
+        "verdict": "PARTIAL",
+        "evidence": "Only developer CA sales inventory is legible; no secondary architect Proforma-A sheet is readable due to downscaled screen capture plan files.",
+        "source_page": "new plan 2.pdf:p1, Disclouser Sold Unsold Tit-4 Dec 2024.pdf:p1"
+      },
+      "SC6": {
+        "verdict": "PARTIAL",
+        "evidence": "Cadastral Survey numbers CS No. 1798, 16/1840 & 1841 of Byculla Division and BMC file EB/5709/E/A are stated. Scaled boundary polygon drawing is absent in this document set.",
+        "source_page": "part 3 tit oc.pdf:p1, titlis.pdf:p1"
+      },
+      "SC7": {
+        "verdict": "MET",
+        "evidence": "Developer identified as Swayam Realtors and Traders LLP (LLPIN AAB-0362), a joint venture of Adani Realty and Marathon Group, executing development on freehold land.",
+        "source_page": "titlis.pdf:p1, further cc tower a.pdf:p1"
+      },
+      "SC8": {
+        "verdict": "MET",
+        "evidence": "Non-saleable areas explicitly designated: 8 podium parking levels, service floor between 8th and 9th floors, and lift machine rooms/overhead tanks.",
+        "source_page": "further cc tower a.pdf:p2-4, part 3 tit oc.pdf:p1"
+      },
+      "score_of_8": 3,
+      "operational_block": "SC1 is PARTIAL (zero elevation figures in metres) and SC3 is NOT MET (blueprint filed only as low-res screenshot of Adobe Reader). Cannot construct verified 3D storey profile without municipal elevation schedule or dimensioned floor CAD drawings.",
+      "documentary_block": "Missing architect's legible Proforma-A / area statement sheet and scaled layout plan for Phase 4 (Titlis 4)."
+    },
+    "documents_reviewed": [
+      {
+        "name": "further cc tower a.pdf",
+        "type": "Commencement Certificate (Sequence)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "5-page CC sequence under EB/5709/E/A/FCC/4/Amend dated 24 Aug 2022 detailing endorsement history from plinth up to full CC for 64 floors."
+      },
+      {
+        "name": "part 3 tit oc.pdf",
+        "type": "Part Occupancy Certificate (Part 3)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "BMC Part 3 OCC under EB/5709/E/A/OCC/2/New dated 13 August 2024 granting occupation for Wing A 5th-7th podiums (pt) and 52nd to 63rd floors + 64th (pt) floor."
+      },
+      {
+        "name": "titlis.pdf",
+        "type": "Declaration About Commencement Certificate (Format-D)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Promoter declaration dated 24/08/2022 confirming layout approval (04/08/2016) and CC granted up to 64th habitable floor for CS Nos. 1798, 1841, 16/1841."
+      },
+      {
+        "name": "new plan 1.pdf",
+        "type": "Architectural Plan (Screenshot)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": false,
+        "notes": "Screen capture of Adobe Reader window displaying 28th and 29th floor plan for Wing A & B; downscaled and uncalibrated."
+      },
+      {
+        "name": "new plan 2.pdf",
+        "type": "Architectural Plan & Area Statement (Screenshot)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": false,
+        "notes": "Screen capture of Adobe Reader window showing area statement tables for earlier phases; text is compressed and illegible."
+      },
+      {
+        "name": "Disclouser Sold Unsold Tit-4 Dec 2024.pdf",
+        "type": "MahaRERA CA Inventory Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Certified inventory as of December 2024 listing all sold and unsold units for Titlis 4 (floors 55 to 64) with exact carpet areas."
+      },
+      {
+        "name": "Disclosure Sold Unsold Titlis 4 Sep 2024.pdf",
+        "type": "MahaRERA CA Inventory Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Quarterly update as of September 2024."
+      },
+      {
+        "name": "Disclosure Sold Unsold Titlis 4 -.pdf",
+        "type": "MahaRERA CA Inventory Certificate (Duplicate)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Duplicate copy of inventory schedule."
+      },
+      {
+        "name": "Disclosur Sold Unsold Dec 2023.pdf",
+        "type": "MahaRERA CA Inventory Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Historical inventory disclosure as of December 2023."
+      }
+    ],
+    "not_found": [
+      {
+        "item": "dimensioned_floor_plan",
+        "searched_in": [
+          "new plan 1.pdf",
+          "new plan 2.pdf"
+        ],
+        "affects_criterion": "SC3",
+        "consequence": "Filing contains only downscaled screen captures of an Adobe Reader UI; internal unit wall geometry cannot be resolved."
+      },
+      {
+        "item": "storey_elevation_metres",
+        "searched_in": [
+          "further cc tower a.pdf",
+          "part 3 tit oc.pdf",
+          "titlis.pdf"
+        ],
+        "affects_criterion": "SC1",
+        "consequence": "No vertical level in metres is stated in CC or OCC; height cascade drops to rank 4 (assumed-floor-height)."
+      },
+      {
+        "item": "independent_area_source",
+        "searched_in": [
+          "new plan 2.pdf"
+        ],
+        "affects_criterion": "SC5",
+        "consequence": "Architect Proforma-A table on screenshot is illegible; cannot perform independent cross-validation against CA sales schedule."
+      }
+    ],
+    "anomalies": [
+      {
+        "description": "Architectural Blueprints Filed as PC Screen Captures: Both plan documents (new plan 1.pdf and new plan 2.pdf) are literally desktop screenshots of Adobe Reader (\"wing A PLAN 1.pdf - Adobe Reader\") with application chrome and scrollbars visible.",
+        "documents_involved": [
+          "new plan 1.pdf",
+          "new plan 2.pdf"
+        ],
+        "significance": "Severely degrades resolution; renders area statements and dimension strings illegible."
+      },
+      {
+        "description": "Mismatched Phase Blueprint Upload: The uploaded screen capture drawings display floor layouts for 28th and 29th floors (earlier phase), whereas the filing is for Phase 4 (Titlis 4) comprising floors 55 to 64.",
+        "documents_involved": [
+          "new plan 1.pdf",
+          "Disclouser Sold Unsold Tit-4 Dec 2024.pdf"
+        ],
+        "significance": "The regulatory filing lacks the corresponding architectural floor plan for the registered phase."
+      }
+    ],
+    "something_new": [
+      {
+        "description": "Phased High-Rise Vertical Partitioning: Tower A is developed as a single physical 64-storey concrete monolithic tower, but legally and financially partitioned into 4 distinct MahaRERA registered phases (Titlis 1 up to 30th floor, Titlis 2, Titlis 3, and Titlis 4 for floors 55 to 64).",
+        "data": {
+          "physical_floors": 64,
+          "titlis_4_floors": "55th to 64th",
+          "titlis_4_units_count": 59,
+          "phased_subdivision": true
+        }
+      }
+    ]
+  }
+]

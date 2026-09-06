@@ -1,0 +1,4828 @@
+[
+  {
+    "schema_version": "1.1",
+    "extracted_by": "Multi-Source Statutory Ingestion Engine + CAD Layout Intelligent OCR Model",
+    "extracted_on": "2026-09-06",
+    "project": {
+      "name": "Kalpataru Avana",
+      "rera_number": "P51900000793",
+      "survey_number": "1/296(pt.)",
+      "survey_number_type": "CS",
+      "division": "Parel-Sewri Division",
+      "ward": "F/South",
+      "planning_authority": "Municipal Corporation of Greater Mumbai (MCGM)",
+      "land_area_sqm": 9312.28,
+      "latitude": null,
+      "longitude": null,
+      "boundaries": {
+        "north": "Vet. Hospital Sub-Divided Plot 'G' C.S. No. 1-A/296",
+        "south": "12.20 MT. Wide D.P. Road (Proposed tentative 18.30m W.R.L.)",
+        "east": "12.20 MT. Wide D.P. Road (Sanctioned 18.30m D.P. Road handed over to MCGM)",
+        "west": "Govt. Office Sub-Divided Plot, C.S. No. 1/296(Pt.) 'R' Zone Plot"
+      },
+      "source": {
+        "document": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "alias_name": "Kalpataru Avana",
+      "planning_authority_acronym": "MCGM",
+      "layout_ocr_survey_number": "2/3",
+      "layout_ocr_land_area_sqm": 339.11,
+      "layout_ocr_source": {
+        "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      },
+      "audit_notes": "Statutory title 'Kalpataru Avana' under MahaRERA P51900000793 on C.S. No. 1/296(pt.) of Parel-Sewri Division (F/South Ward), plot area 9,312.28 sq.m. CAD Layout OCR sheet Avana Amended Plan 1_1-1_compressed (3)_page_1 noted CS '2/3' and regional area reading 339.11 sq.m."
+    },
+    "buildings": [
+      {
+        "name": "Kalpataru Avana (Residential Wing A & B)",
+        "wing": "Wing A & Wing B",
+        "basements": 2,
+        "plinths": 1,
+        "podiums": 7,
+        "stilts": 1,
+        "slabs_of_super_structure": 42,
+        "service_floors": 2,
+        "fire_check_floors": 3,
+        "total_sanctioned_floors": 42,
+        "composition_verbatim": "Residential building comprising of three Wings viz. Wing A & Wing B with 2 Basements + G. F + 1st to 6th Parking Floor + 7th Podium / Stilt /Club-House + Service Floor + 1st to 10th Floors + Fire Escape Floor + 11th to 20th Floors + Service Floor + 21st to 27th Floors + Fire Escape Floor + 28th to 42nd Upper Floors with open to sky swimming pool on terrace of building + Wing C for HD Tenements consisting of Stilt + 7 Upper Floors i.e. Composite building comprising of MCGM Car parking lot, residential wing and wing for HD units [Layout CAD OCR Verbatim: 'REFUGE \\n BUA) \\n AREA \\n DONDE \\n LIEU \\n 124 \\n 1/2 \\n 55']",
+        "source": {
+          "document": "occ.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "statutory_composition_verbatim": "Residential building comprising of three Wings viz. Wing A & Wing B with 2 Basements + G. F + 1st to 6th Parking Floor + 7th Podium / Stilt /Club-House + Service Floor + 1st to 10th Floors + Fire Escape Floor + 11th to 20th Floors + Service Floor + 21st to 27th Floors + Fire Escape Floor + 28th to 42nd Upper Floors with open to sky swimming pool on terrace of building + Wing C for HD Tenements consisting of Stilt + 7 Upper Floors i.e. Composite building comprising of MCGM Car parking lot, residential wing and wing for HD units",
+        "layout_ocr_composition_verbatim": "REFUGE \n BUA) \n AREA \n DONDE \n LIEU \n 124 \n 1/2 \n 55",
+        "layout_ocr_basements": 5,
+        "layout_ocr_wing": "A",
+        "layout_ocr_source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        },
+        "audit_notes": "Statutory Full OCC certifies Residential Wing A & B with 2 Basements + GF + 6 Parking + 7th Podium/Clubhouse + Service Floor + 42 upper residential floors with open swimming pool, plus Wing C (Stilt + 7 HD tenements). CAD Layout OCR scanned 'REFUGE \\n BUA) \\n AREA \\n DONDE \\n LIEU \\n 124 \\n 1/2 \\n 55'."
+      },
+      {
+        "name": "Kalpataru Avana (Wing C - HD Tenements)",
+        "wing": "Wing C",
+        "basements": 0,
+        "plinths": 1,
+        "podiums": 0,
+        "stilts": 1,
+        "slabs_of_super_structure": 7,
+        "service_floors": 0,
+        "fire_check_floors": 0,
+        "total_sanctioned_floors": 8,
+        "composition_verbatim": "Wing C for HD Tenements consisting of Stilt + 7 Upper Floors",
+        "source": {
+          "document": "occ.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "elevation_anchors": [
+      {
+        "endorsed_on": "2014-03-07",
+        "level_description": "Plinth level for MCGM Car Parking Wing and Residential Wing",
+        "metres": 0.3,
+        "datum_stated": "i.e. 0.30 mts above ground",
+        "storey_reference": "Plinth Level",
+        "source": {
+          "document": "Full CC Avana signed.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2014-03-07",
+        "level_description": "Top of stilt slab for HD Wing C",
+        "metres": 3.3,
+        "datum_stated": "i.e. 3.30 mts",
+        "storey_reference": "HD Wing Stilt Top",
+        "source": {
+          "document": "Full CC Avana signed.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2015-03-31",
+        "level_description": "Top slab of service floor immediately above 7th podium level",
+        "metres": 29.85,
+        "datum_stated": "i.e. height of 29.85 mts",
+        "storey_reference": "Service Floor above 7th Podium",
+        "source": {
+          "document": "Full CC Avana signed.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2016-02-26",
+        "level_description": "Wing B top slab of 16th floor",
+        "metres": 94.2,
+        "datum_stated": "i.e. upto height of 94.20 mts.",
+        "storey_reference": "Wing B 16th Floor Top",
+        "source": {
+          "document": "Full CC Avana signed.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2016-02-26",
+        "level_description": "Wing A top slab of service floor",
+        "metres": 111.75,
+        "datum_stated": "i.e. ht. 111.75 mts.",
+        "storey_reference": "Wing A Service Floor Top",
+        "source": {
+          "document": "Full CC Avana signed.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "endorsed_on": "2016-06-29",
+        "level_description": "Wing B top slab of service floor above 20th floor",
+        "metres": 111.75,
+        "datum_stated": "i.e. height 111.75mts",
+        "storey_reference": "Wing B Service Floor Top",
+        "source": {
+          "document": "Full CC Avana signed.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "height_cascade": {
+      "rung_reached": 1,
+      "elevation_source": "certificate-metres",
+      "assumed_floor_to_floor_m": null,
+      "note": "Five real elevation anchors endorsed in metres on Commencement Certificate: plinth at 0.30 m, HD stilt at 3.30 m, service floor 1 at 29.85 m, 16th floor at 94.20 m, and service floor 2 at 111.75 m.",
+      "layout_ocr_rung": "Rung 3 (Nominal Fallback)",
+      "layout_ocr_nominal_floor_to_floor_m": 3.15,
+      "layout_ocr_note": "Calculated using standard MCGM residential norm (3.15m per slab)"
+    },
+    "vertical_tie": {
+      "datum_name": null,
+      "plot_ground_level_min_m": null,
+      "plot_ground_level_max_m": null,
+      "status": "not-obtained",
+      "source": {
+        "document": null,
+        "page": null,
+        "retrieved": null
+      },
+      "layout_ocr_retrieved": "2026-09-06"
+    },
+    "unit_schedule": [
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "1st Floor",
+        "unit_number": "11",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "1st Floor",
+        "unit_number": "12",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "1st Floor",
+        "unit_number": "13",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "1st Floor",
+        "unit_number": "14",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "2nd Floor",
+        "unit_number": "21",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "2nd Floor",
+        "unit_number": "22",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "2nd Floor",
+        "unit_number": "23",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "2nd Floor",
+        "unit_number": "24",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "3rd Floor",
+        "unit_number": "31",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 218.71,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "3rd Floor",
+        "unit_number": "33",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "3rd Floor",
+        "unit_number": "34",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "4th Floor",
+        "unit_number": "41",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "4th Floor",
+        "unit_number": "42",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "4th Floor",
+        "unit_number": "43",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "4th Floor",
+        "unit_number": "44",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "5th Floor",
+        "unit_number": "51",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "5th Floor",
+        "unit_number": "52",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "5th Floor",
+        "unit_number": "53",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "5th Floor",
+        "unit_number": "54",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "6th Floor",
+        "unit_number": "61",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "6th Floor",
+        "unit_number": "62",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "6th Floor",
+        "unit_number": "63",
+        "typology": "Duplex / Penthouse",
+        "carpet_area_sqm": 60.33,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "7th Floor",
+        "unit_number": "71",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "7th Floor",
+        "unit_number": "72",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "7th Floor",
+        "unit_number": "73",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "7th Floor",
+        "unit_number": "74",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "8th Floor",
+        "unit_number": "81",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "8th Floor",
+        "unit_number": "82",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "8th Floor",
+        "unit_number": "83",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "8th Floor",
+        "unit_number": "84",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "9th Floor",
+        "unit_number": "91",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "9th Floor",
+        "unit_number": "92",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "9th Floor",
+        "unit_number": "93",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "9th Floor",
+        "unit_number": "94",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "10th Floor",
+        "unit_number": "101",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "10th Floor",
+        "unit_number": "102",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "10th Floor",
+        "unit_number": "103",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "10th Floor",
+        "unit_number": "104",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "11th Floor",
+        "unit_number": "111",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "11th Floor",
+        "unit_number": "112",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "11th Floor",
+        "unit_number": "113",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "11th Floor",
+        "unit_number": "114",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "12th Floor",
+        "unit_number": "121",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "12th Floor",
+        "unit_number": "122",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "12th Floor",
+        "unit_number": "123",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "12th Floor",
+        "unit_number": "124",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "13th Floor",
+        "unit_number": "131",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "13th Floor",
+        "unit_number": "132",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "13th Floor",
+        "unit_number": "133",
+        "typology": "Duplex / Penthouse",
+        "carpet_area_sqm": 60.33,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "14th Floor",
+        "unit_number": "141",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "14th Floor",
+        "unit_number": "142",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "14th Floor",
+        "unit_number": "143",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "14th Floor",
+        "unit_number": "144",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "15th Floor",
+        "unit_number": "151",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "15th Floor",
+        "unit_number": "152",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "15th Floor",
+        "unit_number": "153",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "15th Floor",
+        "unit_number": "154",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "16th Floor",
+        "unit_number": "161",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "16th Floor",
+        "unit_number": "162",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "16th Floor",
+        "unit_number": "163",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "16th Floor",
+        "unit_number": "164",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 2,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "17th Floor",
+        "unit_number": "171",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "17th Floor",
+        "unit_number": "172",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "17th Floor",
+        "unit_number": "173",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "17th Floor",
+        "unit_number": "174",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "18th Floor",
+        "unit_number": "181",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "18th Floor",
+        "unit_number": "182",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "18th Floor",
+        "unit_number": "183",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "18th Floor",
+        "unit_number": "184",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "19th Floor",
+        "unit_number": "191",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "19th Floor",
+        "unit_number": "192",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "19th Floor",
+        "unit_number": "193",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "19th Floor",
+        "unit_number": "194",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "20th Floor",
+        "unit_number": "201",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "20th Floor",
+        "unit_number": "202",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "6th Floor",
+        "unit_number": "203",
+        "typology": "Duplex / Penthouse",
+        "carpet_area_sqm": 60.33,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "21st Floor",
+        "unit_number": "211",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "21st Floor",
+        "unit_number": "212",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "21st Floor",
+        "unit_number": "213",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "21st Floor",
+        "unit_number": "214",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "22nd Floor",
+        "unit_number": "221",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "22nd Floor",
+        "unit_number": "222",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "22nd Floor",
+        "unit_number": "223",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "22nd Floor",
+        "unit_number": "224",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "23rd Floor",
+        "unit_number": "231",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "23rd Floor",
+        "unit_number": "232",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "23rd Floor",
+        "unit_number": "233",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "23rd Floor",
+        "unit_number": "234",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "24th Floor",
+        "unit_number": "241",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "24th Floor",
+        "unit_number": "242",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "24th Floor",
+        "unit_number": "243",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "24th Floor",
+        "unit_number": "244",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "25th Floor",
+        "unit_number": "251",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "25th Floor",
+        "unit_number": "252",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "25th Floor",
+        "unit_number": "253",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "25th Floor",
+        "unit_number": "254",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "26th Floor",
+        "unit_number": "261",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "26th Floor",
+        "unit_number": "262",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "26th Floor",
+        "unit_number": "263",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "26th Floor",
+        "unit_number": "264",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 142.97,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "27th Floor",
+        "unit_number": "271",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "27th Floor",
+        "unit_number": "272",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "27th Floor",
+        "unit_number": "273",
+        "typology": "Duplex / Penthouse",
+        "carpet_area_sqm": 63.5,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "28th Floor",
+        "unit_number": "281",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "28th Floor",
+        "unit_number": "282",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "29th Floor",
+        "unit_number": "291",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 3,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "29th Floor",
+        "unit_number": "292",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "30th Floor",
+        "unit_number": "301",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "30th Floor",
+        "unit_number": "302",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "31st Floor",
+        "unit_number": "311",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "31st Floor",
+        "unit_number": "312",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "32nd Floor",
+        "unit_number": "321",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "32nd Floor",
+        "unit_number": "322",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "32nd Floor",
+        "unit_number": "323",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 303.75,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "33rd Floor",
+        "unit_number": "331",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "33rd Floor",
+        "unit_number": "332",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "34th Floor",
+        "unit_number": "341",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "34th Floor",
+        "unit_number": "342",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "34th Floor",
+        "unit_number": "343",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 33.43,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "35th Floor",
+        "unit_number": "351",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "35th Floor",
+        "unit_number": "352",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "35th Floor",
+        "unit_number": "353",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 303.75,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "36th Floor",
+        "unit_number": "361",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "36th Floor",
+        "unit_number": "362",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "37th Floor",
+        "unit_number": "371",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "37th Floor",
+        "unit_number": "372",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "37th Floor",
+        "unit_number": "373",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 347.79,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "38th Floor",
+        "unit_number": "381",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "38th Floor",
+        "unit_number": "382",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "39th Floor",
+        "unit_number": "391",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "39th Floor",
+        "unit_number": "392",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "39th Floor",
+        "unit_number": "393",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 303.75,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "40th Floor",
+        "unit_number": "401",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 196.6,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "40th Floor",
+        "unit_number": "402",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "41st Floor",
+        "unit_number": "411",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 226.82,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "A",
+        "floor": "41st Floor",
+        "unit_number": "413",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 173.99,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "1st Floor",
+        "unit_number": "11",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "1st Floor",
+        "unit_number": "12",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "1st Floor",
+        "unit_number": "13",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "1st Floor",
+        "unit_number": "14",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "2nd Floor",
+        "unit_number": "21",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "2nd Floor",
+        "unit_number": "22",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "2nd Floor",
+        "unit_number": "23",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "2nd Floor",
+        "unit_number": "24",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "3rd Floor",
+        "unit_number": "31",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "3rd Floor",
+        "unit_number": "33",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "3rd Floor",
+        "unit_number": "34",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "4th Floor",
+        "unit_number": "41",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "4th Floor",
+        "unit_number": "42",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "4th Floor",
+        "unit_number": "43",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "4th Floor",
+        "unit_number": "44",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 237.68,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "5th Floor",
+        "unit_number": "51",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "5th Floor",
+        "unit_number": "52",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "5th Floor",
+        "unit_number": "53",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "5th Floor",
+        "unit_number": "54",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "6th Floor",
+        "unit_number": "61",
+        "typology": "Duplex / Penthouse",
+        "carpet_area_sqm": 60.33,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "6th Floor",
+        "unit_number": "62",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "6th Floor",
+        "unit_number": "63",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "7th Floor",
+        "unit_number": "71",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "7th Floor",
+        "unit_number": "72",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "7th Floor",
+        "unit_number": "73",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "7th Floor",
+        "unit_number": "74",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "8th Floor",
+        "unit_number": "81",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "8th Floor",
+        "unit_number": "82",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "8th Floor",
+        "unit_number": "83",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "8th Floor",
+        "unit_number": "84",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "9th Floor",
+        "unit_number": "91",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "9th Floor",
+        "unit_number": "92",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "9th Floor",
+        "unit_number": "93",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "9th Floor",
+        "unit_number": "94",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "10th Floor",
+        "unit_number": "101",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "10th Floor",
+        "unit_number": "102",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "10th Floor",
+        "unit_number": "103",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "10th Floor",
+        "unit_number": "104",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "11th Floor",
+        "unit_number": "111",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "11th Floor",
+        "unit_number": "112",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "11th Floor",
+        "unit_number": "113",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "11th Floor",
+        "unit_number": "114",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "12th Floor",
+        "unit_number": "121",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "12th Floor",
+        "unit_number": "122",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "12th Floor",
+        "unit_number": "123",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "12th Floor",
+        "unit_number": "124",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "13th Floor",
+        "unit_number": "131",
+        "typology": "Duplex / Penthouse",
+        "carpet_area_sqm": 60.33,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "13th Floor",
+        "unit_number": "132",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "13th Floor",
+        "unit_number": "133",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "14th Floor",
+        "unit_number": "141",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "14th Floor",
+        "unit_number": "142",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "14th Floor",
+        "unit_number": "143",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "14th Floor",
+        "unit_number": "144",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "15th Floor",
+        "unit_number": "151",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "15th Floor",
+        "unit_number": "152",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "15th Floor",
+        "unit_number": "153",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "15th Floor",
+        "unit_number": "154",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "16th Floor",
+        "unit_number": "161",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "16th Floor",
+        "unit_number": "162",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "16th Floor",
+        "unit_number": "163",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "16th Floor",
+        "unit_number": "164",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "17th Floor",
+        "unit_number": "171",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "17th Floor",
+        "unit_number": "172",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "17th Floor",
+        "unit_number": "173",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "17th Floor",
+        "unit_number": "174",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "18th Floor",
+        "unit_number": "181",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "18th Floor",
+        "unit_number": "182",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "18th Floor",
+        "unit_number": "183",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "18th Floor",
+        "unit_number": "184",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "19th Floor",
+        "unit_number": "191",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "19th Floor",
+        "unit_number": "192",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "19th Floor",
+        "unit_number": "193",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "19th Floor",
+        "unit_number": "194",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "20th Floor",
+        "unit_number": "201",
+        "typology": "Duplex / Penthouse",
+        "carpet_area_sqm": 60.33,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "20th Floor",
+        "unit_number": "202",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "6th Floor",
+        "unit_number": "203",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "21st Floor",
+        "unit_number": "211",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "21st Floor",
+        "unit_number": "212",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "21st Floor",
+        "unit_number": "213",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "21st Floor",
+        "unit_number": "214",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "22nd Floor",
+        "unit_number": "221",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "22nd Floor",
+        "unit_number": "222",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "22nd Floor",
+        "unit_number": "223",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "22nd Floor",
+        "unit_number": "224",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "23rd Floor",
+        "unit_number": "231",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "23rd Floor",
+        "unit_number": "232",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "23rd Floor",
+        "unit_number": "233",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "23rd Floor",
+        "unit_number": "234",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "24th Floor",
+        "unit_number": "241",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "24th Floor",
+        "unit_number": "242",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "24th Floor",
+        "unit_number": "243",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "24th Floor",
+        "unit_number": "244",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "25th Floor",
+        "unit_number": "251",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "25th Floor",
+        "unit_number": "252",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "25th Floor",
+        "unit_number": "253",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "25th Floor",
+        "unit_number": "254",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "26th Floor",
+        "unit_number": "261",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 143.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "26th Floor",
+        "unit_number": "262",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 21.18,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "26th Floor",
+        "unit_number": "263",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "26th Floor",
+        "unit_number": "264",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "27th Floor",
+        "unit_number": "271",
+        "typology": "Duplex / Penthouse",
+        "carpet_area_sqm": 59.73,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "27th Floor",
+        "unit_number": "272",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "27th Floor",
+        "unit_number": "273",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "28th Floor",
+        "unit_number": "281",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 343.5,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "28th Floor",
+        "unit_number": "282",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 6,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "29th Floor",
+        "unit_number": "291",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "29th Floor",
+        "unit_number": "292",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 343.5,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "30th Floor",
+        "unit_number": "301",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "30th Floor",
+        "unit_number": "302",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "31st Floor",
+        "unit_number": "311",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 343.5,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "31st Floor",
+        "unit_number": "312",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "32nd Floor",
+        "unit_number": "321",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "32nd Floor",
+        "unit_number": "322",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 343.5,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "32nd Floor",
+        "unit_number": "323",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "33rd Floor",
+        "unit_number": "331",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "33rd Floor",
+        "unit_number": "332",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 304.04,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "34th Floor",
+        "unit_number": "341",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "34th Floor",
+        "unit_number": "342",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "34th Floor",
+        "unit_number": "343",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "35th Floor",
+        "unit_number": "351",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "35th Floor",
+        "unit_number": "352",
+        "typology": "Duplex / Penthouse",
+        "carpet_area_sqm": 61.19,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "35th Floor",
+        "unit_number": "353",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "36th Floor",
+        "unit_number": "361",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "36th Floor",
+        "unit_number": "362",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 304.04,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "37th Floor",
+        "unit_number": "371",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "37th Floor",
+        "unit_number": "372",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "37th Floor",
+        "unit_number": "373",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "38th Floor",
+        "unit_number": "381",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "38th Floor",
+        "unit_number": "382",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 348.09,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "39th Floor",
+        "unit_number": "391",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "39th Floor",
+        "unit_number": "392",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "39th Floor",
+        "unit_number": "393",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "40th Floor",
+        "unit_number": "401",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "40th Floor",
+        "unit_number": "402",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 304.04,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "41st Floor",
+        "unit_number": "411",
+        "typology": "Residential Flat",
+        "carpet_area_sqm": 215.56,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "building": "Kalpataru Avana",
+        "wing": "B",
+        "floor": "41st Floor",
+        "unit_number": "413",
+        "typology": "HD Tenement",
+        "carpet_area_sqm": 20.92,
+        "balcony_area_sqm": null,
+        "area_basis": "carpet-rera",
+        "source": {
+          "document": "Disclosure of sold unit Final.pdf",
+          "page": 7,
+          "retrieved": "2026-09-05"
+        }
+      }
+    ],
+    "parking": {
+      "covered_total": 1040,
+      "open_total": 0,
+      "by_level": [
+        {
+          "level_label": "Residential Parking (Ground + Podiums 1-7)",
+          "count": 487
+        },
+        {
+          "level_label": "MCGM Public Parking Lot (2 Basements + Ground + Podiums 1-4)",
+          "count": 553
+        }
+      ],
+      "source": {
+        "document": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+        "page": 1,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_source": {
+        "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      },
+      "audit_notes": "Statutory drawings confirm 1,040 covered car parking bays (487 residential across GF + Podiums 1-7, plus 553 public parking lot bays across 2 basements + GF + Podiums 1-4). Layout OCR scanned Sheet 1."
+    },
+    "plate_schedule": [
+      {
+        "plate_name": "MCGM Public Parking Basement Plate (2 Levels)",
+        "storeys_named": [
+          "Lower Basement",
+          "Upper Basement"
+        ],
+        "floor_count": 2,
+        "built_up_area_sqm": 9652.68,
+        "source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Ground Floor & Stilt Plate",
+        "storeys_named": [
+          "Ground Floor"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": 3039.46,
+        "source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Podium Parking Plate (Podiums 1 to 6)",
+        "storeys_named": [
+          "1st Podium",
+          "2nd Podium",
+          "3rd Podium",
+          "4th Podium",
+          "5th Podium",
+          "6th Podium"
+        ],
+        "floor_count": 6,
+        "built_up_area_sqm": 14012.72,
+        "source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "layout_ocr_identified": true,
+        "layout_ocr_label": "Podium 1",
+        "layout_ocr_source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Podium 7 & Clubhouse Plate",
+        "storeys_named": [
+          "7th Podium / Stilt / Clubhouse"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": 333.459,
+        "source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "layout_ocr_identified": true,
+        "layout_ocr_label": "Podium 1",
+        "layout_ocr_source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Service Floor 1 Plate (Elevation 29.85m)",
+        "storeys_named": [
+          "Service Floor above 7th Podium"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": 77.727,
+        "source": {
+          "document": "Full CC Avana signed.pdf",
+          "page": 4,
+          "retrieved": "2026-09-05"
+        },
+        "layout_ocr_identified": true,
+        "layout_ocr_label": "Podium 1",
+        "layout_ocr_source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Habitable Residential Typical 4-Unit Plate",
+        "storeys_named": [
+          "1st to 5th",
+          "7th to 12th",
+          "14th to 19th",
+          "21st to 26th"
+        ],
+        "floor_count": 23,
+        "built_up_area_sqm": 21210.581,
+        "source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "layout_ocr_identified": true,
+        "layout_ocr_label": "Podium 1",
+        "layout_ocr_source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Fire Escape & Refuge Floor Plate",
+        "storeys_named": [
+          "6th",
+          "13th",
+          "20th",
+          "27th",
+          "34th"
+        ],
+        "floor_count": 5,
+        "built_up_area_sqm": 2552.684,
+        "source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Service Floor 2 Plate (Elevation 111.75m)",
+        "storeys_named": [
+          "Service Floor above 20th Floor"
+        ],
+        "floor_count": 1,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Full CC Avana signed.pdf",
+          "page": 5,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Duplex Residential Plate",
+        "storeys_named": [
+          "32nd",
+          "33rd",
+          "35th",
+          "36th",
+          "37th",
+          "38th",
+          "39th",
+          "40th"
+        ],
+        "floor_count": 8,
+        "built_up_area_sqm": 5348.698,
+        "source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        }
+      },
+      {
+        "plate_name": "Penthouse / 41st & 42nd (pt) Floor Plate",
+        "storeys_named": [
+          "41st Floor",
+          "42nd (pt) Floor"
+        ],
+        "floor_count": 2,
+        "built_up_area_sqm": 1303.493,
+        "source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "layout_ocr_identified": true,
+        "layout_ocr_label": "Podium 1",
+        "layout_ocr_source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Wing C HD Tenements Plate (Stilt + 7 Floors)",
+        "storeys_named": [
+          "Stilt",
+          "1st HD",
+          "2nd HD",
+          "3rd HD",
+          "4th HD",
+          "5th HD",
+          "6th HD",
+          "7th HD"
+        ],
+        "floor_count": 8,
+        "built_up_area_sqm": 3391.12,
+        "source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+          "page": 1,
+          "retrieved": "2026-09-05"
+        },
+        "layout_ocr_identified": true,
+        "layout_ocr_label": "Podium 1",
+        "layout_ocr_source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      }
+    ],
+    "utilities": [],
+    "ownership_structure": {
+      "type": "Private Limited / Freeholder with CHS formation & MCGM Handover",
+      "evidence": "Developed by M/s. Kalpataru Ltd. on subdivided plot bearing C.S. No. 1/296(pt.). CC endorsements provide for society office on 1st parking level. MCGM Public Parking Lot and Wing C HD tenements handed over to MCGM.",
+      "source": {
+        "document": "Full CC Avana signed.pdf",
+        "page": 6,
+        "retrieved": "2026-09-05"
+      },
+      "layout_ocr_type": null,
+      "layout_ocr_evidence": "Identified ownership under corporate entity / Private Limited Developer.",
+      "layout_ocr_source": {
+        "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+        "page": "1",
+        "retrieved": "2026-09-06"
+      }
+    },
+    "sufficiency": {
+      "SC1": {
+        "verdict": "MET",
+        "evidence": "Commencement Certificate (Full CC Avana signed.pdf) provides 5 real elevation anchors in metres: plinth (+0.30m), HD stilt (+3.30m), service floor 1 (+29.85m), 16th floor (+94.20m), and service floor 2 (+111.75m). Full OCC (occ.pdf p.1) provides complete vertical stack in words (2 basements + GF + 6 parking + 7th podium/clubhouse + service floor + 1st-10th + fire escape + 11th-20th + service floor + 21st-27th + fire escape + 28th-42nd + pool/terrace + Wing C stilt+7).",
+        "source_page": "Full CC Avana signed.pdf:p2-5, occ.pdf:p1",
+        "layout_ocr_audit": {
+          "verdict": "PARTIAL",
+          "evidence": "Floor composition statement present: 'REFUGE \n BUA) \n AREA \n DONDE \n LIEU \n 124 \n 1/2 \n 55', but per-storey physical elevations in metres are missing.",
+          "source_page": "1"
+        }
+      },
+      "SC2": {
+        "verdict": "MET",
+        "evidence": "Area schedule and Proforma-A on Sheet 1 (Avana Amended Plan 1_1-1_compressed (3).pdf) differentiate 11 distinct plates including Basements, Podiums 1-6, 7th Podium/Clubhouse, Service Floors 1 & 2, Typical Residential Floors, Refuge Floors, Duplex Levels, Penthouse Floors, and Wing C HD Tenements.",
+        "source_page": "Avana Amended Plan 1_1-1_compressed (3).pdf:p1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Demarcation identified for Podium tiers, Refuge levels, and Typical residential plates.",
+          "source_page": "1"
+        }
+      },
+      "SC3": {
+        "verdict": "MET",
+        "evidence": "Statutory macro layout plans combined with high-resolution CAD layout OCR model detection: 68 closed internal room partition tags and boundary vectors detected on Avana Amended Plan 1_1-1_compressed (3)_page_1, enabling precise interior unit boundary resolution and tier D-SURVEYED geometric reconstruction.",
+        "source_page": "Avana Amended Plan 1_1-1_compressed (3)_page_1:p1, Layout plan.pdf:p1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "High density of closed internal partition labels (68 room tags detected) defining discrete habitable unit boundaries.",
+          "source_page": "Avana Amended Plan 1_1-1_compressed (3)_page_1"
+        }
+      },
+      "SC4": {
+        "verdict": "MET",
+        "evidence": "Typology and unit schedules declare carpet area per individual unit: Sheet 1 Car Parking Statement details carpet area per unit typology (195.937 sqm, 142.828 sqm, 20.935 sqm), and MahaRERA inventory disclosure (Disclosure of sold unit Final.pdf p.1-7) itemizes all 272 individual units with RERA carpet areas.",
+        "source_page": "Avana Amended Plan 1_1-1_compressed (3).pdf:p1, Disclosure of sold unit Final.pdf:p1-7",
+        "layout_ocr_audit": {
+          "verdict": "NOT MET",
+          "evidence": "Only aggregate built-up areas declared. Unit-level carpet areas missing.",
+          "source_page": null
+        }
+      },
+      "SC5": {
+        "verdict": "MET",
+        "evidence": "Two independent derivation sources exist: Architect sanctioned DCR computation on approved plan (Flat 1: 195.937 sqm, Flat 4: 142.828 sqm) cross-validated against Developer MahaRERA quarterly sales disclosure (Flat 1: 196.60 sqm, Flat 4: 142.97 sqm).",
+        "source_page": "Avana Amended Plan 1_1-1_compressed (3).pdf:p1, Disclosure of sold unit Final.pdf:p1-7",
+        "layout_ocr_audit": {
+          "verdict": "PARTIAL",
+          "evidence": "Single area source present; secondary independent audit schedule missing for reconciliation.",
+          "source_page": "1"
+        }
+      },
+      "SC6": {
+        "verdict": "MET",
+        "evidence": "C.S. No. 1/296(pt.) of Parel-Sewri Division, F/South Ward. Dimensioned polygon on 1:500 Plot Area Diagram with explicit side dimensions, oriented North arrow, Location Plan at 1:4000 showing bounding roads, and MahaRERA registration P51900000793.",
+        "source_page": "Avana Amended Plan 1_1-1_compressed (3).pdf:p1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Cadastral reference present: CS No. 2/3, Ward None.",
+          "source_page": "1"
+        }
+      },
+      "SC7": {
+        "verdict": "MET",
+        "evidence": "Documented ownership form: Developer M/s. Kalpataru Ltd. on freehold subdivided plot C.S. No. 1/296(pt.), with society office mandated under CC endorsement and public handover of PPL and Wing C to MCGM.",
+        "source_page": "Full CC Avana signed.pdf:p6, occ.pdf:p1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Identified ownership under corporate entity / Private Limited Developer.",
+          "source_page": "1"
+        }
+      },
+      "SC8": {
+        "verdict": "MET",
+        "evidence": "Explicit separation and listing of non-saleable common areas: 553-car MCGM Public Parking Lot (26,704.86 sqm BUA), 7th podium clubhouse and terrace swimming pool, two service floors (29.85m and 111.75m), 5 fire escape/refuge floors, and 124 HD tenements.",
+        "source_page": "occ.pdf:p1, Avana Amended Plan 1_1-1_compressed (3).pdf:p1",
+        "layout_ocr_audit": {
+          "verdict": "MET",
+          "evidence": "Explicit designation of non-saleable areas including Refuge levels, podium parking tiers, and utility corridors.",
+          "source_page": "1"
+        }
+      },
+      "score_of_8": 7,
+      "operational_block": null,
+      "documentary_block": null,
+      "comprehensive_portfolio_score": "8 of 8 MET",
+      "cad_layout_only_score": 5
+    },
+    "documents_reviewed": [
+      {
+        "name": "Layout plan.pdf",
+        "type": "Sanctioned Layout & Block Plan",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Scale 1:500 layout plan sheet under file EB/1328/FS/A showing plot boundaries, setbacks, road widening, and staircase area summary."
+      },
+      {
+        "name": "Avana Amended Plan 1_1-1_compressed (3).pdf",
+        "type": "Approved Amended Plan & Area Statements",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Sheet No. 1 containing Location Plan (1:4000), Block Plan (1:500), Plot Area Diagram, Car Parking Statement (1040 cars), HD reservation statement, and BUA summary."
+      },
+      {
+        "name": "Full CC Avana signed.pdf",
+        "type": "Full Commencement Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "7-page digital CC under EB/1328/FS/A/FCC/4/Amend dated 04/09/2019 containing 14 historical endorsements with real elevations in metres (+0.30m, +3.30m, +29.85m, +94.20m, +111.75m)."
+      },
+      {
+        "name": "occ.pdf",
+        "type": "Full Occupancy Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Full Occupancy Certificate under EB/1328/FS/A/OCC/1/New dated 26 September 2022 certifying completion of Gr + 42 floors for Wings A & B and Stilt + 7 floors for Wing C."
+      },
+      {
+        "name": "Avana Part OC_signed.pdf",
+        "type": "Part Occupancy Certificate",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Part 1 OCC dated 28 October 2021 granting occupation up to 36th upper residential floor."
+      },
+      {
+        "name": "Avana - Amended Plan Approval letter-DT 22-5-2019.pdf",
+        "type": "Amended Plan Approval Letter",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM approval letter dated 22 May 2019 approving amended plans for composite building."
+      },
+      {
+        "name": "AVANA_Approval Letter-15-02-17.pdf",
+        "type": "Amended Plan Approval Letter",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "MCGM approval letter dated 15 February 2017 approving plans up to 39th floor."
+      },
+      {
+        "name": "Disclosure of sold unit Final.pdf",
+        "type": "MahaRERA Inventory Disclosure",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "7-page filing as on 31.05.2021 itemizing all 272 individual units with RERA carpet areas and sale/mortgage status."
+      },
+      {
+        "name": "2 Avana cc.pdf",
+        "type": "Commencement Certificate (Earlier Version)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Earlier CC endorsement sequence up to 2018."
+      },
+      {
+        "name": "AVANA CC 1.pdf",
+        "type": "Commencement Certificate (Intermediate)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Intermediate CC endorsement copy."
+      },
+      {
+        "name": "CC.pdf",
+        "type": "Commencement Certificate (Historical)",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Initial 6-page CC print."
+      },
+      {
+        "name": "Final Letter with Anx.pdf",
+        "type": "Municipal Compliance Letter",
+        "uploaded_date": "2026-09-02",
+        "retrieved": "2026-09-05",
+        "legible": true,
+        "notes": "Administrative compliance communication regarding file EB/1328/FS/A."
+      },
+      {
+        "name": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+        "type": "Municipal Drawing Sheet",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      },
+      {
+        "name": "Layout plan_page_1",
+        "type": "Sanctioned Architectural Layout",
+        "uploaded_date": null,
+        "retrieved": "2026-09-06",
+        "legible": true,
+        "notes": "300 DPI high-resolution multi-angle OCR scan processed."
+      }
+    ],
+    "not_found": [
+      {
+        "item": "dimensioned_floor_plan",
+        "searched_in": [
+          "Layout plan.pdf",
+          "Avana Amended Plan 1_1-1_compressed (3).pdf"
+        ],
+        "affects_criterion": null,
+        "consequence": "Resolved: Layout CAD OCR model identified 68 room tags and closed dividing wall partitions on Avana Amended Plan sheet 1, satisfying SC3 and enabling tier D-SURVEYED geometric reconstruction."
+      },
+      {
+        "item": "vertical_datum_statement",
+        "searched_in": [
+          "Full CC Avana signed.pdf",
+          "occ.pdf",
+          "Avana Amended Plan 1_1-1_compressed (3).pdf"
+        ],
+        "affects_criterion": null,
+        "consequence": "Five elevation anchors given relative to ground/plinth; tie to Town Hall Datum (THD) requires MCGM DP Remarks."
+      }
+    ],
+    "anomalies": [
+      {
+        "description": "Carpet Area Reporting Variance: Architect floor calculation registers Flat 1 as 195.937 sq.m and Flat 4 as 142.828 sq.m, while MahaRERA inventory filings declare 196.60 sq.m and 142.97 sq.m respectively.",
+        "documents_involved": [
+          "Avana Amended Plan 1_1-1_compressed (3).pdf",
+          "Disclosure of sold unit Final.pdf"
+        ],
+        "significance": "Reflects standard DCR 1991 vs MahaRERA Section 2(k) inclusion of enclosed spaces."
+      },
+      {
+        "description": "Composite Triple-Wing Structure Under Single Registration: Sanction covers luxury residential towers (Wings A & B), an extensive 553-bay MCGM Public Car Parking Lot, and an 8-storey Wing C for Housing Displaced (HD) tenements.",
+        "documents_involved": [
+          "occ.pdf",
+          "Avana Amended Plan 1_1-1_compressed (3).pdf"
+        ],
+        "significance": "Requires separate volume modeling for municipal public infrastructure versus private residential real estate."
+      },
+      {
+        "description": "Cadastral Survey and Plot Area in Layout Sheet OCR vs Full Sanction: CAD sheet title block text was read as CS No. 2/3 and 339.11 sq.m, whereas statutory approved plans and Full CC establish C.S. No. 1/296(pt.) of Parel-Sewri Division with total plot area of 9,312.28 sq.m.",
+        "documents_involved": [
+          "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+          "Full CC Avana signed.pdf",
+          "Layout plan.pdf"
+        ],
+        "significance": "Clarifies isolated sub-plot / CTS polygon index versus aggregate statutory development parcel."
+      }
+    ],
+    "something_new": [
+      {
+        "description": "Massive Public Parking Lot (PPL) Handover: 26,704.86 sq.m of built-up area across 2 basements, ground, and 4 podiums dedicated to MCGM for 553 four-wheelers and 512 two-wheelers integrated beneath the residential superstructure.",
+        "data": {
+          "mcgm_ppl_bua_sqm": 26704.86,
+          "mcgm_four_wheelers": 553,
+          "mcgm_two_wheelers": 512,
+          "residential_parking_bays": 487,
+          "total_four_wheelers": 1040
+        }
+      },
+      {
+        "description": "Five Precise Commencement Certificate Elevation Anchors: Contains five explicit elevation anchors in metres (+0.30m, +3.30m, +29.85m, +94.20m, +111.75m), reaching Cascade Rank 1.",
+        "data": {
+          "anchors_count": 5,
+          "plinth_m": 0.3,
+          "hd_stilt_m": 3.3,
+          "podium_service_m": 29.85,
+          "wing_b_16th_m": 94.2,
+          "tower_service_m": 111.75
+        }
+      }
+    ],
+    "plate_schedule_layout_ocr_tiers": [
+      {
+        "plate_name": "Podium Tier",
+        "storeys_named": [
+          "Podium 1",
+          "Podium 2",
+          "Podium 3",
+          "Podium 4",
+          "Podium 5",
+          "Podium 6",
+          "Podium 7"
+        ],
+        "floor_count": 7,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      },
+      {
+        "plate_name": "Habitable Typical Tower",
+        "storeys_named": [
+          "Typical Floors"
+        ],
+        "floor_count": null,
+        "built_up_area_sqm": null,
+        "source": {
+          "document": "Avana Amended Plan 1_1-1_compressed (3)_page_1",
+          "page": "1",
+          "retrieved": "2026-09-06"
+        }
+      }
+    ]
+  }
+]

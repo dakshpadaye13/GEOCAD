@@ -3,6 +3,7 @@ import cors from 'cors';
 import { getAllBuildings, getBuildingById } from './controllers/buildingController.js';
 import { getFloorsByBuilding, getFloorById, createFloor, updateFloor, deleteFloor } from './controllers/floorController.js';
 import { getUnitsByFloor, getUnitById } from './controllers/unitController.js';
+import resolverRoutes from './routes/resolverRoutes.js';
 
 export const app = express();
 
@@ -23,6 +24,9 @@ app.delete('/api/floors/:floorId', deleteFloor);
 // Unit API Routes
 app.get('/api/floors/:floorId/units', getUnitsByFloor);
 app.get('/api/units/:unitId', getUnitById);
+
+// Resolution API Route
+app.use('/api/resolve', resolverRoutes);
 
 // 404 Handler
 app.use((_req: Request, res: Response) => {

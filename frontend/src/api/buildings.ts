@@ -1,3 +1,9 @@
+import {
+  getSeededFloorsByBuilding,
+  getSeededUnitsByFloor,
+  getSeededUnitById,
+} from '../data/mockFloorAndUnitData';
+
 export interface FloorDTO {
   floorId: string;
   floorNumber: number;
@@ -6,6 +12,7 @@ export interface FloorDTO {
   elevationMaxM?: number | null;
   status: string;
   buildingVersionId?: string;
+  displayIdentifier?: string | null;
   createdAt?: string;
   updatedAt?: string;
 }
@@ -25,6 +32,8 @@ export interface BuildingDTO {
   assetType: string;
   status: string;
   currentVersion: BuildingVersionDTO | null;
+  displayIdentifier?: string | null;
+  parcelBase?: string | null;
   createdAt?: string;
   updatedAt?: string;
 }
@@ -33,6 +42,50 @@ export interface ApiResponse<T> {
   data: T | null;
   status: number;
   error: string | null;
+}
+
+export interface ResolutionResponse {
+  valid: boolean;
+  displayIdentifier: string;
+  parsedIdentifier: any;
+  recordType: string;
+  spatialData: any;
+  status: string;
+}
+
+export interface UnitDTO {
+  unitId: string;
+  unitNumber: string;
+  unitType: string | null;
+  bhk: number | null;
+  areaSqFt: number | null;
+  status: string;
+  floorId: string;
+  displayIdentifier?: string | null;
+  createdAt?: string;
+  updatedAt?: string;
+}
+
+export interface UnitDetailDTO extends UnitDTO {
+  floorNumber: number;
+  floorName: string;
+  buildingId: string;
+  buildingName: string;
+}
+
+export interface FloorsResponse {
+  buildingId: string;
+  buildingVersion: { versionNumber: number; status: string } | null;
+  floors: FloorDTO[];
+}
+
+export interface UnitsResponse {
+  floorId: string;
+  floorNumber: number;
+  floorName: string;
+  buildingId: string;
+  buildingName: string;
+  units: UnitDTO[];
 }
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:4000';
@@ -76,48 +129,6 @@ export async function fetchBuildingById(buildingId: string): Promise<ApiResponse
     };
   }
 }
-
-// ── Unit (Room) DTO ───────────────────────────────────────────────────────────
-
-export interface UnitDTO {
-  unitId: string;
-  unitNumber: string;
-  unitType: string | null;
-  bhk: number | null;
-  areaSqFt: number | null;
-  status: string;
-  floorId: string;
-  createdAt?: string;
-  updatedAt?: string;
-}
-
-export interface UnitDetailDTO extends UnitDTO {
-  floorNumber: number;
-  floorName: string;
-  buildingId: string;
-  buildingName: string;
-}
-
-export interface FloorsResponse {
-  buildingId: string;
-  buildingVersion: { versionNumber: number; status: string } | null;
-  floors: FloorDTO[];
-}
-
-export interface UnitsResponse {
-  floorId: string;
-  floorNumber: number;
-  floorName: string;
-  buildingId: string;
-  buildingName: string;
-  units: UnitDTO[];
-}
-
-import {
-  getSeededFloorsByBuilding,
-  getSeededUnitsByFloor,
-  getSeededUnitById,
-} from '../data/mockFloorAndUnitData';
 
 // ── Floor List Fetch ──────────────────────────────────────────────────────────
 
@@ -213,4 +224,22 @@ export async function fetchUnitById(unitId: string): Promise<ApiResponse<UnitDet
   return { data: null, status: 404, error: 'Unit not found.' };
 }
 
+// ── ULPIN Identifier Resolution ────────────────────────────────────────────────
+/**
+ * Resolves a ULPIN-compatible identifier against the API
+ */
+export async function resolveIdentifier(identifier: string): Promise<ApiResponse<ResolutionResponse>> {
+  try {
+    const url = `${API_BASE_URL}/api/resolve/${encodeURIComponent(identifier)}`;
+    const response = await fetch(url);
+    const data = await response.json();
 
+    if (response.ok) {
+      return { data, status: response.status, error: null };
+    }
+    return { data: null, status: response.status, error: data.error || 'Failed to resolve identifier' };
+  } catch (err: any) {
+    console.error('Failed to resolve identifier:', err);
+    return { data: null, status: 500, error: err.message };
+  }
+}

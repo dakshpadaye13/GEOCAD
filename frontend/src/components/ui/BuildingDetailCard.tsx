@@ -253,6 +253,27 @@ function BuildingInfoScreen({
           ))}
         </div>
 
+        {/* Spatial Identifier Banner */}
+        {buildingData?.displayIdentifier && (
+          <motion.div
+            initial={{ opacity: 0, y: 5 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mt-2 p-3.5 bg-indigo-50/50 border border-indigo-100 rounded-xl flex items-center justify-between"
+          >
+            <div className="flex flex-col">
+              <span className="text-[10px] uppercase font-bold text-indigo-400 tracking-wider mb-0.5 flex items-center gap-1.5">
+                <Database size={10} /> GEOCAD Spatial Identifier
+              </span>
+              <span className="font-mono text-sm font-semibold text-indigo-700 tracking-tight">
+                {buildingData.displayIdentifier}
+              </span>
+            </div>
+            <div className="h-6 px-2.5 bg-white border border-indigo-100 rounded-full flex items-center text-[10px] font-bold text-indigo-600 shadow-sm">
+              <ShieldCheck size={12} className="mr-1 text-emerald-500" /> VALID
+            </div>
+          </motion.div>
+        )}
+
         {/* Parking & Database Telemetry */}
         <div className="border-t border-gray-100 pt-4 flex flex-col gap-3">
           <div className="flex items-center justify-between">
@@ -517,7 +538,7 @@ function RoomDetailScreen({ buildingName, floorNumber, floorName, unitId, onBack
     { icon: ShieldCheck, label: "Status", value: unitStatus },
     { icon: Maximize2, label: "Area", value: areaStr },
     { icon: Hash, label: "Floor", value: `Floor ${floorNumber}` },
-    { icon: Home, label: "Unit ID", value: unit?.unitId || unitId },
+    { icon: Database, label: "ULPIN NO.", value: unit?.displayIdentifier || "Pending" },
     { icon: Building2, label: "Building", value: buildingName },
   ];
 
@@ -561,6 +582,27 @@ function RoomDetailScreen({ buildingName, floorNumber, floorName, unitId, onBack
                 />
               ))}
             </div>
+
+            {/* Spatial Identifier Banner for Unit */}
+            {unit?.displayIdentifier && (
+              <motion.div
+                initial={{ opacity: 0, y: 5 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="mt-2 p-3.5 bg-indigo-50/50 border border-indigo-100 rounded-xl flex items-center justify-between"
+              >
+                <div className="flex flex-col">
+                  <span className="text-[10px] uppercase font-bold text-indigo-400 tracking-wider mb-0.5 flex items-center gap-1.5">
+                    <Database size={10} /> GEOCAD Spatial Identifier
+                  </span>
+                  <span className="font-mono text-sm font-semibold text-indigo-700 tracking-tight">
+                    {unit.displayIdentifier}
+                  </span>
+                </div>
+                <div className="h-6 px-2.5 bg-white border border-indigo-100 rounded-full flex items-center text-[10px] font-bold text-indigo-600 shadow-sm">
+                  <ShieldCheck size={12} className="mr-1 text-emerald-500" /> VALID
+                </div>
+              </motion.div>
+            )}
           </>
         )}
       </div>
@@ -599,6 +641,22 @@ export function BuildingDetailCard({
     setNavStack([{ level: 0 }]);
     setDirection(1);
   }, [selectedBuildingId]);
+
+  useEffect(() => {
+    const handleOpenUnit = (e: any) => {
+      const { floorId, floorName, floorNumber, unitId, unitNumber } = e.detail;
+      setDirection(1);
+      setNavStack([
+        { level: 0 },
+        { level: 1, floorId, floorNumber, floorName },
+        { level: 2, floorId, floorNumber, floorName },
+        { level: 3, floorId, floorNumber, floorName, unitId, unitNumber }
+      ]);
+    };
+    window.addEventListener("geocad-open-unit", handleOpenUnit);
+    return () => window.removeEventListener("geocad-open-unit", handleOpenUnit);
+  }, []);
+
 
   const pushFrame = useCallback((frame: NavFrame) => {
     setDirection(1);

@@ -12,19 +12,22 @@ datasource db {
 
 /// Permanent Building Entity - Retains stable identity across reconstructions
 model Building {
-  id               String            @id @default(uuid())
-  buildingId       String            @unique
-  buildingName     String
-  assetType        String            @default("building")
-  status           String            @default("EXISTING")
-  currentVersionId String?           @unique
-  createdAt        DateTime          @default(now())
-  updatedAt        DateTime          @updatedAt
+  id                String            @id @default(uuid())
+  buildingId        String            @unique
+  parcelBase        String?
+  displayIdentifier String?           @unique
+  buildingName      String
+  assetType         String            @default("building")
+  status            String            @default("EXISTING")
+  currentVersionId  String?           @unique
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
 
-  versions         BuildingVersion[] @relation("BuildingToVersions")
-  currentVersion   BuildingVersion?  @relation("BuildingCurrentVersion", fields: [currentVersionId], references: [id])
+  versions          BuildingVersion[] @relation("BuildingToVersions")
+  currentVersion    BuildingVersion?  @relation("BuildingCurrentVersion", fields: [currentVersionId], references: [id])
 
   @@index([buildingId])
+  @@index([displayIdentifier])
   @@index([status])
 }
 
@@ -57,6 +60,7 @@ model BuildingVersion {
 model Floor {
   id                String          @id @default(uuid())
   floorId           String          @unique
+  displayIdentifier String?         @unique
   buildingVersionId String
   floorNumber       Int
   floorName         String
@@ -71,25 +75,28 @@ model Floor {
 
   @@unique([buildingVersionId, floorNumber])
   @@index([floorId])
+  @@index([displayIdentifier])
   @@index([buildingVersionId])
 }
 
 /// Individual Unit / Space Entity
 model Unit {
-  id         String   @id @default(uuid())
-  unitId     String   @unique
-  floorId    String
-  unitNumber String
-  unitType   String?
-  bhk        Float?
-  areaSqFt   Float?
-  status     String   @default("EXISTING")
-  createdAt  DateTime @default(now())
-  updatedAt  DateTime @updatedAt
+  id                String   @id @default(uuid())
+  unitId            String   @unique
+  displayIdentifier String?  @unique
+  floorId           String
+  unitNumber        String
+  unitType          String?
+  bhk               Float?
+  areaSqFt          Float?
+  status            String   @default("EXISTING")
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
 
-  floor      Floor    @relation(fields: [floorId], references: [id], onDelete: Cascade)
+  floor             Floor    @relation(fields: [floorId], references: [id], onDelete: Cascade)
 
   @@index([unitId])
+  @@index([displayIdentifier])
   @@index([floorId])
 }
 
@@ -97,6 +104,7 @@ model Unit {
 model Parking {
   id                String          @id @default(uuid())
   parkingId         String          @unique
+  displayIdentifier String?         @unique
   buildingVersionId String
   parkingNumber     String
   parkingType       String?
@@ -109,6 +117,7 @@ model Parking {
   buildingVersion   BuildingVersion @relation(fields: [buildingVersionId], references: [id], onDelete: Cascade)
 
   @@index([parkingId])
+  @@index([displayIdentifier])
   @@index([buildingVersionId])
 }
 
@@ -116,6 +125,7 @@ model Parking {
 model Basement {
   id                String          @id @default(uuid())
   basementId        String          @unique
+  displayIdentifier String?         @unique
   buildingVersionId String
   basementNumber    Int
   basementName      String
@@ -126,5 +136,22 @@ model Basement {
   buildingVersion   BuildingVersion @relation(fields: [buildingVersionId], references: [id], onDelete: Cascade)
 
   @@index([basementId])
+  @@index([displayIdentifier])
   @@index([buildingVersionId])
+}
+
+/// History of retired display identifiers
+model IdentifierHistory {
+  id                String    @id @default(uuid())
+  permanentRecordId String
+  recordType        String    // e.g., "Building", "Floor", "Unit", "Parking", "Basement"
+  displayIdentifier String    @unique
+  status            String    @default("RETIRED")
+  validFrom         DateTime
+  validTo           DateTime?
+  supersededBy      String?
+  createdAt         DateTime  @default(now())
+
+  @@index([displayIdentifier])
+  @@index([permanentRecordId])
 }
