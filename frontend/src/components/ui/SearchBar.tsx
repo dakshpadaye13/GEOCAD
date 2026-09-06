@@ -1,6 +1,6 @@
 import React, { useState, useRef, useId, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Search, X } from "lucide-react";
+import { Search } from "lucide-react";
 import { BUILDINGS_DATA } from "../../data/buildings";
 
 const SPRING = { type: "spring" as const, stiffness: 300, damping: 28 };
@@ -26,7 +26,7 @@ export function SearchBar({ onSelectBuilding, selectedBuildingId }: SearchBarPro
       )
     : allBuildings;
 
-  // Escape + click-outside — exact ExpandableCard pattern
+  // Escape + click-outside
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") { setActive(false); setQuery(""); }
@@ -53,26 +53,29 @@ export function SearchBar({ onSelectBuilding, selectedBuildingId }: SearchBarPro
   }, [active]);
 
   return (
-    <div className="fixed top-6 left-6 z-30 pointer-events-auto select-none" ref={containerRef}>
-
-      {/* ── EXPANDED search panel ── */}
+    <>
+      {/* Backdrop */}
       <AnimatePresence>
         {active && (
-          <>
-            {/* Backdrop */}
-            <motion.div
-              key="sb-backdrop"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-black/30 backdrop-blur-sm z-10 pointer-events-none"
-            />
+          <motion.div
+            key="sb-backdrop"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black/30 backdrop-blur-sm z-20 pointer-events-none"
+          />
+        )}
+      </AnimatePresence>
 
-            {/* Expanded panel — shares layoutId with the collapsed circle */}
+      {/* Search container fixed top-left */}
+      <div className="fixed top-6 left-6 z-30 pointer-events-auto select-none" ref={containerRef}>
+        <AnimatePresence mode="popLayout">
+          {active ? (
+            /* ── EXPANDED search panel ── */
             <motion.div
               key="sb-expanded"
               layoutId={`search-${id}`}
-              className="relative z-20 bg-white rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.9)] border border-gray-200/70 overflow-hidden"
+              className="bg-white rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.9)] border border-gray-200/70 overflow-hidden origin-top-left"
               style={{ width: "min(360px, calc(100vw - 3rem))" }}
               transition={SPRING}
             >
@@ -89,7 +92,7 @@ export function SearchBar({ onSelectBuilding, selectedBuildingId }: SearchBarPro
                   placeholder="Search towers…"
                   className="flex-1 text-sm font-medium text-zinc-900 placeholder:text-zinc-400 bg-transparent outline-none"
                 />
-                {/* × close button — layoutId matches the collapsed + button */}
+                {/* × close button */}
                 <motion.button
                   layoutId={`search-btn-${id}`}
                   aria-label="Close search"
@@ -136,42 +139,36 @@ export function SearchBar({ onSelectBuilding, selectedBuildingId }: SearchBarPro
                 )}
               </div>
             </motion.div>
-          </>
-        )}
-      </AnimatePresence>
+          ) : (
+            /* ── COLLAPSED glossy circle ── */
+            <motion.button
+              key="sb-collapsed"
+              layoutId={`search-${id}`}
+              aria-label="Open building search"
+              onClick={() => setActive(true)}
+              className="h-14 w-14 rounded-full flex items-center justify-center cursor-pointer
+                         bg-white border border-gray-200/80 origin-top-left
+                         shadow-[0_4px_20px_rgba(0,0,0,0.14),inset_0_1.5px_0_rgba(255,255,255,0.95)]
+                         hover:shadow-[0_8px_28px_rgba(0,0,0,0.18),inset_0_1.5px_0_rgba(255,255,255,0.95)]
+                         transition-shadow duration-200"
+              whileHover={{ scale: 1.07, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              transition={SPRING}
+            >
+              <motion.div layoutId={`search-icon-${id}`}>
+                <Search size={22} className="text-zinc-500" />
+              </motion.div>
 
-      {/* ── COLLAPSED glossy circle ── */}
-      <AnimatePresence>
-        {!active && (
-          <motion.button
-            key="sb-collapsed"
-            layoutId={`search-${id}`}
-            aria-label="Open building search"
-            onClick={() => setActive(true)}
-            // Circular + glossy — inner highlight simulates glass top edge
-            className="h-14 w-14 rounded-full flex items-center justify-center cursor-pointer
-                       bg-white border border-gray-200/80
-                       shadow-[0_4px_20px_rgba(0,0,0,0.14),inset_0_1.5px_0_rgba(255,255,255,0.95)]
-                       hover:shadow-[0_8px_28px_rgba(0,0,0,0.18),inset_0_1.5px_0_rgba(255,255,255,0.95)]
-                       transition-shadow duration-200"
-            whileHover={{ scale: 1.07, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-            transition={SPRING}
-          >
-            <motion.div layoutId={`search-icon-${id}`}>
-              <Search size={22} className="text-zinc-500" />
-            </motion.div>
-
-            {/* The + button shares its layoutId with the close × so it morphs on expand */}
-            <motion.span
-              layoutId={`search-btn-${id}`}
-              className="sr-only"
-              aria-hidden
-            />
-          </motion.button>
-        )}
-      </AnimatePresence>
-    </div>
+              <motion.span
+                layoutId={`search-btn-${id}`}
+                className="sr-only"
+                aria-hidden
+              />
+            </motion.button>
+          )}
+        </AnimatePresence>
+      </div>
+    </>
   );
 }
 
